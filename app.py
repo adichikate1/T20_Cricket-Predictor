@@ -195,40 +195,73 @@ def link(word, script):
         start = match_last_index + 1
 
 
+    # print(match_hash_codes)
+
+
 
     match_nos = []
     match_codes = []
     for i in range(5):
-        match_hash_code = match_hash_codes[i]
-        if match_hash_code[1] == "2" and match_hash_code[2] == "2":
-            match_no = match_hash_code[:2]
-        elif match_hash_code[2] == "2":
-            match_no = match_hash_code[:2]
-        else:
-            match_no = match_hash_code[:1]
+        try :
+            match_hash_code = match_hash_codes[i]
+            if match_hash_code[1] == "2" and match_hash_code[2] == "2":
+                match_no = match_hash_code[:2]
+            elif match_hash_code[2] == "2":
+                match_no = match_hash_code[:2]
+            else:
+                match_no = match_hash_code[:1]
 
 
-        len_match_no = len(match_no)
-        match_code = match_hash_codes[i][len_match_no + 1: len_match_no + 1 + 4]
-        if str(match_code[0]).isalpha():
-            match_code = match_code[:-1]
-        if "^" in match_no:
-            match_no = match_no[1]
-        match_nos.append(match_no)
-        match_codes.append(match_code)
+            len_match_no = len(match_no)
+            match_code = match_hash_codes[i][len_match_no + 1: len_match_no + 1 + 4]
+            if str(match_code[0]).isalpha():
+                match_code = match_code[:-1]
+            if "^" in match_no:
+                match_no = match_no[1]
+            match_nos.append(match_no)
+            match_codes.append(match_code)
+
+        except IndexError:
+            break
+
+    print(match_codes)
 
 
     links = []
     for n,c in zip(match_nos,match_codes):
         links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
-    return links
+    return links, match_codes
 
 
 
 def wicket_lost(team_names, script):
-    links1 = link("t1f:", script)
-    links2 = link("t2f:", script)
+    links1, match_hashcodes1 = link("t1f:", script)
+    links2, match_hashcodes2  = link("t2f:", script)
 
+    if len(match_hashcodes1) > len(match_hashcodes2):
+        links1 = []
+        links2 = []
+        for match_hashcode in match_hashcodes2:
+            if match_hashcode in match_hashcodes1:
+                match_hashcodes1.remove(match_hashcode)
+                for code in match_hashcodes1:
+                    links1.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
+                for code in match_hashcodes2:
+                    links2.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
+    elif len(match_hashcodes1) < len(match_hashcodes2):
+        links2 = []
+        links1 = []
+        for match_hashcode in match_hashcodes1:
+            if match_hashcode in match_hashcodes2:
+                match_hashcodes2.remove(match_hashcode)
+                for code in match_hashcodes2:
+                    links2.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
+                for code in match_hashcodes1:
+                    links1.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
+
+
+    # print(links1)
+    # print(links2)
 
     team1_wickets = []
     team1_runs = []
@@ -293,7 +326,7 @@ def wicket_lost(team_names, script):
             team2_runs.append(run)
             team2_wickets.append(wicket)
 
-    return sum(team1_wickets)/5, sum(team2_wickets)/5, sum(team1_runs)/5, sum(team2_runs)/5
+    return sum(team1_wickets)/len(match_hashcodes1), sum(team2_wickets)/len(match_hashcodes2), sum(team1_runs)/len(match_hashcodes1), sum(team2_runs)/len(match_hashcodes2)
 
 
 
