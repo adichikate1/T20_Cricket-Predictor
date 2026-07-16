@@ -1,0 +1,6 @@
+flask
+catboost
+requests
+bs4
+pandas
+gunicorn

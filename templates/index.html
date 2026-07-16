@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Predictor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pitch: #0b3d2e;
+    --pitch-dark: #082e23;
+    --crease: #e8e2d0;
+    --crease-dim: #b9b39f;
+    --leather: #a3392b;
+    --leather-bright: #c94a37;
+    --gold: #d4af37;
+    --line: rgba(232,226,208,0.18);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 40px),
+      radial-gradient(ellipse at center, var(--pitch) 0%, var(--pitch-dark) 100%);
+    color: var(--crease);
+    font-family: "Source Serif 4", serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 48px 20px;
+  }
+  .wrap{ width:100%; max-width: 560px; }
+  .eyebrow{
+    font-size:13px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color: var(--gold);
+    text-align:center;
+    margin-bottom:10px;
+  }
+  h1{
+    font-family:"Anton", sans-serif;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+    font-size:clamp(34px,7vw,54px);
+    text-align:center;
+    margin:0 0 6px;
+    color:var(--crease);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.3);
+  }
+  .sub{
+    text-align:center;
+    color:var(--crease-dim);
+    font-style:italic;
+    font-size:15px;
+    margin:0 0 36px;
+  }
+  .card{
+    background: rgba(232,226,208,0.04);
+    border: 1px solid var(--line);
+    border-radius:2px;
+    padding: 32px;
+    position:relative;
+  }
+  .card::before{
+    content:"";
+    position:absolute; inset:6px;
+    border:1px dashed var(--line);
+    pointer-events:none;
+  }
+  .field{ margin-bottom:22px; }
+  .field label{
+    display:block;
+    font-family:"Anton", sans-serif;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color: var(--gold);
+    margin-bottom:8px;
+  }
+  select, input[type=text]{
+    width:100%;
+    background: rgba(0,0,0,0.25);
+    border:1px solid var(--line);
+    color: var(--crease);
+    font-family:"Source Serif 4", serif;
+    font-size:16px;
+    padding:12px 14px;
+    border-radius:2px;
+    outline:none;
+    transition:border-color .2s, background .2s;
+  }
+  select:focus, input[type=text]:focus{
+    border-color: var(--gold);
+    background: rgba(0,0,0,0.35);
+  }
+  select option{ background: var(--pitch-dark); color: var(--crease); }
+  .hint{ font-size:12px; color:var(--crease-dim); margin-top:6px; font-style:italic; }
+  button{
+    width:100%;
+    padding:14px;
+    margin-top:8px;
+    background: var(--leather);
+    color: var(--crease);
+    border:1px solid var(--leather-bright);
+    font-family:"Anton", sans-serif;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    font-size:15px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:background .2s, transform .1s;
+  }
+  button:hover{ background: var(--leather-bright); }
+  button:active{ transform: scale(0.98); }
+
+  .result{
+    margin-top:28px;
+    border-top:1px dashed var(--line);
+    padding-top:24px;
+  }
+  .ticket-row{
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-size:13px; color:var(--crease-dim); margin-bottom:4px;
+  }
+  .winner{
+    font-family:"Anton", sans-serif;
+    font-size:clamp(24px,5vw,32px);
+    text-transform:uppercase;
+    color: var(--gold);
+    margin:6px 0 18px;
+    letter-spacing:.02em;
+  }
+  .meter-label{
+    display:flex; justify-content:space-between;
+    font-size:12px; text-transform:uppercase; letter-spacing:.1em;
+    color:var(--crease-dim); margin-bottom:6px;
+  }
+  .meter-track{
+    width:100%; height:10px;
+    background: rgba(0,0,0,0.35);
+    border:1px solid var(--line);
+    border-radius:5px;
+    overflow:hidden;
+  }
+  .meter-fill{
+    height:100%; width:0%;
+    background: linear-gradient(90deg, var(--leather), var(--gold));
+    transition: width 1s cubic-bezier(.22,1,.36,1);
+  }
+  .error{
+    margin-top:18px;
+    color:#e8a3a3;
+    font-size:13px;
+    font-style:italic;
+  }
+  .footnote{
+    text-align:center;
+    color:var(--crease-dim);
+    font-size:11px;
+    margin-top:22px;
+    letter-spacing:.05em;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Innings Analytics</div>
+  <h1>Match Predictor</h1>
+  <p class="sub">Enter the fixture, we'll call the toss</p>
+
+  <div class="card">
+    <form method="POST" action="/">
+      <div class="field">
+        <label for="league">League</label>
+        <select id="league" name="league">
+          <option value="Major League">Major League</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="match_code">Match code</label>
+        <input type="text" id="match_code" name="match_code" placeholder="e.g. IPL2026M045" autocomplete="off">
+        <div class="hint">The fixture ID as listed on your league's scorecard feed</div>
+      </div>
+
+      <button type="submit">Predict winner</button>
+    </form>
+
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <div class="result">
+      <div class="ticket-row">
+        <span>{{ team_a }} vs {{ team_b }}</span>
+        <span>{{ venue }}</span>
+      </div>
+      <div class="winner">{{ winner }}</div>
+      <div class="meter-label"><span>Confidence</span><span>{{ confidence }}%</span></div>
+      <div class="meter-track"><div class="meter-fill" id="meterFill" data-pct="{{ confidence }}"></div></div>
+    </div>
+  </div>
+
+  <div class="footnote">Model served from your Flask prediction route</div>
+</div>
+
+<script>
+  var fill = document.getElementById('meterFill');
+  if (fill) {
+    var pct = fill.getAttribute('data-pct');
+    requestAnimationFrame(function () {
+      fill.style.width = pct + '%';
+    });
+  }
+</script>
+</body>
+</html>
