@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 model = CatBoostClassifier()
 
-
+df = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
 
 def find_team_name(script,flag=0):
     corrector_index = script.find("team1:") + 6
@@ -100,7 +100,11 @@ def find_win_rate(script):
         else:
             avg_run = float(avg)
         avg_runs.append(avg_run)
-        win_rate.append(float(wins)/float(total_match) * 100)
+        print(wins, total_match)
+        try:
+            win_rate.append(float(wins)/float(total_match) * 100)
+        except ZeroDivisionError:
+            win_rate.append(0)
         start = tm_index + 1
 
 
@@ -400,6 +404,7 @@ def wicket_lost(team_names, script):
                 score1 = modi_script1[:coma_index_1]
                 score1_index = score1.find("-") + 1
                 run = float(score1[:score1_index - 1])
+                print(run)
                 wicket = float(score1[score1_index:])
                 team1_runs.append(run)
                 team1_wickets.append(wicket)
@@ -448,12 +453,12 @@ def wicket_lost(team_names, script):
         t2_avg_wl = df["team2_avg_wicket_last_5"].mean()
 
     try :
-        t1_avg_runs = sum(team1_wickets)/len(match_hashcodes1)
+        t1_avg_runs = sum(team1_runs)/len(match_hashcodes1)
     except ZeroDivisionError: 
         t1_avg_runs = df["team1_avg_runs_last_5"].mean()
 
     try :
-        t2_avg_runs = sum(team1_wickets)/len(match_hashcodes1)
+        t2_avg_runs = sum(team2_runs)/len(match_hashcodes2)
     except ZeroDivisionError: 
         t2_avg_runs = df["team2_avg_runs_last_5"].mean()
 
@@ -669,31 +674,31 @@ def pitch_type(script):
 
 
 
-df = pd.DataFrame(columns=[
-    "team1",
-    "team2",
-    "team1_win_rate",
-    "team2_win_rate",
-    "head_to_head_win_rate",
-    "team1_recent_form",
-    "team2_recent_form",
-    "team1_venue_win_rate",
-    "team2_venue_win_rate",
-    "team1_avg_runs_last_5",
-    "team2_avg_runs_last_5",
-    "team1_avg_wicket_last_5",
-    "team2_avg_wicket_last_5",
-    "avg_first_innings_score",
-    "chasing_success_rate",
-    "toss_winner",
-    "toss_decision",
-    "temperature",
-    "humidity",
-    "rain_probability",
-    "venue",
-    "pitch_type",
-    "win"
-])
+# df = pd.DataFrame(columns=[
+#     "team1",
+#     "team2",
+#     "team1_win_rate",
+#     "team2_win_rate",
+#     "head_to_head_win_rate",
+#     "team1_recent_form",
+#     "team2_recent_form",
+#     "team1_venue_win_rate",
+#     "team2_venue_win_rate",
+#     "team1_avg_runs_last_5",
+#     "team2_avg_runs_last_5",
+#     "team1_avg_wicket_last_5",
+#     "team2_avg_wicket_last_5",
+#     "avg_first_innings_score",
+#     "chasing_success_rate",
+#     "toss_winner",
+#     "toss_decision",
+#     "temperature",
+#     "humidity",
+#     "rain_probability",
+#     "venue",
+#     "pitch_type",
+#     "win"
+# ])
 
 
 
@@ -728,7 +733,7 @@ def cricket_predictor():
             team2_avg_wickets = df["team2_avg_wicket_last_5"].mean()
 
         try:
-            avg_1st_inn_score = df["avg_first_innings_score"].mean() if pd.isna(first_inn_scr(r)) else first_inn_scr(r)
+            avg_1st_inn_score = first_inn_scr(r)
         except ValueError:
             avg_1st_inn_score = df["avg_first_innings_score"].mean()
 
@@ -745,8 +750,10 @@ def cricket_predictor():
 
         h2h_wr = h2h_win_rate(script, team_names)
 
-
+        # try:
         win_rate, avg_runs = find_win_rate(script)
+        # except ZeroDivisionError:
+        #     win_rate = [df["team1_win_rate"].mean(), df["team2_win_rate"].mean(), df["team1_venue_win_rate"].mean(), df["team2_venue_win_rate"].mean()]
 
 
         venue_name = venue(script)
@@ -763,7 +770,7 @@ def cricket_predictor():
                 "team2_recent_form": team_rf[1],
                 "team1_venue_win_rate": win_rate[2],
                 "team2_venue_win_rate": win_rate[3],
-                "team1_avg_runs_last_5": team2_avg_runs,
+                "team1_avg_runs_last_5": team1_avg_runs,
                 "team2_avg_runs_last_5": team2_avg_runs,
                 "team1_avg_wicket_last_5": team1_avg_wickets,
                 "team2_avg_wicket_last_5": team2_avg_wickets,
@@ -803,16 +810,22 @@ def cricket_predictor():
                 "pitch_type": pitch_type(script)
             }
 
-        df = pd.DataFrame([match_data])
-        # df.to_csv("input_data.csv")
+        input_data = pd.DataFrame([match_data])
+
+        input_data.to_csv("input_data.csv")
+
+        num_cols = input_data.select_dtypes(include="number").columns
+
+        for col in num_cols:
+            input_data[col] = input_data[col].fillna(df[col].mean())
 
         if league == "Major League":
             model.load_model("static/models/Major_League.cbm")
-            prediction = model.predict(df)
+            prediction = model.predict(input_data)
             confidence = round(prediction[0][0] * 100, 2)
         elif league == "Lanka Premier League":
             model.load_model("static/models/Lanka_Premier_League.cbm")
-            prediction = model.predict(df)
+            prediction = model.predict(input_data)
             confidence = round(prediction[0][0] * 100, 2)
 
         if prediction[0][0] > 0.5:
