@@ -804,7 +804,7 @@ def cricket_predictor():
             }
 
         df = pd.DataFrame([match_data])
-        df.to_csv("input_data.csv")
+        # df.to_csv("input_data.csv")
 
         if league == "Major League":
             model.load_model("static/models/Major_League.cbm")
