@@ -3,12 +3,12 @@ from catboost import CatBoostClassifier
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from github import Github
+import base64
 
 app = Flask(__name__)
 
 model = CatBoostClassifier()
-
-df = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
 
 def find_team_name(script,flag=0):
     corrector_index = script.find("team1:") + 6
@@ -100,7 +100,6 @@ def find_win_rate(script):
         else:
             avg_run = float(avg)
         avg_runs.append(avg_run)
-        print(wins, total_match)
         try:
             win_rate.append(float(wins)/float(total_match) * 100)
         except ZeroDivisionError:
@@ -251,7 +250,7 @@ def link(word, script, flag=0):
 
 
 
-def wicket_lost(team_names, script):
+def wicket_lost(team_names, script, df):
     links1, match_hashcodes1 = link("t1f:", script)
     links2, match_hashcodes2  = link("t2f:", script)
 
@@ -350,8 +349,6 @@ def wicket_lost(team_names, script):
         links1, match_hashcodes1 = link("t1f:",script, 1)
         links2, match_hashcodes2  = link("t2f:",script, 1)
 
-        print(links1)
-        print(links2)
         if len(match_hashcodes1) > len(match_hashcodes2):
             links1 = []
             links2 = []
@@ -404,7 +401,6 @@ def wicket_lost(team_names, script):
                 score1 = modi_script1[:coma_index_1]
                 score1_index = score1.find("-") + 1
                 run = float(score1[:score1_index - 1])
-                print(run)
                 wicket = float(score1[score1_index:])
                 team1_runs.append(run)
                 team1_wickets.append(wicket)
@@ -462,8 +458,6 @@ def wicket_lost(team_names, script):
     except ZeroDivisionError: 
         t2_avg_runs = df["team2_avg_runs_last_5"].mean()
 
-    print(t1_avg_wl, t2_avg_wl, t1_avg_runs, t2_avg_runs)
-
     return t1_avg_wl, t2_avg_wl, t1_avg_runs, t2_avg_runs
 
 
@@ -480,7 +474,7 @@ def first_inn_scr(r):
 
 
 
-def chase_win_rate(script):
+def chase_win_rate(script, df):
     index = script.find("tm:")
     modi_script = script[index:]
     last_index = modi_script.find("}")
@@ -643,34 +637,34 @@ def pitch_type(script):
 
 
 
-# def win(script, team_names):
-#     index = script.find("B:")
-#     modi_script = script[index + 2:]
-#     last_index = modi_script.find(" won ")
-#     winner = modi_script[:last_index]
+def win(script, team_names):
+    index = script.find("B:")
+    modi_script = script[index + 2:]
+    last_index = modi_script.find(" won ")
+    winner = modi_script[:last_index]
 
 
-#     team1 = team_names[0].upper()
-#     team2 = team_names[2].upper()
+    team1 = team_names[0].upper()
+    team2 = team_names[2].upper()
 
 
-#     team1points = 0
-#     team2points = 0
-#     for ch in winner.upper():
-#         team1points += team1.count(ch)
-#         team2points += team2.count(ch)
+    team1points = 0
+    team2points = 0
+    for ch in winner.upper():
+        team1points += team1.count(ch)
+        team2points += team2.count(ch)
 
 
-#     if team1points > team2points:
-#         winner = team1
-#     else:
-#         winner = team2
+    if team1points > team2points:
+        winner = team1
+    else:
+        winner = team2
         
 
-#     if winner == team1:
-#         return 0
-#     else:
-#         return 1 
+    if winner == team1:
+        return 0
+    else:
+        return 1 
 
 
 
@@ -712,6 +706,13 @@ def cricket_predictor():
     if request.method == "POST":
         league = request.form["league"]
         code = request.form["match_code"]
+        extra = request.form["extraOptions"]
+
+        if extra != "":
+            df = pd.read_csv(f"static/data/{extra}.csv").dropna()
+        else:
+            df = pd.read_csv(f"static/data/{league}.csv").dropna()
+
 
         url = f"https://crex.com/cricket-live-score/miny-vs-tsk-7th-match-major-league-cricket-2026-match-updates-{code}/match-details"
 
@@ -727,7 +728,7 @@ def cricket_predictor():
 
 
         try:
-            team1_avg_wickets, team2_avg_wickets, team1_avg_runs, team2_avg_runs = wicket_lost(team_names, script)
+            team1_avg_wickets, team2_avg_wickets, team1_avg_runs, team2_avg_runs = wicket_lost(team_names, script, df)
         except IndexError:
             team1_avg_wickets = df["team1_avg_wicket_last_5"].mean()
             team2_avg_wickets = df["team2_avg_wicket_last_5"].mean()
@@ -740,7 +741,7 @@ def cricket_predictor():
 
 
         try:
-            chase_rate = chase_win_rate(script)
+            chase_rate = chase_win_rate(script, df)
         except ValueError :
             chase_rate = float(df["chasing_success_rate"].mean())
 
@@ -758,81 +759,192 @@ def cricket_predictor():
 
         venue_name = venue(script)
 
+        if league in ["Lanka Premier League", "Major league"]:
+            try:
+                match_data = {
+                    "team1": team_names[0],
+                    "team2": team_names[2],
+                    "team1_win_rate": win_rate[0],
+                    "team2_win_rate": win_rate[1],
+                    "head_to_head_win_rate": h2h_wr,
+                    "team1_recent_form": team_rf[0],
+                    "team2_recent_form": team_rf[1],
+                    "team1_venue_win_rate": win_rate[2],
+                    "team2_venue_win_rate": win_rate[3],
+                    "team1_avg_runs_last_5": team1_avg_runs,
+                    "team2_avg_runs_last_5": team2_avg_runs,
+                    "team1_avg_wicket_last_5": team1_avg_wickets,
+                    "team2_avg_wicket_last_5": team2_avg_wickets,
+                    "avg_first_innings_score": avg_1st_inn_score,
+                    "chasing_success_rate": chase_rate,
+                    "toss_winner": toss_win,
+                    "toss_decision": toss_decision,
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
+                    "venue": venue_name,
+                    "pitch_type": pitch_type(script)
+                }
+            except IndexError:
+                match_data = {
+                    "team1": team_names[0],
+                    "team2": team_names[2],
+                    "team1_win_rate": win_rate[0],
+                    "team2_win_rate": win_rate[1],
+                    "head_to_head_win_rate": h2h_wr,
+                    "team1_recent_form": team_rf[0],
+                    "team2_recent_form": team_rf[1],
+                    "team1_venue_win_rate": win_rate[2],
+                    "team2_venue_win_rate": win_rate[3],
+                    "team1_avg_runs_last_5": team1_avg_runs,
+                    "team2_avg_runs_last_5": team2_avg_runs,
+                    "team1_avg_wicket_last_5": team1_avg_wickets,
+                    "team2_avg_wicket_last_5": team2_avg_wickets,
+                    "avg_first_innings_score": avg_1st_inn_score,
+                    "chasing_success_rate": chase_rate,
+                    "toss_winner": toss_win,
+                    "toss_decision": toss_decision,
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
+                    "venue": venue_name,
+                    "pitch_type": pitch_type(script)
+                }
 
-        try:
-            match_data = {
-                "team1": team_names[0],
-                "team2": team_names[2],
-                "team1_win_rate": win_rate[0],
-                "team2_win_rate": win_rate[1],
-                "head_to_head_win_rate": h2h_wr,
-                "team1_recent_form": team_rf[0],
-                "team2_recent_form": team_rf[1],
-                "team1_venue_win_rate": win_rate[2],
-                "team2_venue_win_rate": win_rate[3],
-                "team1_avg_runs_last_5": team1_avg_runs,
-                "team2_avg_runs_last_5": team2_avg_runs,
-                "team1_avg_wicket_last_5": team1_avg_wickets,
-                "team2_avg_wicket_last_5": team2_avg_wickets,
-                "avg_first_innings_score": avg_1st_inn_score,
-                "chasing_success_rate": chase_rate,
-                "toss_winner": toss_win,
-                "toss_decision": toss_decision,
-                "temperature": temperature(script),
-                "humidity": humidity(script),
-                "rain_probability": rain_prob(script),
-                "venue": venue_name,
-                "pitch_type": pitch_type(script)
-            }
-        except IndexError:
-            match_data = {
-                "team1": team_names[0],
-                "team2": team_names[2],
-                "team1_win_rate": win_rate[0],
-                "team2_win_rate": win_rate[1],
-                "head_to_head_win_rate": h2h_wr,
-                "team1_recent_form": team_rf[0],
-                "team2_recent_form": team_rf[1],
-                "team1_venue_win_rate": win_rate[2],
-                "team2_venue_win_rate": win_rate[3],
-                "team1_avg_runs_last_5": team1_avg_runs,
-                "team2_avg_runs_last_5": team2_avg_runs,
-                "team1_avg_wicket_last_5": team1_avg_wickets,
-                "team2_avg_wicket_last_5": team2_avg_wickets,
-                "avg_first_innings_score": avg_1st_inn_score,
-                "chasing_success_rate": chase_rate,
-                "toss_winner": toss_win,
-                "toss_decision": toss_decision,
-                "temperature": temperature(script),
-                "humidity": humidity(script),
-                "rain_probability": rain_prob(script),
-                "venue": venue_name,
-                "pitch_type": pitch_type(script)
-            }
+            input_data = pd.DataFrame([match_data])
 
-        input_data = pd.DataFrame([match_data])
+            num_cols = input_data.select_dtypes(include="number").columns
+            for col in num_cols:
+                input_data[col] = input_data[col].fillna(df[col].mean())
 
-        input_data.to_csv("input_data.csv")
 
-        num_cols = input_data.select_dtypes(include="number").columns
 
-        for col in num_cols:
-            input_data[col] = input_data[col].fillna(df[col].mean())
 
-        if league == "Major League":
-            model.load_model("static/models/Major_League.cbm")
-            prediction = model.predict(input_data)
-            confidence = round(prediction[0][0] * 100, 2)
-        elif league == "Lanka Premier League":
-            model.load_model("static/models/Lanka_Premier_League.cbm")
-            prediction = model.predict(input_data)
-            confidence = round(prediction[0][0] * 100, 2)
 
-        if prediction[0][0] > 0.5:
-            prediction = team_names[2]
-        else:
-            prediction = team_names[0]
-            confidence = 100 - confidence
+        TOKEN = "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"
+        USERNAME = "adichikate1"
+        REPO_NAME = "T20_Cricket-Predictor"
+        g = Github(TOKEN)
+        repo = g.get_repo(f"{USERNAME}/{REPO_NAME}")
+
+        if league == "add":
+            try:
+                match_data = {
+                    "team1": team_names[0],
+                    "team2": team_names[2],
+                    "team1_win_rate": win_rate[0],
+                    "team2_win_rate": win_rate[1],
+                    "head_to_head_win_rate": h2h_wr,
+                    "team1_recent_form": team_rf[0],
+                    "team2_recent_form": team_rf[1],
+                    "team1_venue_win_rate": win_rate[2],
+                    "team2_venue_win_rate": win_rate[3],
+                    "team1_avg_runs_last_5": team1_avg_runs,
+                    "team2_avg_runs_last_5": team2_avg_runs,
+                    "team1_avg_wicket_last_5": team1_avg_wickets,
+                    "team2_avg_wicket_last_5": team2_avg_wickets,
+                    "avg_first_innings_score": avg_1st_inn_score,
+                    "chasing_success_rate": chase_rate,
+                    "toss_winner": toss_win,
+                    "toss_decision": toss_decision,
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
+                    "venue": venue_name,
+                    "pitch_type": pitch_type(script),
+                    "win": win(script, team_names)
+                }
+            except IndexError:
+                match_data = {
+                    "team1": team_names[0],
+                    "team2": team_names[2],
+                    "team1_win_rate": win_rate[0],
+                    "team2_win_rate": win_rate[1],
+                    "head_to_head_win_rate": h2h_wr,
+                    "team1_recent_form": team_rf[0],
+                    "team2_recent_form": team_rf[1],
+                    "team1_venue_win_rate": win_rate[2],
+                    "team2_venue_win_rate": win_rate[3],
+                    "team1_avg_runs_last_5": team1_avg_runs,
+                    "team2_avg_runs_last_5": team2_avg_runs,
+                    "team1_avg_wicket_last_5": team1_avg_wickets,
+                    "team2_avg_wicket_last_5": team2_avg_wickets,
+                    "avg_first_innings_score": avg_1st_inn_score,
+                    "chasing_success_rate": chase_rate,
+                    "toss_winner": toss_win,
+                    "toss_decision": toss_decision,
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
+                    "venue": venue_name,
+                    "pitch_type": pitch_type(script),
+                    "win": win(script, team_names)
+                }
+
+
+            add_df = pd.DataFrame([match_data])
+
+            num_cols = add_df.select_dtypes(include="number").columns
+            for col in num_cols:
+                add_df[col] = add_df[col].fillna(df[col].mean())
+
+            add_data = pd.concat([df, add_df], ignore_index=True)
+            print(extra)
+
+            github_file = f"static/data/{extra}.csv"
+            file_path = f"static/data/{extra}.csv"
+            print(github_file)
+            print(file_path)
+            add_data.to_csv(file_path, index=False)
+
+
+            with open(file_path, "rb") as f:
+                content = f.read()
+
+            try:
+                file = repo.get_contents(github_file)
+
+                repo.update_file(
+                    path=github_file,
+                    message="Added new match",
+                    content=content,
+                    sha=file.sha
+                )
+
+                print("GitHub Updated")
+
+            except:
+                repo.create_file(
+                    path=github_file,
+                    message="Created CSV",
+                    content=content
+                )
+
+                print("GitHub Created")
+
+
+
+
+
+
+
+
+        if league != "add":
+            if league == "Major league":
+                model.load_model("static/models/Major_League.cbm")
+                prediction = model.predict(input_data)
+                confidence = round(prediction[0][0] * 100, 2)
+            elif league == "Lanka Premier League":
+                model.load_model("static/models/Lanka_Premier_League.cbm")
+                prediction = model.predict(input_data)
+                confidence = round(prediction[0][0] * 100, 2)
+
+
+            if prediction[0][0] > 0.5:
+                prediction = team_names[2]
+            else:
+                prediction = team_names[0]
+                confidence = 100 - confidence
 
     return render_template(
         "index.html",
