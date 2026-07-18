@@ -1,111 +1,121 @@
 team1,team2,team1_win_rate,team2_win_rate,head_to_head_win_rate,team1_recent_form,team2_recent_form,team1_venue_win_rate,team2_venue_win_rate,team1_avg_runs_last_5,team2_avg_runs_last_5,team1_avg_wicket_last_5,team2_avg_wicket_last_5,avg_first_innings_score,chasing_success_rate,toss_winner,toss_decision,temperature,humidity,rain_probability,venue,pitch_type,win
-Texas Super Kings,Seattle Orcas,30.0,40.0,60.0,3,3,30.0,30.0,162.2,166.4,4.4,7.6,177.0,53.48837209302325,Texas Super Kings,Bowl,29.7,66.0,25.0,Grand Prairie Stadium,Batting,0
-Los Angeles Knight Riders,San Francisco Unicorns,60.0,60.0,25.0,1,1,60.0,60.0,189.6,167.4,4.6,8.0,177.0,53.48837209302325,Los Angeles Knight Riders,Bowl,26.9,71.0,10.0,Grand Prairie Stadium,Balanced,0
-Seattle Orcas,Washington Freedom,40.0,70.0,25.0,2,3,30.0,70.0,162.8,117.4,6.6,4.2,177.0,53.48837209302325,Seattle Orcas,Bowl,24.9,89.0,10.0,Grand Prairie Stadium,Batting,0
-Texas Super Kings,San Francisco Unicorns,30.0,60.0,40.0,3,1,30.0,60.0,161.8,166.0,4.4,7.6,177.0,55.55555555555556,San Francisco Unicorns,Bowl,32.1,56.0,55.0,Grand Prairie Stadium,Batting,1
-Washington Freedom,MI New York,70.0,50.0,80.0,2,4,70.0,50.0,126.8,147.6,5.0,7.0,176.0,56.52173913043478,Washington Freedom,Bowl,27.1,79.0,55.0,Grand Prairie Stadium,Batting,0
-Seattle Orcas,Los Angeles Knight Riders,40.0,60.0,40.0,2,2,30.0,60.0,165.4,177.8,6.6,4.4,178.0,55.319148936170215,Los Angeles Knight Riders,Bowl,32.9,52.0,20.0,Grand Prairie Stadium,Batting,1
-Texas Super Kings,MI New York,30.0,50.0,80.0,2,3,30.0,50.0,174.8,162.2,5.8,6.4,178.0,54.166666666666664,Mi New York,Bowl,28.9,74.0,20.0,Grand Prairie Stadium,Balanced,1
-San Francisco Unicorns,Texas Super Kings,60.0,30.0,80.0,2,2,71.42857142857143,83.33333333333334,163.0,177.0,7.2,6.4,193.0,33.33333333333333,San Francisco Unicorns,Bowl,14.9,81.0,1.0,Oakland Coliseum,Batting,1
-Washington Freedom,Seattle Orcas,70.0,40.0,60.0,3,1,57.14285714285714,33.33333333333333,167.0,154.6,5.2,7.4,190.0,30.0,Washington Freedom,Bowl,14.4,70.0,1.0,Oakland Coliseum,Balanced,1
-MI New York,Texas Super Kings,50.0,30.0,40.0,4,2,33.33333333333333,83.33333333333334,172.2,171.6,5.2,7.2,193.0,27.27272727272727,Texas Super Kings,Bowl,19.4,67.0,40.0,Oakland Coliseum,Bowling,1
-San Francisco Unicorns,Seattle Orcas,60.0,40.0,60.0,1,2,71.42857142857143,33.33333333333333,161.2,183.6,8.0,6.6,188.0,33.33333333333333,San Francisco Unicorns,Bat,15.9,84.0,40.0,Oakland Coliseum,Batting,0
-MI New York,Los Angeles Knight Riders,50.0,60.0,100.0,3,3,33.33333333333333,16.666666666666664,171.2,176.6,5.4,5.6,188.0,33.33333333333333,Los Angeles Knight Riders,Bowl,19.9,60.0,4.0,Oakland Coliseum,Batting,1
-Washington Freedom,Texas Super Kings,70.0,30.0,75.0,2,3,57.14285714285714,83.33333333333334,177.6,164.8,6.8,7.0,184.0,30.76923076923077,Texas Super Kings,Bat,14.4,78.0,4.0,Oakland Coliseum,Batting,0
-Los Angeles Knight Riders,Seattle Orcas,60.0,40.0,60.0,3,2,16.666666666666664,33.33333333333333,166.4,194.4,6.0,6.6,184.0,35.714285714285715,Los Angeles Knight Riders,Bat,22.9,44.0,0.0,Oakland Coliseum,Batting,0
-San Francisco Unicorns,Washington Freedom,60.0,70.0,40.0,2,2,71.42857142857143,57.14285714285714,153.0,192.4,7.6,7.8,182.0,33.33333333333333,Washington Freedom,Bat,16.5,75.0,0.0,Oakland Coliseum,Batting,0
-Los Angeles Knight Riders,Washington Freedom,60.0,70.0,0.0,3,2,33.33333333333333,100.0,166.0,195.4,6.8,7.6,182.8,42.60785357716493,Los Angeles Knight Riders,Bat,33.7,49.0,5.0,Knight Riders Field,Batting,0
-Seattle Orcas,MI New York,40.0,50.0,40.0,3,3,50.0,66.66666666666666,181.2,165.6,7.6,6.0,108.0,100.0,Seattle Orcas,Bowl,26.7,78.0,74.0,Knight Riders Field,Batting,1
-Los Angeles Knight Riders,Texas Super Kings,60.0,30.0,25.0,2,2,33.33333333333333,0.0,139.0,157.6,8.2,7.0,120.0,50.0,Los Angeles Knight Riders,Bowl,28.4,77.0,55.0,Knight Riders Field,Bowling,0
-Washington Freedom,San Francisco Unicorns,70.0,60.0,60.0,3,3,100.0,50.0,174.2,165.4,6.4,6.0,137.0,66.66666666666666,Washington Freedom,Bowl,27.4,81.0,90.0,Knight Riders Field,Bowling,1
-Los Angeles Knight Riders,MI New York,60.0,50.0,0.0,2,3,33.33333333333333,66.66666666666666,143.2,156.0,8.4,6.2,134.0,75.0,Los Angeles Knight Riders,Bowl,30.9,68.0,90.0,Knight Riders Field,Batting,0
-Seattle Orcas,Texas Super Kings,40.0,30.0,20.0,2,2,50.0,0.0,162.8,161.8,8.4,6.2,140.0,80.0,Texas Super Kings,Bowl,30.2,68.0,60.0,Knight Riders Field,Batting,0
-San Francisco Unicorns,MI New York,60.0,50.0,80.0,3,4,50.0,66.66666666666666,160.6,146.6,6.6,5.8,137.0,66.66666666666666,San Francisco Unicorns,Bowl,32.6,60.0,60.0,Knight Riders Field,Batting,0
-MI New York,San Francisco Unicorns,50.0,60.0,20.0,3,3,50.0,60.0,135.0,151.0,7.4,7.0,178.0,55.10204081632652,San Francisco Unicorns,Bowl,32.9,43.0,55.0,Grand Prairie Stadium,Batting,1
-Los Angeles Knight Riders,Washington Freedom,70.0,60.0,0.0,3,1,70.0,60.0,167.2,149.2,6.8,5.6,177.0,56.00000000000001,Washington Freedom,Bowl,32.9,43.0,2.0,Grand Prairie Stadium,Batting,0
-MI New York,Seattle Orcas,50.0,40.0,80.0,3,3,50.0,30.0,138.2,164.0,7.4,8.2,168.99166666666667,51.29837630767911,Seattle Orcas,Bowl,35.3,37.0,1.0,Grand Prairie Stadium,Batting,0
-San Francisco Unicorns,Los Angeles Knight Riders,60.0,60.0,60.0,4,2,60.0,60.0,152.4,154.8,5.2,7.2,179.0,0.0,Los Angeles Knight Riders,Bat,30.9,57.0,1.0,Grand Prairie Stadium,Batting,1
-Texas Super Kings,Washington Freedom,30.0,70.0,20.0,2,3,30.0,70.0,152.6,158.0,6.0,6.0,181.0,0.0,Washington Freedom,Bowl,34.7,44.0,40.0,Grand Prairie Stadium,Batting,1
-Seattle Orcas,San Francisco Unicorns,40.0,60.0,20.0,2,3,30.0,60.0,151.0,148.6,8.2,5.6,176.0,33.33333333333333,San Francisco Unicorns,Bowl,28.4,60.0,25.0,Grand Prairie Stadium,Batting,1
-MI New York,Washington Freedom,50.0,70.0,20.0,3,3,50.0,70.0,145.2,153.8,7.8,5.6,179.0,50.0,Washington Freedom,Bowl,32.0,47.0,55.0,Grand Prairie Stadium,Batting,1
-Los Angeles Knight Riders,Texas Super Kings,30.0,60.0,40.0,1,3,30.0,60.0,154.6,164.4,7.2,7.2,181.0,60.0,Los Angeles Knight Riders,Bowl,25.5,80.0,65.0,Grand Prairie Stadium,Batting,0
-San Francisco Unicorns,Los Angeles Knight Riders,60.0,60.0,40.0,3,4,71.42857142857143,16.666666666666664,148.8,177.6,6.0,5.8,170.69305555555556,47.5264247008437,San Francisco Unicorns,Bowl,23.4,56.0,1.0,Oakland Coliseum,Batting,1
-Washington Freedom,MI New York,70.0,50.0,80.0,4,2,57.14285714285714,33.33333333333333,153.8,156.2,5.8,7.8,187.0,0.0,Washington Freedom,Bowl,16.9,77.0,1.0,Oakland Coliseum,Batting,0
-San Francisco Unicorns,Washington Freedom,60.0,70.0,25.0,3,4,71.42857142857143,57.14285714285714,157.8,183.6,6.8,4.2,171.20264756944445,46.041223928942344,Washington Freedom,Bowl,13.4,80.0,25.0,Oakland Coliseum,Balanced,0
-MI New York,Texas Super Kings,50.0,30.0,25.0,1,3,33.33333333333333,83.33333333333334,138.2,174.8,7.6,5.8,269.0,0.0,Mi New York,Bowl,12.8,80.0,0.0,Oakland Coliseum,Balanced,1
-San Francisco Unicorns,Los Angeles Knight Riders,60.0,60.0,100.0,3,1,71.42857142857143,16.666666666666664,180.4,147.0,7.0,7.4,227.0,0.0,Los Angeles Knight Riders,Bowl,18.5,55.0,0.0,Oakland Coliseum,Balanced,0
-Seattle Orcas,Washington Freedom,40.0,70.0,50.0,0,3,33.33333333333333,57.14285714285714,144.2,165.0,7.4,5.2,204.0,25.0,Seattle Orcas,Bat,14.9,72.0,0.0,Oakland Coliseum,Balanced,1
-Los Angeles Knight Riders,Texas Super Kings,60.0,30.0,50.0,1,3,16.666666666666664,83.33333333333334,151.4,176.6,8.2,5.8,204.0,25.0,Los Angeles Knight Riders,Bowl,17.8,63.0,1.0,Oakland Coliseum,Balanced,0
-San Francisco Unicorns,MI New York,60.0,50.0,100.0,3,1,71.42857142857143,33.33333333333333,188.8,142.4,7.8,7.8,199.0,20.0,San Francisco Unicorns,Bowl,12.8,86.0,1.0,Oakland Coliseum,Balanced,0
-Texas Super Kings,Seattle Orcas,30.0,40.0,33.33333333333333,4,0,83.33333333333334,33.33333333333333,180.0,144.2,4.6,7.4,196.0,33.33333333333333,Texas Super Kings,Bowl,13.9,75.0,0.0,Oakland Coliseum,Balanced,0
-Los Angeles Knight Riders,Washington Freedom,70.0,60.0,0.0,3,1,57.14285714285714,16.666666666666664,188.0,160.4,6.4,6.0,190.0,28.57142857142857,Washington Freedom,Bat,15.9,71.0,0.0,Oakland Coliseum,Balanced,0
-MI New York,Seattle Orcas,50.0,40.0,66.66666666666666,1,0,33.33333333333333,33.33333333333333,161.2,127.8,7.2,8.2,192.0,25.0,Seattle Orcas,Bat,16.9,69.0,25.0,Oakland Coliseum,Balanced,0
-Texas Super Kings,San Francisco Unicorns,30.0,60.0,66.66666666666666,4,4,30.0,60.0,175.2,197.4,4.2,7.2,167.0,50.0,San Francisco Unicorns,Bowl,29.9,58.0,1.0,Grand Prairie Stadium,Balanced,1
-MI New York,Washington Freedom,50.0,70.0,50.0,2,4,50.0,70.0,172.8,171.8,6.4,5.6,168.0,51.724137931034484,Washington Freedom,Bowl,29.5,57.0,25.0,Grand Prairie Stadium,Balanced,1
-Seattle Orcas,Los Angeles Knight Riders,40.0,60.0,33.33333333333333,0,1,30.0,60.0,139.4,135.8,8.0,9.2,169.0,53.333333333333336,Los Angeles Knight Riders,Bat,33.4,43.0,3.0,Grand Prairie Stadium,Balanced,1
-Washington Freedom,Texas Super Kings,70.0,30.0,100.0,4,3,70.0,30.0,183.0,189.6,6.2,5.8,174.0,52.94117647058824,Washington Freedom,Bowl,27.9,65.0,25.0,Grand Prairie Stadium,Balanced,0
-MI New York,San Francisco Unicorns,50.0,60.0,0.0,1,4,50.0,60.0,183.6,197.8,6.0,6.6,171.0,56.25,San Francisco Unicorns,Bowl,28.8,62.0,25.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,Texas Super Kings,30.0,60.0,33.33333333333333,3,1,30.0,60.0,167.8,196.2,6.8,6.2,174.0,52.94117647058824,Los Angeles Knight Riders,Bowl,28.3,67.0,10.0,Grand Prairie Stadium,Balanced,0
-Seattle Orcas,San Francisco Unicorns,40.0,60.0,33.33333333333333,0,5,30.0,60.0,144.4,224.8,7.8,5.4,174.0,52.94117647058824,San Francisco Unicorns,Bowl,25.4,76.0,65.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,Washington Freedom,60.0,70.0,0.0,1,4,60.0,70.0,145.6,183.0,8.2,6.2,174.0,52.94117647058824,Washington Freedom,Bowl,27.9,64.0,25.0,Grand Prairie Stadium,Balanced,0
-Seattle Orcas,MI New York,40.0,50.0,25.0,0,1,30.0,50.0,145.2,190.8,8.0,5.6,175.0,54.285714285714285,Seattle Orcas,Bowl,28.9,57.0,21.0,Grand Prairie Stadium,Balanced,0
-Washington Freedom,San Francisco Unicorns,70.0,60.0,60.0,5,5,70.0,60.0,196.6,206.2,5.2,6.0,176.0,55.55555555555556,Washington Freedom,Bat,33.4,44.0,6.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,Seattle Orcas,60.0,40.0,75.0,1,1,60.0,30.0,150.8,163.8,7.0,7.6,176.0,54.054054054054056,Los Angeles Knight Riders,Bowl,28.9,59.0,6.0,Grand Prairie Stadium,Balanced,0
-Texas Super Kings,MI New York,30.0,50.0,80.0,3,1,30.0,50.0,189.6,201.8,5.8,4.8,177.0,55.26315789473685,Mi New York,Bowl,29.4,63.0,3.0,Grand Prairie Stadium,Balanced,0
-San Francisco Unicorns,Seattle Orcas,60.0,40.0,75.0,4,2,33.33333333333333,33.33333333333333,193.8,193.0,6.2,6.6,177.46579943003147,43.74520397163472,San Francisco Unicorns,Bowl,27.4,80.0,10.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-Texas Super Kings,Washington Freedom,30.0,70.0,0.0,3,5,66.66666666666666,66.66666666666666,198.0,200.6,5.8,5.4,168.0,100.0,Washington Freedom,Bowl,24.5,91.0,80.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-Los Angeles Knight Riders,MI New York,60.0,50.0,0.0,1,1,33.33333333333333,66.66666666666666,166.4,202.2,5.8,5.2,127.0,50.0,Los Angeles Knight Riders,Bowl,26.1,91.0,10.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-San Francisco Unicorns,Texas Super Kings,60.0,30.0,50.0,3,3,33.33333333333333,66.66666666666666,189.8,184.8,5.8,5.0,136.0,66.66666666666666,Texas Super Kings,Bowl,29.9,70.0,99.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-Washington Freedom,Seattle Orcas,70.0,40.0,66.66666666666666,4,3,66.66666666666666,33.33333333333333,167.8,186.8,5.2,6.8,136.0,66.66666666666666,Washington Freedom,Bowl,27.5,84.0,99.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-MI New York,Los Angeles Knight Riders,50.0,60.0,100.0,1,1,66.66666666666666,33.33333333333333,192.6,178.2,5.0,5.4,127.0,60.0,Los Angeles Knight Riders,Bowl,31.0,65.0,99.0,Central Broward Regional Park Stadium Turf Ground,Balanced,1
-Seattle Orcas,Texas Super Kings,40.0,30.0,50.0,3,3,33.33333333333333,66.66666666666666,167.8,174.6,7.6,5.4,130.0,50.0,Seattle Orcas,Bowl,28.5,74.0,99.0,Central Broward Regional Park Stadium Turf Ground,Balanced,1
-Washington Freedom,MI New York,70.0,50.0,60.0,4,2,66.66666666666666,66.66666666666666,147.2,183.4,4.0,6.0,138.0,42.857142857142854,Washington Freedom,Bat,31.5,64.0,90.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-Los Angeles Knight Riders,San Francisco Unicorns,60.0,60.0,0.0,0,3,33.33333333333333,33.33333333333333,169.8,179.0,5.4,6.4,138.0,42.857142857142854,San Francisco Unicorns,Bowl,26.9,78.0,90.0,Central Broward Regional Park Stadium Turf Ground,Balanced,0
-Washington Freedom,Texas Super Kings,70.0,30.0,75.0,4,4,70.0,30.0,125.2,168.2,4.2,5.0,178.0,53.84615384615385,Washington Freedom,Bowl,20.5,93.0,88.0,Grand Prairie Stadium,Balanced,0
-San Francisco Unicorns,MI New York,60.0,50.0,100.0,2,2,60.0,50.0,176.4,166.0,7.6,6.4,178.0,52.5,San Francisco Unicorns,Bowl,24.9,78.0,25.0,Grand Prairie Stadium,Balanced,0
-Texas Super Kings,MI New York,30.0,50.0,80.0,4,3,30.0,50.0,168.2,145.0,5.0,7.2,177.0,53.65853658536586,Mi New York,Bowl,27.5,65.0,40.0,Grand Prairie Stadium,Balanced,1
-Washington Freedom,MI New York,70.0,50.0,80.0,4,4,70.0,50.0,125.2,142.6,4.2,6.0,177.0,54.761904761904766,Washington Freedom,Bowl,25.4,79.0,70.0,Grand Prairie Stadium,Balanced,1
-MI New York,Seattle Orcas,50.0,40.0,50.0,4,3,50.0,33.33333333333333,168.4,160.6,4.8,5.2,161.0,28.57142857142857,Mi New York,Bowl,28.0,61.0,79.0,Church Street Park,Balanced,0
-Los Angeles Knight Riders,Texas Super Kings,30.0,60.0,0.0,2,1,30.0,60.0,147.2,178.6,8.8,6.8,168.0,53.84615384615385,Los Angeles Knight Riders,Bowl,22.9,76.0,96.0,Grand Prairie Stadium,Balanced,0
-Washington Freedom,MI New York,70.0,50.0,0.0,3,4,80.0,50.0,151.6,158.4,6.4,5.2,154.0,25.0,Washington Freedom,Bowl,25.9,62.0,41.0,Church Street Park,Balanced,0
-San Francisco Unicorns,Los Angeles Knight Riders,60.0,60.0,100.0,2,2,60.0,60.0,168.6,150.6,8.0,7.4,168.0,57.14285714285714,San Francisco Unicorns,Bowl,28.0,65.0,25.0,Grand Prairie Stadium,Balanced,0
-Washington Freedom,Texas Super Kings,70.0,30.0,100.0,3,1,80.0,66.66666666666666,130.0,146.6,5.6,8.8,154.0,25.0,Washington Freedom,Bowl,29.0,39.0,25.0,Church Street Park,Balanced,0
-Los Angeles Knight Riders,Seattle Orcas,60.0,40.0,100.0,2,2,60.0,30.0,173.6,156.6,6.6,6.8,167.0,53.333333333333336,Los Angeles Knight Riders,Bowl,28.9,50.0,1.0,Grand Prairie Stadium,Balanced,0
-San Francisco Unicorns,Texas Super Kings,60.0,30.0,0.0,2,1,25.0,66.66666666666666,158.8,146.6,7.8,8.8,160.0,33.33333333333333,Texas Super Kings,Bowl,29.0,60.0,90.0,Church Street Park,Balanced,1
-Seattle Orcas,Washington Freedom,40.0,70.0,100.0,3,3,30.0,70.0,156.4,130.0,5.8,5.6,167.0,56.25,Washington Freedom,Bowl,31.3,54.0,1.0,Grand Prairie Stadium,Balanced,1
-null,null,50.0,30.0,0.0,4,2,50.0,66.66666666666666,148.8,148.8,9.0,8.8,156.0,40.0,Null,,24.5,63.0,25.0,Church Street Park,Balanced,0
-null,null,60.0,60.0,0.0,2,2,50.0,25.0,168.0,161.6,6.2,7.8,156.0,40.0,Null,,28.5,52.0,25.0,Church Street Park,Balanced,0
-Los Angeles Knight Riders,Washington Freedom,70.0,60.0,0.0,3,2,80.0,50.0,142.4,168.4,8.0,5.6,156.0,40.0,Washington Freedom,Bowl,28.0,39.0,2.0,Church Street Park,Balanced,0
-Texas Super Kings,MI New York,30.0,50.0,50.0,2,4,30.0,50.0,146.8,150.4,7.4,5.4,165.0,58.82352941176471,Mi New York,Bowl,33.9,44.0,7.0,Grand Prairie Stadium,Balanced,0
-Seattle Orcas,San Francisco Unicorns,40.0,60.0,100.0,2,2,33.33333333333333,25.0,142.2,155.8,6.2,7.8,154.0,36.36363636363637,San Francisco Unicorns,Bowl,28.3,63.0,90.0,Church Street Park,Balanced,1
-MI New York,Washington Freedom,50.0,70.0,66.66666666666666,2,4,50.0,70.0,139.6,123.8,6.6,4.4,166.0,57.89473684210527,Mi New York,Bowl,33.8,48.0,1.0,Grand Prairie Stadium,Balanced,1
-Seattle Orcas,Los Angeles Knight Riders,40.0,60.0,50.0,1,2,33.33333333333333,50.0,145.2,159.8,7.2,7.2,155.0,41.66666666666667,Los Angeles Knight Riders,Bat,24.4,78.0,90.0,Church Street Park,Balanced,1
-MI New York,San Francisco Unicorns,50.0,60.0,0.0,2,2,50.0,60.0,139.6,146.4,6.6,7.8,166.0,57.89473684210527,San Francisco Unicorns,Bat,30.4,54.0,40.0,Grand Prairie Stadium,Balanced,1
-Texas Super Kings,Washington Freedom,30.0,70.0,0.0,2,4,30.0,70.0,147.6,123.8,7.2,4.4,165.0,60.0,Texas Super Kings,Bowl,28.9,49.0,1.0,Grand Prairie Stadium,Balanced,1
-San Francisco Unicorns,Seattle Orcas,60.0,40.0,50.0,3,1,60.0,30.0,155.4,137.0,7.2,6.6,167.0,61.904761904761905,San Francisco Unicorns,Bowl,31.9,44.0,1.0,Grand Prairie Stadium,Balanced,0
-Los Angeles Knight Riders,MI New York,60.0,50.0,0.0,2,1,60.0,50.0,153.4,131.8,6.8,7.4,167.0,59.09090909090909,Los Angeles Knight Riders,Bowl,26.6,71.0,96.0,Grand Prairie Stadium,Balanced,0
-San Francisco Unicorns,Washington Freedom,60.0,70.0,0.0,4,5,60.0,70.0,152.4,140.0,6.4,3.6,165.0,60.86956521739131,San Francisco Unicorns,Bowl,24.0,80.0,44.0,Grand Prairie Stadium,Balanced,0
-Texas Super Kings,Seattle Orcas,30.0,40.0,0.0,2,1,30.0,30.0,155.2,145.8,7.4,6.0,165.0,60.86956521739131,Texas Super Kings,Bowl,25.9,71.0,25.0,Grand Prairie Stadium,Balanced,0
-Texas Super Kings,MI New York,30.0,50.0,66.66666666666666,3,1,30.0,50.0,159.0,136.4,7.0,7.8,165.0,58.333333333333336,Texas Super Kings,Bowl,26.4,63.0,3.0,Grand Prairie Stadium,Balanced,0
-Washington Freedom,San Francisco Unicorns,70.0,60.0,50.0,4,4,70.0,60.0,163.8,154.6,4.0,6.4,165.0,56.00000000000001,Washington Freedom,Bowl,25.4,67.0,40.0,Grand Prairie Stadium,Balanced,1
-San Francisco Unicorns,Texas Super Kings,60.0,30.0,0.0,4,4,60.0,30.0,158.2,162.4,6.4,5.6,165.0,53.84615384615385,Texas Super Kings,Bowl,25.8,71.0,25.0,Grand Prairie Stadium,Balanced,0
-Washington Freedom,San Francisco Unicorns,70.0,60.0,66.66666666666666,4,4,70.0,60.0,168.2,165.2,3.6,6.2,166.0,51.85185185185185,San Francisco Unicorns,Bowl,31.4,54.0,2.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,Texas Super Kings,30.0,60.0,0.0,0,0,30.0,60.0,168.2,165.2,6.487912087912089,6.426373626373626,169.84783702441425,47.07628331345601,Los Angeles Knight Riders,Bowl,34.3,46.0,60.0,Grand Prairie Stadium,Balanced,0
-MI New York,San Francisco Unicorns,50.0,60.0,0.0,0,0,50.0,60.0,168.2,165.2,6.487912087912088,6.426373626373627,181.0,0.0,San Francisco Unicorns,Bat,38.4,30.0,1.0,Grand Prairie Stadium,Balanced,1
-Seattle Orcas,Washington Freedom,40.0,70.0,0.0,0,0,30.0,70.0,168.2,165.2,6.487912087912088,6.426373626373627,198.0,50.0,Seattle Orcas,Bowl,33.5,45.0,1.0,Grand Prairie Stadium,Balanced,1
-San Francisco Unicorns,Seattle Orcas,60.0,40.0,0.0,1,1,60.0,30.0,215.0,148.0,5.0,5.0,180.0,33.33333333333333,San Francisco Unicorns,Bat,31.4,67.0,25.0,Grand Prairie Stadium,Balanced,1
-Texas Super Kings,Washington Freedom,30.0,70.0,0.0,1,0,30.0,70.0,181.0,144.0,6.0,7.0,179.0,50.0,Washington Freedom,Bat,32.6,50.0,10.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,MI New York,60.0,50.0,0.0,0,0,60.0,50.0,112.0,193.0,10.0,5.0,179.0,50.0,Los Angeles Knight Riders,Bat,27.3,73.0,10.0,Grand Prairie Stadium,Balanced,0
-Texas Super Kings,MI New York,30.0,50.0,0.0,1,1,30.0,50.0,415.5,348.0,17.0,13.0,172.0,66.66666666666666,Texas Super Kings,Bat,33.8,35.0,1.0,Grand Prairie Stadium,Balanced,0
-Los Angeles Knight Riders,San Francisco Unicorns,60.0,60.0,0.0,0,1,60.0,60.0,250.5,357.0,22.0,15.0,169.0,57.14285714285714,San Francisco Unicorns,Bat,33.8,39.0,1.0,Grand Prairie Stadium,Balanced,1
-Los Angeles Knight Riders,Washington Freedom,70.0,60.0,0.0,1,0,80.0,50.0,676.5,548.0,28.0,21.0,170.54546470955668,46.85011032303848,Washington Freedom,Bowl,-0.2,84.0,75.0,Church Street Park,Balanced,0
-Seattle Orcas,Texas Super Kings,40.0,30.0,0.0,2,2,33.33333333333333,66.66666666666666,723.0,492.0,23.0,20.0,175.0,0.0,Seattle Orcas,Bowl,-1.0,86.0,63.0,Church Street Park,Balanced,0
-Washington Freedom,San Francisco Unicorns,70.0,60.0,0.0,2,2,80.0,25.0,381.6666666666667,379.3333333333333,12.0,14.666666666666666,151.0,0.0,San Francisco Unicorns,Bowl,-1.0,89.0,57.0,Church Street Park,Balanced,1
-Los Angeles Knight Riders,Seattle Orcas,60.0,40.0,0.0,0,3,50.0,33.33333333333333,132.0,151.0,8.0,3.6666666666666665,145.0,0.0,Los Angeles Knight Riders,Bowl,-0.1,82.0,56.0,Church Street Park,Balanced,0
-MI New York,Washington Freedom,50.0,70.0,0.0,1,3,50.0,80.0,377.6666666666667,308.5,15.666666666666666,12.0,151.0,0.0,Mi New York,Bowl,-1.2,86.0,69.0,Church Street Park,Balanced,0
-San Francisco Unicorns,Texas Super Kings,60.0,30.0,0.0,2,2,25.0,66.66666666666666,168.0,154.75,8.0,7.5,153.0,0.0,San Francisco Unicorns,Bat,-0.8,82.0,55.0,Church Street Park,Balanced,1
-MI New York,Seattle Orcas,50.0,40.0,0.0,2,3,50.0,33.33333333333333,161.5,155.75,5.75,4.25,156.0,16.666666666666664,Seattle Orcas,Bowl,-1.5,81.0,55.0,Church Street Park,Balanced,1
-Washington Freedom,MI New York,70.0,50.0,0.0,3,2,70.0,50.0,155.4,168.0,6.0,6.2,175.0,62.5,Washington Freedom,Bowl,36.8,27.0,1.0,Grand Prairie Stadium,Balanced,1
-Seattle Orcas,Texas Super Kings,40.0,30.0,100.0,4,3,30.0,30.0,163.6,158.2,5.0,7.4,175.0,62.5,Texas Super Kings,Bat,31.4,43.0,1.0,Grand Prairie Stadium,Balanced,0
-MI New York,Texas Super Kings,50.0,30.0,0.0,3,2,50.0,30.0,157.6,147.2,6.6,8.0,166.0,60.0,Mi New York,Bowl,31.2,45.0,1.0,Grand Prairie Stadium,Balanced,0
-Seattle Orcas,MI New York,40.0,50.0,100.0,4,3,30.0,50.0,159.4,159.0,4.2,5.8,166.0,54.54545454545454,Mi New York,Bowl,33.8,33.0,1.0,Grand Prairie Stadium,Balanced,1
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,3,4,70.0,33.33333333333333,7.6,7.6,7.6,4.6,163.0,52.94117647058824,Kandy Royals,Bowl,23.0,96.0,78.0,Pallekele International Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,80.0,1,2,50.0,44.44444444444444,7.4,7.4,7.4,6.4,164.0,50.0,Jaffna Kings,Bat,26.4,80.0,78.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,4,50.0,70.0,8.0,8.0,8.0,6.8,165.0,52.63157894736842,Kandy Royals,Bowl,23.2,94.0,78.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,1,33.33333333333333,50.0,4.8,4.8,4.8,7.4,166.0,50.0,Jaffna Kings,Bowl,26.4,82.0,78.0,Pallekele International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,20.0,3,2,44.44444444444444,50.0,5.6,5.6,5.6,8.8,167.0,52.38095238095239,Colombo Kaps,Bowl,22.5,94.0,78.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,1,50.0,75.0,7.0,7.0,7.0,7.8,165.0,51.59074155978181,Jaffna Kings,Bowl,23.9,79.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,2,25.0,33.33333333333333,6.8,6.8,6.8,9.0,187.0,100.0,Kandy Royals,Bowl,25.2,75.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,2,66.66666666666666,75.0,4.2,4.2,4.2,7.6,193.0,100.0,Dambulla Sixers,Bowl,24.1,77.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,3,50.0,25.0,7.6,7.6,7.6,6.8,201.0,100.0,Galle Gallants,Bowl,28.2,65.0,40.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,1,33.33333333333333,66.66666666666666,8.8,8.8,8.8,4.4,194.0,75.0,Dambulla Sixers,Bowl,25.3,75.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,2,3,25.0,75.0,6.8,6.8,6.8,6.6,192.0,80.0,Kandy Royals,Bowl,25.7,69.0,41.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,1,3,66.66666666666666,50.0,4.0,4.0,4.0,6.4,198.0,66.66666666666666,Galle Gallants,Bowl,23.9,77.0,41.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,3,33.33333333333333,75.0,8.2,8.2,8.2,6.0,192.0,57.14285714285714,Jaffna Kings,Bowl,27.4,66.0,25.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,3,2,50.0,25.0,6.8,6.8,6.8,6.4,192.0,62.5,Galle Gallants,Bowl,25.4,74.0,25.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,4,1,40.0,60.0,5.2,5.2,5.2,7.4,147.0,45.45454545454545,Jaffna Kings,Bowl,27.8,87.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,20.0,2,3,60.0,50.0,4.8,4.8,4.8,6.2,145.0,44.11764705882353,Dambulla Sixers,Bowl,28.8,82.0,90.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,4,40.0,40.0,7.8,7.8,7.8,5.2,145.0,45.71428571428572,Colombo Kaps,Bowl,28.3,84.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,60.0,60.0,6.4,6.4,6.4,4.4,144.0,44.44444444444444,Dambulla Sixers,Bowl,28.7,82.0,91.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,3,40.0,50.0,6.6,6.6,6.6,4.2,146.0,43.24324324324324,Colombo Kaps,Bowl,27.6,86.0,91.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,20.0,2,3,60.0,40.0,5.8,5.8,5.8,5.4,146.0,42.10526315789473,Colombo Kaps,Bowl,28.2,84.0,93.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,3,50.0,40.0,5.2,5.2,5.2,6.0,146.0,41.02564102564102,Galle Gallants,Bowl,28.6,80.0,88.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,2,40.0,60.0,5.6,5.6,5.6,5.6,146.0,40.0,Kandy Royals,Bowl,27.9,84.0,88.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,2,3,40.0,60.0,6.4,6.4,6.4,5.8,147.0,41.46341463414634,Kandy Royals,Bowl,27.9,86.0,40.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,3,50.0,40.0,5.0,5.0,5.0,6.4,148.0,40.47619047619048,Jaffna Kings,Bowl,28.1,85.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,60.0,4,2,40.0,40.0,6.0,6.0,6.0,6.2,144.0,47.05882352941176,Colombo Kaps,Bowl,28.4,81.0,87.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,20.0,0,2,50.0,60.0,8.2,8.2,8.2,8.0,145.0,44.44444444444444,Dambulla Sixers,Bowl,29.1,77.0,84.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,3,2,60.0,40.0,6.0,6.0,6.0,6.2,147.0,42.10526315789473,Colombo Kaps,Bat,28.1,83.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,5,60.0,40.0,6.2,6.2,6.2,5.2,148.0,45.0,Jaffna Kings,Bat,29.1,78.0,58.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,1,2,50.0,60.0,7.2,7.2,7.2,6.0,147.0,42.85714285714285,Galle Gallants,Bat,28.0,83.0,58.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,3,70.0,33.33333333333333,7.8,7.8,7.8,4.6,169.0,66.66666666666666,Dambulla Sixers,Bat,28.8,66.0,85.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,2,4,44.44444444444444,50.0,6.2,6.2,6.2,5.0,168.0,60.0,Galle Gallants,Bat,22.6,92.0,85.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,2,50.0,33.33333333333333,5.6,5.6,5.6,4.8,163.0,63.63636363636363,Colombo Kaps,Bowl,32.0,54.0,82.0,Pallekele International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,4,70.0,50.0,7.0,7.0,7.0,5.0,166.0,66.66666666666666,Kandy Royals,Bowl,32.0,54.0,82.0,Pallekele International Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,2,50.0,44.44444444444444,5.8,5.8,5.8,6.2,162.0,61.53846153846154,Colombo Kaps,Bowl,26.98787878787879,79.12121212121212,68.84848484848484,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,3,33.33333333333333,50.0,4.2,4.2,4.2,6.2,164.0,57.14285714285714,Jaffna Kings,Bowl,24.1,83.0,40.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,2,44.44444444444444,70.0,5.2,5.2,5.2,5.8,162.0,53.333333333333336,Galle Gallants,Bowl,26.5,76.0,65.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,80.0,2,2,50.0,50.0,6.0,6.0,6.0,5.6,164.0,56.25,Colombo Kaps,Bat,24.3,83.0,65.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,3,2,60.0,50.0,4.6,4.6,4.6,5.4,148.0,40.909090909090914,Dambulla Sixers,Bowl,27.6,84.0,96.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,2,3,40.0,60.0,5.8,5.8,5.8,5.6,147.0,39.130434782608695,Kandy Royals,Bat,30.3,73.0,78.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,4,2,60.0,40.0,5.0,5.0,5.0,6.2,149.0,41.66666666666667,Dambulla Sixers,Bat,27.5,84.0,78.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,80.0,2,1,40.0,50.0,5.6,5.6,5.6,7.2,149.0,40.0,Jaffna Kings,Bat,28.6,76.0,85.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,4,40.0,60.0,6.2,6.2,6.2,5.6,147.0,42.30769230769231,Colombo Kaps,Bat,27.9,80.0,85.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,4,4,60.0,60.0,5.2,5.2,5.2,5.6,148.0,40.74074074074074,Kandy Royals,Bowl,27.6,78.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,1,40.0,50.0,6.8,6.8,6.8,6.8,148.0,42.85714285714285,Galle Gallants,Bowl,28.1,76.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,5,2,60.0,50.0,5.8,5.8,5.8,5.4,146.0,44.82758620689656,Dambulla Sixers,Bowl,31.0,67.0,70.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,3,1,60.0,40.0,6.6,6.6,6.6,7.2,146.0,44.82758620689656,Jaffna Kings,Bowl,28.5,79.0,70.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,3,50.0,60.0,6.8,6.8,6.8,7.8,147.0,41.935483870967744,Kandy Royals,Bat,27.2,81.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,5,3,60.0,60.0,5.4,5.4,5.4,8.2,147.0,43.75,Dambulla Sixers,Bat,27.6,79.0,66.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Galle Gallants,70.0,60.0,20.0,3,3,60.0,40.0,6.4,6.4,6.4,7.8,159.79166666666666,53.094814497903656,Galle Gallants,Bowl,29.4,75.0,65.0,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,3,2,50.0,44.44444444444444,6.8,6.8,6.8,6.0,137.0,0.0,Colombo Kaps,Bowl,26.4,83.0,65.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,1,3,40.0,60.0,7.4,7.4,7.4,7.4,168.0,50.0,Dambulla Sixers,Bat,27.1,72.0,6.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,3,2,40.0,44.44444444444444,7.8,7.8,7.8,5.2,168.0,50.0,Galle Gallants,Bat,24.5,85.0,6.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,1,2,40.0,50.0,7.2,7.2,7.2,7.4,144.0,75.0,Colombo Kaps,Bat,25.0,50.0,5.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,3,4,70.0,50.0,5.8,5.8,5.8,5.6,159.37342767295598,52.38954547919395,Kandy Royals,Bowl,19.3,10.0,88.0,Pallekele International Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,2,50.0,44.44444444444444,8.2,8.2,8.2,8.0,159.37342767295598,52.38954547919395,Galle Gallants,Bat,25.5,73.0,56.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,60.0,4,1,50.0,33.33333333333333,5.0,5.0,5.0,7.6,160.0,50.0,Dambulla Sixers,Bowl,20.2,90.0,56.0,Pallekele International Stadium,Balanced,0.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,4,2,70.0,44.44444444444444,5.4,5.4,5.4,7.6,160.0,50.0,Galle Gallants,Bat,26.2,73.0,17.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,4,50.0,50.0,7.6,7.6,7.6,5.0,187.0,33.33333333333333,Colombo Kaps,Bowl,22.3,80.0,17.0,Pallekele International Stadium,Balanced,1.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,1,3,33.33333333333333,70.0,7.4,7.4,7.4,6.0,178.0,60.0,Kandy Royals,Bat,25.7,78.0,80.0,Pallekele International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,20.0,2,1,44.44444444444444,50.0,7.8,7.8,7.8,8.0,178.0,60.0,Colombo Kaps,Bowl,19.9,96.0,80.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,4,4,50.0,70.0,5.4,5.4,5.4,4.6,180.0,66.66666666666666,Kandy Royals,Bat,26.0,81.0,80.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,1,0,50.0,33.33333333333333,8.0,8.0,8.0,8.6,180.0,66.66666666666666,Colombo Kaps,Bowl,22.9,84.0,80.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,0,2,60.0,50.0,8.8,8.8,8.8,7.0,142.0,57.14285714285714,Dambulla Sixers,Bat,26.7,83.0,92.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,3,60.0,40.0,6.0,6.0,6.0,6.6,142.0,57.14285714285714,Colombo Kaps,Bat,26.0,74.0,92.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,2,3,50.0,40.0,7.0,7.0,7.0,5.2,142.0,44.44444444444444,Jaffna Kings,Bat,27.8,78.0,66.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,4,1,60.0,60.0,5.2,5.2,5.2,8.0,145.0,50.0,Kandy Royals,Bat,25.3,88.0,66.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,20.0,3,2,40.0,40.0,6.6,6.6,6.6,6.8,146.0,45.45454545454545,Jaffna Kings,Bowl,26.7,84.0,99.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,25.0,2,1,50.0,60.0,7.2,7.2,7.2,8.4,145.0,41.66666666666667,Galle Gallants,Bat,24.7,91.0,99.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,4,4,60.0,40.0,5.2,5.2,5.2,5.6,143.0,46.15384615384615,Kandy Royals,Bat,26.5,83.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,1,40.0,50.0,7.2,7.2,7.2,7.6,143.0,46.15384615384615,Colombo Kaps,Bowl,25.1,87.0,65.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,3,60.0,40.0,5.4,5.4,5.4,6.2,141.0,46.66666666666666,Colombo Kaps,Bowl,25.4,84.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,40.0,4,3,40.0,40.0,5.4,5.4,5.4,5.4,143.0,50.0,Jaffna Kings,Bowl,26.6,78.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,2,50.0,40.0,5.4,5.4,5.4,8.0,152.0,53.65853658536586,Jaffna Kings,Bowl,27.0,91.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,3,1,60.0,60.0,5.6,5.6,5.6,8.0,152.0,52.38095238095239,Dambulla Sixers,Bat,30.9,71.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,3,3,40.0,50.0,6.0,6.0,6.0,6.4,153.0,51.16279069767442,Galle Gallants,Bat,28.0,80.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,0.0,2,3,40.0,60.0,8.2,8.2,8.2,5.6,152.0,52.38095238095239,Dambulla Sixers,Bat,32.1,53.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,1,3,60.0,50.0,8.0,8.0,8.0,6.4,152.0,52.38095238095239,Kandy Royals,Bat,29.8,73.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,2,40.0,60.0,6.6,6.6,6.6,7.2,151.0,54.34782608695652,Dambulla Sixers,Bat,31.2,61.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,3,60.0,40.0,7.6,7.6,7.6,6.6,151.0,54.34782608695652,Kandy Royals,Bowl,29.3,76.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,2,3,60.0,50.0,7.2,7.2,7.2,7.6,153.0,52.083333333333336,Dambulla Sixers,Bat,32.2,57.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,0.0,4,3,40.0,40.0,6.6,6.6,6.6,6.6,153.0,52.083333333333336,Colombo Kaps,Bowl,29.3,77.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,3,1,50.0,60.0,7.6,7.6,7.6,6.6,154.0,52.0,Galle Gallants,Bat,31.8,54.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,2,2,40.0,60.0,7.8,7.8,7.8,7.2,154.0,52.0,Dambulla Sixers,Bat,30.5,69.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,4,1,40.0,60.0,6.0,6.0,6.0,6.8,153.0,51.92307692307693,Jaffna Kings,Bowl,32.8,56.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Colombo Kaps,60.0,40.0,0.0,2,1,50.0,40.0,7.4,7.4,7.4,8.6,153.0,51.92307692307693,Colombo Kaps,Bat,32.2,63.0,56.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,4,60.0,40.0,8.4,8.4,8.4,5.4,152.0,51.85185185185185,Jaffna Kings,Bowl,27.090445632798584,76.82495543672015,62.19821746880571,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,2,60.0,40.0,5.2,5.2,5.2,8.2,151.0,52.72727272727272,Colombo Kaps,Bowl,27.09044563279858,76.82495543672015,62.1982174688057,R. Premadasa Stadium,Balanced,1.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,0.0,2,3,50.0,60.0,7.6,7.6,7.6,8.4,151.0,52.72727272727272,Dambulla Sixers,Bowl,28.6,72.0,55.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,5,40.0,40.0,8.0,8.0,8.0,4.0,151.0,52.63157894736842,Jaffna Kings,Bat,31.9,61.0,56.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,60.0,60.0,5.4,5.4,5.4,8.0,151.0,52.63157894736842,Dambulla Sixers,Bat,29.3,73.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,5,2,40.0,50.0,4.6,4.6,4.6,7.6,152.0,52.54237288135594,Galle Gallants,Bat,26.8,84.0,90.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,2,40.0,60.0,8.0,8.0,8.0,5.0,152.0,51.66666666666667,Kandy Royals,Bowl,28.1,81.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,2,3,40.0,50.0,7.8,7.8,7.8,7.2,157.0,50.0,Colombo Kaps,Bat,31.1,65.0,55.0,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,4,3,60.0,40.0,5.4,5.4,5.4,7.6,157.0,50.0,Jaffna Kings,Bowl,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,3,40.0,60.0,7.4,7.4,7.4,6.2,158.0,50.0,Dambulla Sixers,Bowl,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,3,3,40.0,60.0,7.4,7.4,7.4,6.4,160.0,48.38709677419355,Jaffna Kings,Bat,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,1,44.44444444444444,50.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,141.0,37.5,Colombo Kaps,Bowl,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,1,1,60.0,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.5062500000000005,141.0,37.5,Galle Gallants,Bat,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,1,44.44444444444444,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.5062500000000005,145.0,44.44444444444444,Kandy Royals,Bowl,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,0.0,0,1,40.0,50.0,6.489583333333335,6.489583333333335,6.489583333333335,6.5062500000000005,150.0,40.0,Galle Gallants,Bowl,27.23196635472371,76.9142825311943,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,1,1,40.0,60.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,145.0,36.36363636363637,Dambulla Sixers,Bowl,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,0,0,44.44444444444444,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,151.0,33.33333333333333,Galle Gallants,Bowl,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,1,1,50.0,40.0,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000001,154.0,30.76923076923077,Dambulla Sixers,Bat,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,2,0,60.0,44.44444444444444,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000001,156.0,28.57142857142857,Jaffna Kings,Bat,27.231966354723703,76.91428253119432,61.33588458110519,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,0,3,40.0,60.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,158.0,26.666666666666668,Galle Gallants,Bat,27.231966354723703,76.91428253119429,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,44.44444444444444,40.0,6.489583333333333,6.489583333333333,6.489583333333333,6.506250000000001,159.0,31.25,Kandy Royals,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,1,4,50.0,60.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,159.0,31.25,Colombo Kaps,Bowl,27.231966354723703,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,3,0,33.33333333333333,44.44444444444444,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.58447216834185,50.26546249189519,Dambulla Sixers,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Pallekele International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,1,70.0,50.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,207.0,0.0,Kandy Royals,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,3,0,50.0,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000002,158.0,35.294117647058826,Colombo Kaps,Bat,27.231966354723703,76.91428253119429,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,0.0,4,4,60.0,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000002,159.0,38.88888888888889,Jaffna Kings,Bowl,27.231966354723703,76.91428253119427,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,4,44.44444444444444,60.0,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000002,153.0,42.10526315789473,Jaffna Kings,Bat,27.231966354723703,76.91428253119427,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,0.0,1,4,40.0,40.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,153.0,45.0,Dambulla Sixers,Bowl,27.231966354723703,76.91428253119429,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,0.0,3,3,60.0,50.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,154.0,47.61904761904761,Jaffna Kings,Bowl,27.231966354723703,76.91428253119427,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,1,2,40.0,44.44444444444444,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,155.0,45.45454545454545,Galle Gallants,Bowl,27.231966354723703,76.91428253119427,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,4,3,40.0,50.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,154.0,47.82608695652174,Colombo Kaps,Bowl,27.231966354723703,76.91428253119427,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,4,2,50.0,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.0,50.0,Galle Gallants,Bowl,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,4,2,40.0,60.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.0,52.0,Dambulla Sixers,Bowl,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,2,40.0,60.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,156.0,50.0,Jaffna Kings,Bat,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,0.0
+San Francisco Unicorns,Washington Freedom,50.0,70.0,40.0,3,4,62.5,62.5,159.6,185.8,4.8,5.8,226.0,50.0,San Francisco Unicorns,Bowl,15.8,77.0,1.0,Oakland Coliseum,Batting,0.0
