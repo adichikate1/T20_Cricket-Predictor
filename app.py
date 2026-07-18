@@ -724,6 +724,7 @@ def cricket_predictor():
 
 
         url = f"https://crex.com/cricket-live-score/miny-vs-tsk-7th-match-major-league-cricket-2026-match-updates-{code}/match-details"
+        print(url)
 
         headers = {
             "User-Agent": "Mozilla/5.0"
@@ -734,6 +735,8 @@ def cricket_predictor():
             headers=headers,
             timeout=20
         )
+        print(r.status_code)
+        print(r.url)
         soup = BeautifulSoup(r.text, 'html.parser')
         script = str(soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
