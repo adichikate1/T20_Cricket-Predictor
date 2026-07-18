@@ -4,4 +4,5 @@ requests
 bs4
 pandas
 PyGithub
+scikit-learn
 gunicorn
