@@ -1,0 +1,122 @@
+team1,team2,team1_win_rate,team2_win_rate,head_to_head_win_rate,team1_recent_form,team2_recent_form,team1_venue_win_rate,team2_venue_win_rate,team1_avg_runs_last_5,team2_avg_runs_last_5,team1_avg_wicket_last_5,team2_avg_wicket_last_5,avg_first_innings_score,chasing_success_rate,toss_winner,toss_decision,temperature,humidity,rain_probability,venue,pitch_type,win
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,3,4,70.0,33.33333333333333,7.6,7.6,7.6,4.6,163.0,52.94117647058824,Kandy Royals,Bowl,23.0,96.0,78.0,Pallekele International Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,80.0,1,2,50.0,44.44444444444444,7.4,7.4,7.4,6.4,164.0,50.0,Jaffna Kings,Bat,26.4,80.0,78.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,4,50.0,70.0,8.0,8.0,8.0,6.8,165.0,52.63157894736842,Kandy Royals,Bowl,23.2,94.0,78.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,1,33.33333333333333,50.0,4.8,4.8,4.8,7.4,166.0,50.0,Jaffna Kings,Bowl,26.4,82.0,78.0,Pallekele International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,20.0,3,2,44.44444444444444,50.0,5.6,5.6,5.6,8.8,167.0,52.38095238095239,Colombo Kaps,Bowl,22.5,94.0,78.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,1,50.0,75.0,7.0,7.0,7.0,7.8,165.0,51.59074155978181,Jaffna Kings,Bowl,23.9,79.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,2,25.0,33.33333333333333,6.8,6.8,6.8,9.0,187.0,100.0,Kandy Royals,Bowl,25.2,75.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,2,66.66666666666666,75.0,4.2,4.2,4.2,7.6,193.0,100.0,Dambulla Sixers,Bowl,24.1,77.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,3,50.0,25.0,7.6,7.6,7.6,6.8,201.0,100.0,Galle Gallants,Bowl,28.2,65.0,40.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,1,33.33333333333333,66.66666666666666,8.8,8.8,8.8,4.4,194.0,75.0,Dambulla Sixers,Bowl,25.3,75.0,40.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,2,3,25.0,75.0,6.8,6.8,6.8,6.6,192.0,80.0,Kandy Royals,Bowl,25.7,69.0,41.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,1,3,66.66666666666666,50.0,4.0,4.0,4.0,6.4,198.0,66.66666666666666,Galle Gallants,Bowl,23.9,77.0,41.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,3,33.33333333333333,75.0,8.2,8.2,8.2,6.0,192.0,57.14285714285714,Jaffna Kings,Bowl,27.4,66.0,25.0,Rangiri Dambulla International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,3,2,50.0,25.0,6.8,6.8,6.8,6.4,192.0,62.5,Galle Gallants,Bowl,25.4,74.0,25.0,Rangiri Dambulla International Stadium,Balanced,0.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,4,1,40.0,60.0,5.2,5.2,5.2,7.4,147.0,45.45454545454545,Jaffna Kings,Bowl,27.8,87.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,20.0,2,3,60.0,50.0,4.8,4.8,4.8,6.2,145.0,44.11764705882353,Dambulla Sixers,Bowl,28.8,82.0,90.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,4,40.0,40.0,7.8,7.8,7.8,5.2,145.0,45.71428571428572,Colombo Kaps,Bowl,28.3,84.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,60.0,60.0,6.4,6.4,6.4,4.4,144.0,44.44444444444444,Dambulla Sixers,Bowl,28.7,82.0,91.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,3,40.0,50.0,6.6,6.6,6.6,4.2,146.0,43.24324324324324,Colombo Kaps,Bowl,27.6,86.0,91.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,20.0,2,3,60.0,40.0,5.8,5.8,5.8,5.4,146.0,42.10526315789473,Colombo Kaps,Bowl,28.2,84.0,93.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,3,50.0,40.0,5.2,5.2,5.2,6.0,146.0,41.02564102564102,Galle Gallants,Bowl,28.6,80.0,88.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,2,40.0,60.0,5.6,5.6,5.6,5.6,146.0,40.0,Kandy Royals,Bowl,27.9,84.0,88.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,2,3,40.0,60.0,6.4,6.4,6.4,5.8,147.0,41.46341463414634,Kandy Royals,Bowl,27.9,86.0,40.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,3,50.0,40.0,5.0,5.0,5.0,6.4,148.0,40.47619047619048,Jaffna Kings,Bowl,28.1,85.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,60.0,4,2,40.0,40.0,6.0,6.0,6.0,6.2,144.0,47.05882352941176,Colombo Kaps,Bowl,28.4,81.0,87.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,20.0,0,2,50.0,60.0,8.2,8.2,8.2,8.0,145.0,44.44444444444444,Dambulla Sixers,Bowl,29.1,77.0,84.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,3,2,60.0,40.0,6.0,6.0,6.0,6.2,147.0,42.10526315789473,Colombo Kaps,Bat,28.1,83.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,5,60.0,40.0,6.2,6.2,6.2,5.2,148.0,45.0,Jaffna Kings,Bat,29.1,78.0,58.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,1,2,50.0,60.0,7.2,7.2,7.2,6.0,147.0,42.85714285714285,Galle Gallants,Bat,28.0,83.0,58.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,3,70.0,33.33333333333333,7.8,7.8,7.8,4.6,169.0,66.66666666666666,Dambulla Sixers,Bat,28.8,66.0,85.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,2,4,44.44444444444444,50.0,6.2,6.2,6.2,5.0,168.0,60.0,Galle Gallants,Bat,22.6,92.0,85.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,2,50.0,33.33333333333333,5.6,5.6,5.6,4.8,163.0,63.63636363636363,Colombo Kaps,Bowl,32.0,54.0,82.0,Pallekele International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,4,70.0,50.0,7.0,7.0,7.0,5.0,166.0,66.66666666666666,Kandy Royals,Bowl,32.0,54.0,82.0,Pallekele International Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,2,50.0,44.44444444444444,5.8,5.8,5.8,6.2,162.0,61.53846153846154,Colombo Kaps,Bowl,26.98787878787879,79.12121212121212,68.84848484848484,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,3,33.33333333333333,50.0,4.2,4.2,4.2,6.2,164.0,57.14285714285714,Jaffna Kings,Bowl,24.1,83.0,40.0,Pallekele International Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,2,44.44444444444444,70.0,5.2,5.2,5.2,5.8,162.0,53.333333333333336,Galle Gallants,Bowl,26.5,76.0,65.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,80.0,2,2,50.0,50.0,6.0,6.0,6.0,5.6,164.0,56.25,Colombo Kaps,Bat,24.3,83.0,65.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,3,2,60.0,50.0,4.6,4.6,4.6,5.4,148.0,40.909090909090914,Dambulla Sixers,Bowl,27.6,84.0,96.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,20.0,2,3,40.0,60.0,5.8,5.8,5.8,5.6,147.0,39.130434782608695,Kandy Royals,Bat,30.3,73.0,78.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,4,2,60.0,40.0,5.0,5.0,5.0,6.2,149.0,41.66666666666667,Dambulla Sixers,Bat,27.5,84.0,78.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,80.0,2,1,40.0,50.0,5.6,5.6,5.6,7.2,149.0,40.0,Jaffna Kings,Bat,28.6,76.0,85.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,4,40.0,60.0,6.2,6.2,6.2,5.6,147.0,42.30769230769231,Colombo Kaps,Bat,27.9,80.0,85.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,4,4,60.0,60.0,5.2,5.2,5.2,5.6,148.0,40.74074074074074,Kandy Royals,Bowl,27.6,78.0,84.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,1,40.0,50.0,6.8,6.8,6.8,6.8,148.0,42.85714285714285,Galle Gallants,Bowl,28.1,76.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,5,2,60.0,50.0,5.8,5.8,5.8,5.4,146.0,44.82758620689656,Dambulla Sixers,Bowl,31.0,67.0,70.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,3,1,60.0,40.0,6.6,6.6,6.6,7.2,146.0,44.82758620689656,Jaffna Kings,Bowl,28.5,79.0,70.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,20.0,2,3,50.0,60.0,6.8,6.8,6.8,7.8,147.0,41.935483870967744,Kandy Royals,Bat,27.2,81.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,5,3,60.0,60.0,5.4,5.4,5.4,8.2,147.0,43.75,Dambulla Sixers,Bat,27.6,79.0,66.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Galle Gallants,70.0,60.0,20.0,3,3,60.0,40.0,6.4,6.4,6.4,7.8,159.79166666666666,53.094814497903656,Galle Gallants,Bowl,29.4,75.0,65.0,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,3,2,50.0,44.44444444444444,6.8,6.8,6.8,6.0,137.0,0.0,Colombo Kaps,Bowl,26.4,83.0,65.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,1,3,40.0,60.0,7.4,7.4,7.4,7.4,168.0,50.0,Dambulla Sixers,Bat,27.1,72.0,6.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,3,2,40.0,44.44444444444444,7.8,7.8,7.8,5.2,168.0,50.0,Galle Gallants,Bat,24.5,85.0,6.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,1,2,40.0,50.0,7.2,7.2,7.2,7.4,144.0,75.0,Colombo Kaps,Bat,25.0,50.0,5.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,3,4,70.0,50.0,5.8,5.8,5.8,5.6,159.37342767295598,52.38954547919395,Kandy Royals,Bowl,19.3,10.0,88.0,Pallekele International Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,2,50.0,44.44444444444444,8.2,8.2,8.2,8.0,159.37342767295598,52.38954547919395,Galle Gallants,Bat,25.5,73.0,56.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,60.0,4,1,50.0,33.33333333333333,5.0,5.0,5.0,7.6,160.0,50.0,Dambulla Sixers,Bowl,20.2,90.0,56.0,Pallekele International Stadium,Balanced,0.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,4,2,70.0,44.44444444444444,5.4,5.4,5.4,7.6,160.0,50.0,Galle Gallants,Bat,26.2,73.0,17.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,4,50.0,50.0,7.6,7.6,7.6,5.0,187.0,33.33333333333333,Colombo Kaps,Bowl,22.3,80.0,17.0,Pallekele International Stadium,Balanced,1.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,1,3,33.33333333333333,70.0,7.4,7.4,7.4,6.0,178.0,60.0,Kandy Royals,Bat,25.7,78.0,80.0,Pallekele International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,20.0,2,1,44.44444444444444,50.0,7.8,7.8,7.8,8.0,178.0,60.0,Colombo Kaps,Bowl,19.9,96.0,80.0,Pallekele International Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,4,4,50.0,70.0,5.4,5.4,5.4,4.6,180.0,66.66666666666666,Kandy Royals,Bat,26.0,81.0,80.0,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,1,0,50.0,33.33333333333333,8.0,8.0,8.0,8.6,180.0,66.66666666666666,Colombo Kaps,Bowl,22.9,84.0,80.0,Pallekele International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,0,2,60.0,50.0,8.8,8.8,8.8,7.0,142.0,57.14285714285714,Dambulla Sixers,Bat,26.7,83.0,92.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,3,60.0,40.0,6.0,6.0,6.0,6.6,142.0,57.14285714285714,Colombo Kaps,Bat,26.0,74.0,92.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,2,3,50.0,40.0,7.0,7.0,7.0,5.2,142.0,44.44444444444444,Jaffna Kings,Bat,27.8,78.0,66.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,4,1,60.0,60.0,5.2,5.2,5.2,8.0,145.0,50.0,Kandy Royals,Bat,25.3,88.0,66.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,20.0,3,2,40.0,40.0,6.6,6.6,6.6,6.8,146.0,45.45454545454545,Jaffna Kings,Bowl,26.7,84.0,99.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,25.0,2,1,50.0,60.0,7.2,7.2,7.2,8.4,145.0,41.66666666666667,Galle Gallants,Bat,24.7,91.0,99.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,4,4,60.0,40.0,5.2,5.2,5.2,5.6,143.0,46.15384615384615,Kandy Royals,Bat,26.5,83.0,65.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,2,1,40.0,50.0,7.2,7.2,7.2,7.6,143.0,46.15384615384615,Colombo Kaps,Bowl,25.1,87.0,65.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,4,3,60.0,40.0,5.4,5.4,5.4,6.2,141.0,46.66666666666666,Colombo Kaps,Bowl,25.4,84.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,40.0,4,3,40.0,40.0,5.4,5.4,5.4,5.4,143.0,50.0,Jaffna Kings,Bowl,26.6,78.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,2,50.0,40.0,5.4,5.4,5.4,8.0,152.0,53.65853658536586,Jaffna Kings,Bowl,27.0,91.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Kandy Royals,40.0,40.0,0.0,3,1,60.0,60.0,5.6,5.6,5.6,8.0,152.0,52.38095238095239,Dambulla Sixers,Bat,30.9,71.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,3,3,40.0,50.0,6.0,6.0,6.0,6.4,153.0,51.16279069767442,Galle Gallants,Bat,28.0,80.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,0.0,2,3,40.0,60.0,8.2,8.2,8.2,5.6,152.0,52.38095238095239,Dambulla Sixers,Bat,32.1,53.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,1,3,60.0,50.0,8.0,8.0,8.0,6.4,152.0,52.38095238095239,Kandy Royals,Bat,29.8,73.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,3,2,40.0,60.0,6.6,6.6,6.6,7.2,151.0,54.34782608695652,Dambulla Sixers,Bat,31.2,61.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,3,60.0,40.0,7.6,7.6,7.6,6.6,151.0,54.34782608695652,Kandy Royals,Bowl,29.3,76.0,55.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,2,3,60.0,50.0,7.2,7.2,7.2,7.6,153.0,52.083333333333336,Dambulla Sixers,Bat,32.2,57.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,0.0,4,3,40.0,40.0,6.6,6.6,6.6,6.6,153.0,52.083333333333336,Colombo Kaps,Bowl,29.3,77.0,25.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,3,1,50.0,60.0,7.6,7.6,7.6,6.6,154.0,52.0,Galle Gallants,Bat,31.8,54.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,2,2,40.0,60.0,7.8,7.8,7.8,7.2,154.0,52.0,Dambulla Sixers,Bat,30.5,69.0,25.0,R. Premadasa Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,4,1,40.0,60.0,6.0,6.0,6.0,6.8,153.0,51.92307692307693,Jaffna Kings,Bowl,32.8,56.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Galle Gallants,Colombo Kaps,60.0,40.0,0.0,2,1,50.0,40.0,7.4,7.4,7.4,8.6,153.0,51.92307692307693,Colombo Kaps,Bat,32.2,63.0,56.0,R. Premadasa Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,3,4,60.0,40.0,8.4,8.4,8.4,5.4,152.0,51.85185185185185,Jaffna Kings,Bowl,27.090445632798584,76.82495543672015,62.19821746880571,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,2,60.0,40.0,5.2,5.2,5.2,8.2,151.0,52.72727272727272,Colombo Kaps,Bowl,27.09044563279858,76.82495543672015,62.1982174688057,R. Premadasa Stadium,Balanced,1.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,0.0,2,3,50.0,60.0,7.6,7.6,7.6,8.4,151.0,52.72727272727272,Dambulla Sixers,Bowl,28.6,72.0,55.0,R. Premadasa Stadium,Balanced,0.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,2,5,40.0,40.0,8.0,8.0,8.0,4.0,151.0,52.63157894736842,Jaffna Kings,Bat,31.9,61.0,56.0,R. Premadasa Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,60.0,60.0,5.4,5.4,5.4,8.0,151.0,52.63157894736842,Dambulla Sixers,Bat,29.3,73.0,56.0,R. Premadasa Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,5,2,40.0,50.0,4.6,4.6,4.6,7.6,152.0,52.54237288135594,Galle Gallants,Bat,26.8,84.0,90.0,R. Premadasa Stadium,Balanced,1.0
+Colombo Kaps,Kandy Royals,40.0,40.0,0.0,2,2,40.0,60.0,8.0,8.0,8.0,5.0,152.0,51.66666666666667,Kandy Royals,Bowl,28.1,81.0,90.0,R. Premadasa Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,2,3,40.0,50.0,7.8,7.8,7.8,7.2,157.0,50.0,Colombo Kaps,Bat,31.1,65.0,55.0,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,4,3,60.0,40.0,5.4,5.4,5.4,7.6,157.0,50.0,Jaffna Kings,Bowl,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,2,3,40.0,60.0,7.4,7.4,7.4,6.2,158.0,50.0,Dambulla Sixers,Bowl,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Jaffna Kings,60.0,70.0,20.0,3,3,40.0,60.0,7.4,7.4,7.4,6.4,160.0,48.38709677419355,Jaffna Kings,Bat,27.2,88.0,25.0,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,1,44.44444444444444,50.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,141.0,37.5,Colombo Kaps,Bowl,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Galle Gallants,70.0,60.0,0.0,1,1,60.0,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.5062500000000005,141.0,37.5,Galle Gallants,Bat,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,1,44.44444444444444,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.5062500000000005,145.0,44.44444444444444,Kandy Royals,Bowl,27.23196635472371,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Colombo Kaps,60.0,40.0,0.0,0,1,40.0,50.0,6.489583333333335,6.489583333333335,6.489583333333335,6.5062500000000005,150.0,40.0,Galle Gallants,Bowl,27.23196635472371,76.9142825311943,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,1,1,40.0,60.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,145.0,36.36363636363637,Dambulla Sixers,Bowl,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Galle Gallants,40.0,60.0,0.0,0,0,44.44444444444444,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,151.0,33.33333333333333,Galle Gallants,Bowl,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Colombo Kaps,Dambulla Sixers,40.0,40.0,0.0,1,1,50.0,40.0,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000001,154.0,30.76923076923077,Dambulla Sixers,Bat,27.23196635472371,76.91428253119432,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Kandy Royals,70.0,40.0,0.0,2,0,60.0,44.44444444444444,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000001,156.0,28.57142857142857,Jaffna Kings,Bat,27.231966354723703,76.91428253119432,61.33588458110519,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,0,3,40.0,60.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,158.0,26.666666666666668,Galle Gallants,Bat,27.231966354723703,76.91428253119429,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Kandy Royals,Dambulla Sixers,40.0,40.0,0.0,1,2,44.44444444444444,40.0,6.489583333333333,6.489583333333333,6.489583333333333,6.506250000000001,159.0,31.25,Kandy Royals,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Colombo Kaps,Jaffna Kings,40.0,70.0,0.0,1,4,50.0,60.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,159.0,31.25,Colombo Kaps,Bowl,27.231966354723703,76.9142825311943,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Dambulla Sixers,Galle Gallants,40.0,60.0,0.0,3,0,33.33333333333333,44.44444444444444,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.58447216834185,50.26546249189519,Dambulla Sixers,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Pallekele International Stadium,Balanced,1.0
+Kandy Royals,Colombo Kaps,40.0,40.0,0.0,1,1,70.0,50.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,207.0,0.0,Kandy Royals,Bat,27.231966354723703,76.91428253119429,61.33588458110518,Pallekele International Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,3,0,50.0,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000002,158.0,35.294117647058826,Colombo Kaps,Bat,27.231966354723703,76.91428253119429,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Jaffna Kings,Dambulla Sixers,70.0,40.0,0.0,4,4,60.0,40.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000002,159.0,38.88888888888889,Jaffna Kings,Bowl,27.231966354723703,76.91428253119427,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Kandy Royals,Jaffna Kings,40.0,70.0,0.0,1,4,44.44444444444444,60.0,6.489583333333336,6.489583333333336,6.489583333333336,6.506250000000002,153.0,42.10526315789473,Jaffna Kings,Bat,27.231966354723703,76.91428253119427,61.335884581105184,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Galle Gallants,Dambulla Sixers,60.0,40.0,0.0,1,4,40.0,40.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,153.0,45.0,Dambulla Sixers,Bowl,27.231966354723703,76.91428253119429,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Jaffna Kings,Colombo Kaps,70.0,40.0,0.0,3,3,60.0,50.0,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,154.0,47.61904761904761,Jaffna Kings,Bowl,27.231966354723703,76.91428253119427,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Kandy Royals,60.0,40.0,0.0,1,2,40.0,44.44444444444444,6.489583333333333,6.489583333333333,6.489583333333333,6.5062500000000005,155.0,45.45454545454545,Galle Gallants,Bowl,27.231966354723703,76.91428253119427,61.33588458110517,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Dambulla Sixers,Colombo Kaps,40.0,40.0,0.0,4,3,40.0,50.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,154.0,47.82608695652174,Colombo Kaps,Bowl,27.231966354723703,76.91428253119427,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Colombo Kaps,Galle Gallants,40.0,60.0,0.0,4,2,50.0,40.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.0,50.0,Galle Gallants,Bowl,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Dambulla Sixers,Jaffna Kings,40.0,70.0,0.0,4,2,40.0,60.0,6.489583333333334,6.489583333333334,6.489583333333334,6.506250000000001,156.0,52.0,Dambulla Sixers,Bowl,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,1.0
+Galle Gallants,Jaffna Kings,60.0,70.0,0.0,3,2,40.0,60.0,6.489583333333335,6.489583333333335,6.489583333333335,6.506250000000001,156.0,50.0,Jaffna Kings,Bat,27.231966354723703,76.91428253119426,61.33588458110518,Mahinda Rajapaksa International Stadium,Balanced,0.0
+Jaffna Kings,Galle Gallants,60.0,60.0,40.0,3,3,0.0,100.0,147.4,140.6,6.0,4.2,156.90859658975563,49.4357806625936,Jaffna Kings,Bowl,27.9,73.0,60.0,Sinhalese Sports Club Ground,Batting,1.0
+San Francisco Unicorns,Washington Freedom,50.0,70.0,40.0,3,4,62.5,62.5,159.6,185.8,4.8,5.8,226.0,50.0,San Francisco Unicorns,Bowl,15.8,77.0,1.0,Oakland Coliseum,Batting,0.0
