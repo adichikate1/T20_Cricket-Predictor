@@ -3,4 +3,5 @@ catboost
 requests
 bs4
 pandas
+PyGithub
 gunicorn
