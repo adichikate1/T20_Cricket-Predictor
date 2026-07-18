@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 model = CatBoostClassifier()
 
-
+headers = {"User-Agent": "Mozilla/5.0"}
 
 def find_team_name(script,flag=0):
     corrector_index = script.find("team1:") + 6
@@ -289,7 +289,7 @@ def wicket_lost(team_names, script, df):
         team1_wickets = []
         team1_runs = []
         for lk1 in links1:
-            r1 = requests.get(lk1)
+            r1 = requests.get(lk1, headers=headers, timeout=20)
             soup1 = BeautifulSoup(r1.text, 'html.parser')
             new_script1 = str(soup1.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
@@ -324,7 +324,7 @@ def wicket_lost(team_names, script, df):
         team2_wickets = []
         team2_runs = []
         for lk2 in links2:
-            r2 = requests.get(lk2)
+            r1 = requests.get(lk2, headers=headers, timeout=20)
             soup2 = BeautifulSoup(r2.text, 'html.parser')
             new_script2 = str(soup2.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
@@ -725,10 +725,6 @@ def cricket_predictor():
 
         url = f"https://crex.com/cricket-live-score/miny-vs-tsk-7th-match-major-league-cricket-2026-match-updates-{code}/match-details"
         print(url)
-
-        headers = {
-            "User-Agent": "Mozilla/5.0"
-        }
 
         r = requests.get(
             url,
