@@ -940,7 +940,7 @@ def cricket_predictor():
 
         if league != "add":
             if league == "Major league":
-                model.load_model("static/models/Major_League.cbm")
+                model.load_model("static/models/Major_league.cbm")
                 prediction = model.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
             elif league == "Lanka Premier League":
