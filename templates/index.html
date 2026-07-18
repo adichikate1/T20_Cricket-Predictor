@@ -179,8 +179,18 @@
         <label for="league">League</label>
         <select id="league" name="league">
           <option value="">Select</option>
-          <option value="Major League">Major League</option>
+          <option value="add">Add Data</option>
+          <option value="Major league">Major League</option>
           <option value="Lanka Premier League">Lanka Premier League</option>
+        </select>
+      </div>
+      
+      <div class="field" id="extraOptions" style="display: none;">
+        <label for="extraOptions">Select League</label>
+        <select name="extraOptions">
+            <option selected value="">Select</option>
+            <option value="Major league">Major League</option>
+            <option value="Lanka Premier League">Lanka Premier League</option>
         </select>
       </div>
 
@@ -219,6 +229,18 @@
       fill.style.width = pct + '%';
     });
   }
+
+  const mainSelect = document.getElementById("league");
+  const extraOptions = document.getElementById("extraOptions");
+
+  mainSelect.addEventListener("change", function () {
+      if (this.value === "add") {
+          extraOptions.style.display = "block";
+      } else {
+          extraOptions.style.display = "none";
+      }
+  });
+
 </script>
 </body>
 </html>
