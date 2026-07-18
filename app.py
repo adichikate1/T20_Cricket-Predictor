@@ -821,7 +821,7 @@ def cricket_predictor():
 
 
 
-        TOKEN = "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"
+        TOKEN = "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"
         USERNAME = "adichikate1"
         REPO_NAME = "T20_Cricket-Predictor"
         g = Github(TOKEN)
