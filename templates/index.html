@@ -200,6 +200,12 @@
         <div class="hint">The fixture ID as listed on your league's scorecard feed</div>
       </div>
 
+      <div class="field" id="Token" style="display: none;">
+        <label for="Token">TOKEN</label>
+        <input type="text" id="Token" name="Token" placeholder="e.g. IPL2026M045" autocomplete="off">
+        <div class="hint">Enter Github Token</div>
+      </div>
+
       <button type="submit">Predict winner</button>
     </form>
 
@@ -232,12 +238,15 @@
 
   const mainSelect = document.getElementById("league");
   const extraOptions = document.getElementById("extraOptions");
+  const Token = document.getElementById("Token");
 
   mainSelect.addEventListener("change", function () {
       if (this.value === "add") {
           extraOptions.style.display = "block";
+          Token.style.display = "block";
       } else {
           extraOptions.style.display = "none";
+          Token.style.display = "none";
       }
   });
 
