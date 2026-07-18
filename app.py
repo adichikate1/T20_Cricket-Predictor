@@ -50,7 +50,7 @@ model_LPL.fit(
 
 
 
-df_ML = pd.read_csv("static/data/Major League.csv").dropna()
+df_ML = pd.read_csv("static/data/Major league.csv").dropna()
 
 X_ML = df_ML.drop(columns="win")
 y_ML = df_ML["win"]
