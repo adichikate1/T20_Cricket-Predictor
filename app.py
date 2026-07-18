@@ -18,34 +18,69 @@ app = Flask(__name__)
 df_LPL = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
 
 X_LPL = df_LPL.drop(columns="win")
-y_LPL = df_LPL["win"]
+y_LPL = df_LPL["win"]
+
+X_LPL_train, X_LPL_test, y_LPL_train, y_LPL_test = train_test_split(
+    X_LPL, y_LPL, test_size=0.2, random_state=42
+)
 
 model_LPL = CatBoostClassifier(
     iterations=1000,
     learning_rate=0.01,
-    depth=3,
-    cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"]
-    )
+    depth=3,
+    loss_function="MultiClass",
+    cat_features=[
+        "team1",
+        "team2",
+        "toss_winner",
+        "toss_decision",
+        "venue",
+        "pitch_type"
+    ],
+    eval_metric="Accuracy",
+    use_best_model=True
+)
 
-model_LPL.fit(X_LPL, y_LPL)
+model_LPL.fit(
+    X_LPL_train,
+    y_LPL_train,
+    eval_set=(X_LPL_test, y_LPL_test)
+)
 
 
 
 
-
-df_ML = pd.read_csv("static/data/Major league.csv").dropna()
+df_ML = pd.read_csv("static/data/Major League.csv").dropna()
 
 X_ML = df_ML.drop(columns="win")
-y_ML = df_ML["win"]
+y_ML = df_ML["win"]
+
+X_ML_train, X_ML_test, y_ML_train, y_ML_test = train_test_split(
+    X_ML, y_ML, test_size=0.2, random_state=42
+)
 
 model_ML = CatBoostClassifier(
     iterations=1000,
     learning_rate=0.01,
-    depth=3,
-    cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"]
-    )
+    depth=3,
+    loss_function="MultiClass",
+    cat_features=[
+        "team1",
+        "team2",
+        "toss_winner",
+        "toss_decision",
+        "venue",
+        "pitch_type"
+    ],
+    eval_metric="Accuracy",
+    use_best_model=True
+)
 
-model_ML.fit(X_ML, y_ML)
+model_ML.fit(
+    X_ML_train,
+    y_ML_train,
+    eval_set=(X_ML_test, y_ML_test)
+)
 
 
 
