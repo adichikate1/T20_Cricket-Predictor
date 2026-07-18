@@ -6,9 +6,17 @@ import pandas as pd
 from github import Github
 import base64
 
+
+
+
 app = Flask(__name__)
 
+
+
+
 model = CatBoostClassifier()
+
+
 
 def find_team_name(script,flag=0):
     corrector_index = script.find("team1:") + 6
@@ -707,6 +715,7 @@ def cricket_predictor():
         league = request.form["league"]
         code = request.form["match_code"]
         extra = request.form["extraOptions"]
+        token = request.form["Token"]
 
         if extra != "":
             df = pd.read_csv(f"static/data/{extra}.csv").dropna()
@@ -821,13 +830,13 @@ def cricket_predictor():
 
 
 
-        TOKEN = "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"
-        USERNAME = "adichikate1"
-        REPO_NAME = "T20_Cricket-Predictor"
-        g = Github(TOKEN)
-        repo = g.get_repo(f"{USERNAME}/{REPO_NAME}")
 
         if league == "add":
+            TOKEN = token
+            USERNAME = "adichikate1"
+            REPO_NAME = "T20_Cricket-Predictor"
+            g = Github(TOKEN)
+            repo = g.get_repo(f"{USERNAME}/{REPO_NAME}")
             try:
                 match_data = {
                     "team1": team_names[0],
