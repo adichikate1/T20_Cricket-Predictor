@@ -45,7 +45,7 @@ model_ML = CatBoostClassifier(
     cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"]
     )
 
-model_LPL.fit(X_ML, y_ML)
+model_ML.fit(X_ML, y_ML)
 
 
 
