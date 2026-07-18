@@ -324,7 +324,7 @@ def wicket_lost(team_names, script, df):
         team2_wickets = []
         team2_runs = []
         for lk2 in links2:
-            r1 = requests.get(lk2, headers=headers, timeout=20)
+            r2 = requests.get(lk2, headers=headers, timeout=20)
             soup2 = BeautifulSoup(r2.text, 'html.parser')
             new_script2 = str(soup2.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
@@ -382,7 +382,7 @@ def wicket_lost(team_names, script, df):
         team1_wickets = []
         team1_runs = []
         for lk1 in links1:
-            r1 = requests.get(lk1)
+            r1 = requests.get(lk1, headers=headers, timeout=20)
             soup1 = BeautifulSoup(r1.text, 'html.parser')
             new_script1 = str(soup1.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
@@ -417,7 +417,7 @@ def wicket_lost(team_names, script, df):
         team2_wickets = []
         team2_runs = []
         for lk2 in links2:
-            r2 = requests.get(lk2)
+            r2 = requests.get(lk2, headers=headers, timeout=20)
             soup2 = BeautifulSoup(r2.text, 'html.parser')
             new_script2 = str(soup2.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
