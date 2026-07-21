@@ -1077,10 +1077,10 @@ def cricket_predictor():
 
 
         if league != "add":
-            if league == "Major league":
-                prediction = model_ML.predict(input_data)
-                confidence = round(prediction[0][0] * 100, 2)
-            elif league == "Lanka Premier League":
+            # if league == "Major league":
+            #     prediction = model_ML.predict(input_data)
+            #     confidence = round(prediction[0][0] * 100, 2)
+            if league == "Lanka Premier League":
                 prediction = model_LPL.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
             elif league == "Hundred League":
