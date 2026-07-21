@@ -82,6 +82,38 @@ model_ML.fit(
     eval_set=(X_ML_test, y_ML_test)
 )
 
+df_HL = pd.read_csv("static/data/Hundred league.csv").dropna()
+
+X_HL = df_HL.drop(columns="win")
+y_HL = df_HL["win"]
+
+X_HL_train, X_HL_test, y_HL_train, y_HL_test = train_test_split(
+    X_HL, y_HL, test_size=0.2, random_state=42
+)
+
+model_HL = CatBoostClassifier(
+    iterations=1000,
+    learning_rate=0.01,
+    depth=3,
+    loss_function="MultiClass",
+    cat_features=[
+        "team1",
+        "team2",
+        "toss_winner",
+        "toss_decision",
+        "venue",
+        "pitch_type"
+    ],
+    eval_metric="Accuracy",
+    use_best_model=True
+)
+
+model_HL.fit(
+    X_HL_train,
+    y_HL_train,
+    eval_set=(X_HL_test, y_HL_test)
+)
+
 
 
 def find_team_name(script,flag=0):
@@ -276,6 +308,8 @@ def link(word, script, flag=0):
     for mc in match_hash_codes:
         if "Semi Final " in mc:
             new_match_hash_codes.append(mc.replace("Semi Final ", ""))
+        elif "Eliminator" in mc:
+            new_match_hash_codes.append(mc.replace("Eliminator", ""))
         else:
             new_match_hash_codes.append(mc)
 
@@ -307,20 +341,46 @@ def link(word, script, flag=0):
             break
 
 
-    if flag != 0:
-        new_match_codes = []
-        for code in match_codes:
-            if len(code) == 4:
-                new_match_codes.append(code[:-1])
-            else:
-                new_match_codes.append(code)
-        match_codes = new_match_codes
+    # if flag == "back":
+    #     new_match_codes = []
+    #     for code in match_codes:
+    #         if len(code) == 4:
+    #             new_match_codes.append(code[:-1])
+    #         else:
+    #             new_match_codes.append(code)
+    # elif flag == "front":
+    #     new_match_codes = []
+    #     for code in match_codes:
+    #         if len(code) == 4:
+    #             new_match_codes.append(code[1:])
+    #         else:
+    #             new_match_codes.append(code)
+    #     match_codes = new_match_codes
 
-    print(match_codes)
     links = []
+    new_match_codes = []
     for n,c in zip(match_nos,match_codes):
-        links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
-    return links, match_codes
+        l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
+        l_soup = BeautifulSoup(l_r.text, 'html.parser')
+        l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
+        if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
+            links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
+            print(c)
+            new_match_codes.append(c)
+        else:
+            l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details")
+            l_soup = BeautifulSoup(l_r.text, 'html.parser')
+            l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
+            if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
+                links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details")
+                print(c[1:])
+                new_match_codes.append(c[1:])
+            else:
+                links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[:-1]}/match-details")
+                print(c[:-1])
+                new_match_codes.append(c[:-1])
+
+    return links, new_match_codes
 
 
 
@@ -420,10 +480,13 @@ def wicket_lost(team_names, script, df):
 
     except ValueError:
 
-        links1, match_hashcodes1 = link("t1f:",script, 1)
-        links2, match_hashcodes2  = link("t2f:",script, 1)
+        links1, match_hashcodes1 = link("t1f:", script, "front")
+        links2, match_hashcodes2  = link("t2f:", script,"front")
 
+        print(links1)
+        print(links2)
         if len(match_hashcodes1) > len(match_hashcodes2):
+            print("hello")
             links1 = []
             links2 = []
             for match_hashcode in match_hashcodes2:
@@ -435,6 +498,7 @@ def wicket_lost(team_names, script, df):
                         links2.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
 
         elif len(match_hashcodes1) < len(match_hashcodes2):
+            print("hello")
             links2 = []
             links1 = []
             for match_hashcode in match_hashcodes1:
@@ -474,6 +538,10 @@ def wicket_lost(team_names, script, df):
                 coma_index_1 = modi_script1.find(",")
                 score1 = modi_script1[:coma_index_1]
                 score1_index = score1.find("-") + 1
+                with open("hello.json", "w",encoding="utf-8") as f:
+                    f.write(new_script1)
+                print(lk1)
+                print(score1[:score1_index - 1])
                 run = float(score1[:score1_index - 1])
                 wicket = float(score1[score1_index:])
                 team1_runs.append(run)
@@ -619,23 +687,35 @@ def toss(script, soup):
 
 
 
-def temperature(script):
+def temperature(script, df):
     index = script.find("crT:")
     text = script[index + 4:]
     last_index = text.find("˚")
-    return float(text[:last_index])
+    try:
+        temp = float(text[:last_index])
+    except ValueError:
+        temp = df["temperature"].mean()
+    return temp
 
 
 
-def humidity(script):
+def humidity(script, df):
     index = script.find("hum:")
-    return float(script[index + 4:index + 6])
+    try:
+        hum = float(script[index + 4:index + 6])
+    except ValueError:
+        hum = df["humidity"].mean()
+    return hum
 
 
 
-def rain_prob(script):
+def rain_prob(script, df):
     index = script.find("rP:")
-    return float(script[index + 3:index + 5])
+    try:
+        rain_p = float(script[index + 3:index + 5])
+    except ValueError:
+        rain_p = df["rain_probability"].mean()
+    return rain_p
 
 
 
@@ -647,8 +727,26 @@ def venue(script):
 
     if "Cricket" in venue_name:
         venue_name = venue_name.replace("Cricket", "").replace("  ", " ")
-    elif "Hambantota" in venue_name:
+    if "Hambantota" in venue_name:
         venue_name = venue_name.replace(" Hambantota","")
+    if " Lords Ground" in venue_name:
+        venue_name = venue_name.replace(" Lords Ground","Lords Ground")
+    if "Lords" == venue_name:
+        venue_name = "Lords Ground"
+    if "Manchester" in venue_name:
+        venue_name = venue_name.replace("Manchester","").replace("  ", "")[:-1]
+    if "Ground" in venue_name:
+        venue_name = venue_name.replace("Ground","").replace(" ", "")
+    if "London" in venue_name:
+        venue_name = venue_name.replace("London","")[:-1]
+    if "Cardiff" in venue_name:
+        venue_name = venue_name.replace("Cardiff","")[:-2]
+    if "Southampton" in venue_name:
+        venue_name = venue_name.replace("Southampton","")[:-1]
+    if "Sophia Garden" == venue_name:
+        venue_name = "Sophia Gardens"
+
+    print(venue_name)
 
     return venue_name
 
@@ -717,6 +815,11 @@ def win(script, team_names):
     last_index = modi_script.find(" won ")
     winner = modi_script[:last_index]
 
+    if winner == "Oval Invincibles":
+        winner = "MI London"
+    elif winner == "Northern Superchargers":
+        winner = "Sunrisers Leeds"
+
 
     team1 = team_names[0].upper()
     team2 = team_names[2].upper()
@@ -733,7 +836,6 @@ def win(script, team_names):
         winner = team1
     else:
         winner = team2
-        
 
     if winner == team1:
         return 0
@@ -1010,6 +1112,9 @@ def cricket_predictor():
                 confidence = round(prediction[0][0] * 100, 2)
             elif league == "Lanka Premier League":
                 prediction = model_LPL.predict(input_data)
+                confidence = round(prediction[0][0] * 100, 2)
+            elif league == "Hundred League":
+                prediction = model_HL.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
 
 
