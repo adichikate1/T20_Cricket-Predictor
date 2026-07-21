@@ -1,0 +1,171 @@
+team1,team2,team1_win_rate,team2_win_rate,head_to_head_win_rate,team1_recent_form,team2_recent_form,team1_venue_win_rate,team2_venue_win_rate,team1_avg_runs_last_5,team2_avg_runs_last_5,team1_avg_wicket_last_5,team2_avg_wicket_last_5,avg_first_innings_score,chasing_success_rate,toss_winner,toss_decision,temperature,humidity,rain_probability,venue,pitch_type,win
+London Spirit,MI London,30.0,80.0,0.0,0,4,50.0,100.0,123.75,133.5,8.25,4.0,135.0,46.666666666666664,London Spirit,Bat,19.5,51.0,1.0,Lords,Balanced,1
+Manchesters Super Giants,Southern Brave,30.0,50.0,0.0,1,3,30.0,100.0,0.0,0.0,0.0,0.0,131.0,56.25,Manchesters Super Giants,Bowl,15.5,77.0,10.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds,Welsh Fire,70.0,20.0,0.0,4,1,60.0,66.66666666666666,123.4,121.8,4.2,8.4,154.0,60.0,Sunrisers Leeds,Bowl,18.0,72.0,25.0,Headingley,Balanced,0
+Birmingham Phoenix,Trent Rockets,40.0,70.0,60.0,4,2,70.0,20.0,99.25,142.0,2.5,6.0,143.0,46.666666666666664,Birmingham Phoenix,Bat,17.0,62.0,5.0,Edgbaston,Balanced,1
+MI London,Manchesters Super Giants,80.0,30.0,0.0,4,1,90.0,25.0,0.0,0.0,0.0,0.0,141.0,42.10526315789473,Mi London,Bowl,17.5,65.5,10.25,Kennington Oval,Balanced,0
+Welsh Fire,London Spirit,20.0,30.0,50.0,1,0,20.0,33.33333333333333,121.8,110.8,8.4,8.6,125.0,81.25,Welsh Fire,Bowl,17.5,65.5,10.25,Sophia Gardens,Balanced,1
+Southern Brave,Birmingham Phoenix,50.0,40.0,60.0,3,3,60.0,0.0,0.0,0.0,0.0,0.0,144.0,52.94117647058824,Southern Brave,Bowl,17.5,65.5,10.25,The Rose Bowl,Balanced,0
+Trent Rockets,Sunrisers Leeds,70.0,70.0,75.0,3,4,70.0,33.33333333333333,136.8,123.4,6.0,4.2,148.0,43.75,Trent Rockets,Bowl,17.5,65.5,10.25,Trent Bridge,Balanced,0
+Manchesters Super Giants,London Spirit,30.0,30.0,0.0,1,1,30.0,50.0,117.4,114.6,6.2,7.6,131.0,58.82352941176471,Manchesters Super Giants,Bat,23.7,61.0,25.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix,MI London,40.0,80.0,75.0,2,4,70.0,0.0,81.0,125.0,2.5,2.0,142.0,50.0,Birmingham Phoenix,Bowl,25.2,47.0,7.0,Edgbaston,Balanced,0
+Southern Brave,Sunrisers Leeds,50.0,70.0,25.0,4,3,60.0,66.66666666666666,0.0,0.0,0.0,0.0,142.0,55.55555555555556,Sunrisers Leeds,Bowl,25.7,63.0,2.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants,Welsh Fire,20.0,30.0,0.0,1,1,20.0,33.33333333333333,144.0,123.0,6.6,6.4,128.0,76.47058823529412,Manchesters Super Giants,Bowl,18.8,84.0,4.0,Sophia Gardens,Balanced,0
+London Spirit,Trent Rockets,30.0,70.0,25.0,1,3,50.0,40.0,120.6,129.2,7.8,6.2,131.0,50.0,Trent Rockets,Bowl,24.3,55.0,2.0,Lords,Balanced,0
+Sunrisers Leeds,Birmingham Phoenix,70.0,40.0,0.0,4,2,60.0,50.0,0.0,0.0,0.0,0.0,153.0,62.5,Birmingham Phoenix,Bowl,19.3,78.0,4.0,Headingley,Balanced,0
+Trent Rockets,Southern Brave,70.0,50.0,40.0,3,3,70.0,0.0,0.0,80.23571428571428,0.0,3.814285714285714,147.0,47.05882352941176,Trent Rockets,Bowl,19.2,64.0,2.0,Trent Bridge,Balanced,0
+MI London,Welsh Fire,80.0,20.0,0.0,3,1,90.0,0.0,0.0,0.0,0.0,0.0,141.0,45.0,Welsh Fire,Bowl,18.4,76.0,1.0,Kennington Oval,Balanced,0
+Manchesters Super Giants,Sunrisers Leeds,30.0,70.0,0.0,1,4,30.0,50.0,115.0,133.8,7.0,4.8,133.0,55.55555555555556,Manchesters Super Giants,Bat,22.9,58.0,5.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix,London Spirit,40.0,30.0,100.0,1,2,70.0,0.0,69.58823529411765,0.0,3.4970588235294118,0.0,144.0,52.94117647058824,Birmingham Phoenix,Bowl,20.9,65.0,3.0,Edgbaston,Balanced,0
+Southern Brave,MI London,50.0,80.0,20.0,2,4,60.0,66.66666666666666,69.58823529411764,74.29642857142858,3.497058823529412,3.445238095238095,142.0,57.89473684210527,Mi London,Bowl,16.0,91.0,2.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants,Trent Rockets,70.0,30.0,0.0,4,2,70.0,33.33333333333333,139.6,146.0,5.4,6.2,146.0,50.0,Trent Rockets,Bowl,15.9,82.0,25.0,Trent Bridge,Balanced,0
+Welsh Fire,Southern Brave,20.0,50.0,0.0,1,2,20.0,80.0,144.8,130.8,8.2,5.8,128.0,72.22222222222221,Welsh Fire,Bowl,18.5,65.0,7.0,Sophia Gardens,Balanced,1
+London Spirit,Sunrisers Leeds,30.0,70.0,50.0,2,3,50.0,66.66666666666666,136.8,143.8,6.4,6.6,133.0,47.05882352941176,Sunrisers Leeds,Bowl,17.5,59.0,6.0,Lords,Balanced,1
+MI London,Trent Rockets,80.0,70.0,0.0,4,4,90.0,0.0,150.0,127.6,4.0,4.8,145.0,42.857142857142854,Mi London,Bowl,15.9,57.0,25.0,Kennington Oval,Balanced,0
+Birmingham Phoenix,Welsh Fire,40.0,20.0,75.0,2,1,70.0,66.66666666666666,139.6,140.6,6.2,8.2,143.0,55.55555555555556,Welsh Fire,Bowl,16.9,69.0,14.0,Edgbaston,Balanced,1
+Sunrisers Leeds,MI London,70.0,80.0,0.0,3,4,60.0,33.33333333333333,142.0,168.4,6.6,4.0,156.0,58.82352941176471,Mi London,Bowl,19.9,69.0,25.0,Headingley,Balanced,0
+London Spirit,Southern Brave,30.0,50.0,33.33333333333333,2,2,50.0,50.0,147.8,130.0,5.0,5.6,133.0,50.0,Southern Brave,Bowl,18.4,67.0,25.0,Lords,Balanced,0
+Welsh Fire,Trent Rockets,20.0,70.0,25.0,2,3,20.0,100.0,140.0,137.2,6.8,5.4,128.0,68.42105263157895,Trent Rockets,Bowl,25.0,51.0,5.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants,Birmingham Phoenix,30.0,40.0,0.0,2,2,30.0,33.33333333333333,134.4,142.8,7.4,6.8,135.0,52.63157894736842,Manchesters Super Giants,Bat,22.8,51.0,21.0,Emirates Old Trafford,Balanced,1
+MI London,London Spirit,80.0,30.0,0.0,3,2,90.0,20.0,179.0,152.4,5.2,4.8,146.0,45.45454545454545,Mi London,Bowl,23.4,26.0,2.0,Kennington Oval,Balanced,1
+Manchesters Super Giants,Sunrisers Leeds,70.0,30.0,0.0,4,2,60.0,60.0,167.2,124.2,4.0,7.8,158.0,55.55555555555556,Manchesters Super Giants,Bowl,17.6,60.0,58.0,Headingley,Balanced,0
+Trent Rockets,Birmingham Phoenix,70.0,40.0,40.0,3,3,70.0,40.0,142.0,144.2,5.8,6.0,144.0,52.63157894736842,Trent Rockets,Bowl,16.8,62.0,66.0,Trent Bridge,Balanced,0
+Southern Brave,Welsh Fire,50.0,20.0,100.0,1,2,60.0,0.0,136.0,139.0,7.4,6.8,141.0,60.0,Welsh Fire,Bowl,17.5,77.0,25.0,The Rose Bowl,Balanced,0
+Trent Rockets,Sunrisers Leeds,70.0,70.0,80.0,4,3,0.0,50.0,136.4,156.4,6.0,5.8,146.0,47.82608695652174,Trent Rockets,Bowl,18.5,89.0,72.0,Kennington Oval,Balanced,1
+MI London,Trent Rockets,80.0,70.0,0.0,4,4,100.0,40.0,173.6,136.4,4.4,6.0,136.0,47.368421052631575,Mi London,Bat,17.9,65.0,87.0,Lords,Balanced,0
+MI London,Birmingham Phoenix,80.0,40.0,0.0,4,2,90.0,33.33333333333333,149.5,133.0,6.5,7.25,151.0,42.857142857142854,Birmingham Phoenix,Bat,21.9,63.0,80.0,Kennington Oval,Balanced,0
+Southern Brave,London Spirit,50.0,30.0,50.0,3,2,60.0,33.33333333333333,0.0,0.0,0.0,0.0,145.0,61.53846153846154,London Spirit,Bat,17.4,81.0,25.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,Welsh Fire,30.0,20.0,0.0,3,3,30.0,50.0,0.0,0.0,0.0,0.0,130.0,41.66666666666667,Welsh Fire,Bowl,17.3,74.0,86.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds,Trent Rockets,70.0,70.0,0.0,0,2,60.0,100.0,141.0,165.2,8.2,5.8,155.0,72.72727272727273,Sunrisers Leeds,Bowl,14.6,80.0,80.0,Headingley,Balanced,1
+London Spirit,Birmingham Phoenix,30.0,40.0,0.0,1,2,50.0,66.66666666666666,140.4,133.8,8.2,8.0,137.0,40.0,Birmingham Phoenix,Bowl,19.9,63.0,6.0,Lords,Balanced,1
+Welsh Fire,MI London,20.0,80.0,0.0,3,5,20.0,100.0,0.0,0.0,0.0,0.0,132.0,75.0,Welsh Fire,Bowl,19.9,57.0,1.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants,Trent Rockets,30.0,70.0,0.0,2,3,30.0,100.0,0.0,0.0,0.0,0.0,126.0,46.15384615384615,Manchesters Super Giants,Bowl,18.1,66.0,3.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds,Southern Brave,70.0,50.0,0.0,0,3,60.0,0.0,0.0,0.0,0.0,0.0,157.0,75.0,Sunrisers Leeds,Bat,18.8,76.0,2.0,Headingley,Balanced,0
+Trent Rockets,Birmingham Phoenix,70.0,40.0,40.0,3,2,70.0,40.0,162.2,128.0,6.0,7.8,149.0,41.66666666666667,Trent Rockets,Bowl,21.5,73.0,25.0,Trent Bridge,Balanced,1
+London Spirit,Welsh Fire,30.0,20.0,33.33333333333333,1,3,50.0,0.0,128.4,121.4,8.2,4.4,136.0,45.45454545454545,London Spirit,Bowl,28.3,44.0,10.0,Lords,Balanced,0
+Manchesters Super Giants,Southern Brave,50.0,30.0,0.0,2,1,60.0,66.66666666666666,139.0,134.0,7.0,4.0,145.0,57.14285714285714,Manchesters Super Giants,Bowl,21.1,80.0,56.0,The Rose Bowl,Balanced,0
+MI London,Sunrisers Leeds,80.0,70.0,0.0,5,1,90.0,50.0,0.0,0.0,0.0,0.0,147.0,40.0,Mi London,Bowl,23.4,55.0,25.0,Kennington Oval,Balanced,1
+Birmingham Phoenix,Southern Brave,40.0,50.0,25.0,3,3,70.0,50.0,0.0,0.0,0.0,0.0,158.0,54.54545454545454,Birmingham Phoenix,Bowl,20.3,45.0,25.0,Edgbaston,Balanced,1
+Trent Rockets,Welsh Fire,70.0,20.0,100.0,3,3,70.0,50.0,154.4,110.6,6.6,5.0,148.0,46.15384615384615,Trent Rockets,Bowl,17.3,62.0,11.0,Trent Bridge,Balanced,1
+London Spirit,MI London,30.0,80.0,20.0,1,4,50.0,100.0,0.0,0.0,0.0,0.0,133.0,41.66666666666667,London Spirit,Bat,21.7,49.0,40.0,Lords,Balanced,1
+Manchesters Super Giants,Sunrisers Leeds,70.0,30.0,0.0,2,1,60.0,60.0,0.0,90.96800291545189,0.0,4.0471331389698735,156.0,69.23076923076923,Manchesters Super Giants,Bowl,18.5,69.0,95.0,Headingley,Balanced,1
+Welsh Fire,Southern Brave,20.0,50.0,0.0,3,3,20.0,80.0,0.0,90.96800291545189,0.0,4.0471331389698735,131.0,76.92307692307693,Welsh Fire,Bowl,18.9,90.0,80.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants,MI London,30.0,80.0,0.0,0,4,30.0,50.0,89.14267589388696,90.96800291545188,4.038119953863898,4.0471331389698735,128.0,50.0,Manchesters Super Giants,Bowl,20.4,50.0,25.0,Emirates Old Trafford,Balanced,1
+Birmingham Phoenix,Sunrisers Leeds,40.0,70.0,50.0,3,3,70.0,50.0,136.0,151.0,7.4,5.6,159.0,58.333333333333336,Sunrisers Leeds,Bat,18.3,62.0,3.0,Edgbaston,Balanced,0
+Trent Rockets,London Spirit,70.0,30.0,66.66666666666666,2,1,70.0,0.0,147.0,117.2,7.0,8.6,147.0,50.0,Trent Rockets,Bat,16.4,70.0,40.0,Trent Bridge,Balanced,0
+Sunrisers Leeds,Welsh Fire,20.0,70.0,0.0,2,3,20.0,100.0,112.2,145.2,7.4,6.6,131.0,78.57142857142857,Welsh Fire,Bowl,20.0,96.0,99.0,Sophia Gardens,Balanced,0
+MI London,Southern Brave,80.0,50.0,0.0,4,4,90.0,40.0,128.6,142.0,6.6,4.2,147.0,43.75,Mi London,Bowl,19.5,88.0,87.0,Kennington Oval,Balanced,0
+London Spirit,Manchesters Super Giants,30.0,30.0,66.66666666666666,1,0,50.0,25.0,124.4,132.0,8.6,7.0,134.0,46.15384615384615,Manchesters Super Giants,Bowl,20.9,58.0,2.0,Lords,Balanced,1
+Southern Brave,Trent Rockets,50.0,70.0,50.0,3,3,60.0,0.0,137.8,150.6,5.2,6.4,143.0,53.333333333333336,Trent Rockets,Bat,19.0,78.0,13.0,The Rose Bowl,Balanced,0
+Welsh Fire,Birmingham Phoenix,20.0,40.0,33.33333333333333,2,3,20.0,100.0,102.0,116.2,7.0,6.4,124.0,80.0,Welsh Fire,Bat,17.8,90.0,55.0,Sophia Gardens,Balanced,1
+MI London,London Spirit,80.0,30.0,0.0,4,1,90.0,20.0,134.0,121.4,7.0,7.8,145.0,41.17647058823529,Mi London,Bowl,27.0,55.0,13.0,Kennington Oval,Balanced,1
+Manchesters Super Giants,Sunrisers Leeds,30.0,70.0,0.0,1,3,30.0,50.0,141.8,136.0,6.4,6.2,130.0,53.333333333333336,Sunrisers Leeds,Bowl,24.8,54.0,4.0,Emirates Old Trafford,Balanced,1
+Birmingham Phoenix,Trent Rockets,40.0,70.0,40.0,4,2,70.0,20.0,128.2,138.8,5.4,7.0,153.0,53.84615384615385,Birmingham Phoenix,Bowl,19.8,78.0,45.0,Edgbaston,Balanced,0
+Sunrisers Leeds,London Spirit,70.0,30.0,0.0,4,1,60.0,50.0,139.6,115.2,5.2,8.4,157.0,64.28571428571429,Sunrisers Leeds,Bowl,17.5,85.0,60.0,Headingley,Balanced,0
+Southern Brave,Welsh Fire,50.0,20.0,100.0,4,1,60.0,0.0,134.0,113.8,5.2,8.2,142.0,50.0,Welsh Fire,Bat,20.6,81.0,14.0,The Rose Bowl,Balanced,0
+Trent Rockets,MI London,70.0,80.0,33.33333333333333,1,4,70.0,0.0,133.4,131.4,7.6,5.4,148.0,46.666666666666664,Mi London,Bat,17.2,84.0,40.0,Trent Bridge,Balanced,0
+Birmingham Phoenix,Manchesters Super Giants,40.0,30.0,0.0,4,1,70.0,50.0,126.0,143.4,4.8,6.2,151.0,50.0,Birmingham Phoenix,Bowl,18.3,90.0,92.0,Edgbaston,Balanced,1
+Birmingham Phoenix,Southern Brave,40.0,50.0,20.0,4,4,33.33333333333333,40.0,106.8,134.0,3.8,5.2,142.0,38.88888888888889,Birmingham Phoenix,Bowl,19.9,50.0,1.0,Kennington Oval,Balanced,1
+MI London,Southern Brave,80.0,50.0,0.0,4,4,100.0,50.0,140.25,138.25,4.25,5.75,134.0,50.0,Southern Brave,Bowl,20.9,59.0,1.0,Lords,Balanced,0
+Trent Rockets,Southern Brave,70.0,50.0,33.33333333333333,4,2,70.0,0.0,154.5,127.0,4.5,6.5,147.0,37.5,Southern Brave,Bowl,16.3,83.0,57.0,Trent Bridge,Balanced,0
+Manchesters Super Giants,Welsh Fire,20.0,30.0,0.0,1,3,20.0,33.33333333333333,0.0,0.0,0.0,0.0,138.0,77.77777777777779,Manchesters Super Giants,Bowl,18.8,85.0,10.0,Sophia Gardens,Balanced,0
+London Spirit,MI London,30.0,80.0,33.33333333333333,1,2,50.0,100.0,123.8,144.2,7.8,5.8,139.0,40.0,London Spirit,Bowl,16.8,87.0,10.0,Lords,Balanced,1
+Sunrisers Leeds,Birmingham Phoenix,70.0,40.0,0.0,3,3,60.0,50.0,149.6,133.4,6.0,7.4,160.0,62.5,Sunrisers Leeds,Bowl,18.5,73.0,81.0,Headingley,Balanced,0
+Southern Brave,Welsh Fire,50.0,20.0,75.0,2,1,60.0,0.0,128.0,123.8,6.8,6.0,143.0,66.66666666666666,Welsh Fire,Bowl,16.8,79.0,10.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,London Spirit,30.0,30.0,0.0,3,1,30.0,50.0,126.0,137.0,6.666666666666667,7.25,121.0,37.5,Manchesters Super Giants,Bowl,14.0,84.0,10.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix,Trent Rockets,40.0,70.0,75.0,3,4,70.0,20.0,0.0,0.0,0.0,0.0,161.0,62.5,Birmingham Phoenix,,11.5,92.0,94.0,Edgbaston,Balanced,0
+Southern Brave,Sunrisers Leeds,50.0,70.0,50.0,3,3,60.0,66.66666666666666,133.4,149.6,6.4,6.0,143.0,60.0,Sunrisers Leeds,Bowl,14.8,85.0,98.0,The Rose Bowl,Balanced,1
+MI London,Welsh Fire,80.0,20.0,0.0,2,1,90.0,0.0,142.2,127.0,6.6,5.8,140.0,55.55555555555556,Welsh Fire,Bat,14.2,84.0,10.0,Kennington Oval,Balanced,1
+Manchesters Super Giants,Birmingham Phoenix,30.0,40.0,0.0,3,3,30.0,33.33333333333333,126.0,148.0,6.666666666666667,6.75,123.0,44.44444444444444,Birmingham Phoenix,Bowl,15.5,66.0,49.0,Emirates Old Trafford,Balanced,0
+London Spirit,Southern Brave,30.0,50.0,50.0,1,2,50.0,50.0,125.6,135.2,7.8,7.2,138.0,50.0,London Spirit,Bowl,16.5,92.0,87.0,Lords,Balanced,1
+Trent Rockets,Sunrisers Leeds,70.0,70.0,100.0,4,4,70.0,33.33333333333333,0.0,0.0,0.0,0.0,145.0,33.33333333333333,Trent Rockets,Bowl,22.0,66.0,17.0,Trent Bridge,Balanced,1
+MI London,Manchesters Super Giants,80.0,30.0,0.0,2,3,90.0,25.0,137.5,112.0,6.5,7.0,140.0,60.0,Manchesters Super Giants,Bowl,20.5,69.0,15.0,Kennington Oval,Balanced,0
+Birmingham Phoenix,Welsh Fire,40.0,20.0,100.0,2,1,70.0,66.66666666666666,125.8,126.8,8.8,5.2,161.0,62.5,Birmingham Phoenix,Bat,22.6,76.0,25.0,Edgbaston,Balanced,1
+Sunrisers Leeds,MI London,70.0,80.0,0.0,4,3,60.0,33.33333333333333,155.8,144.6,5.4,6.4,151.0,66.66666666666666,Mi London,Bat,20.6,55.0,1.0,Headingley,Balanced,1
+London Spirit,Trent Rockets,30.0,70.0,0.0,1,3,50.0,40.0,0.0,0.0,0.0,0.0,123.0,57.14285714285714,Trent Rockets,Bowl,21.3,63.0,86.0,Lords,Balanced,0
+Welsh Fire,Southern Brave,20.0,50.0,20.0,2,2,20.0,80.0,127.2,135.2,5.2,7.2,138.0,77.77777777777779,Southern Brave,Bowl,17.3,87.0,90.0,Sophia Gardens,Balanced,1
+Sunrisers Leeds,Manchesters Super Giants,70.0,30.0,0.0,4,2,60.0,60.0,0.0,0.0,0.0,0.0,155.0,70.0,Manchesters Super Giants,Bat,17.3,71.0,80.0,Headingley,Balanced,1
+Birmingham Phoenix,MI London,40.0,80.0,100.0,2,3,70.0,0.0,120.8,156.8,8.4,6.6,155.0,66.66666666666666,Birmingham Phoenix,Bowl,17.4,67.0,80.0,Edgbaston,Balanced,0
+Welsh Fire,Trent Rockets,20.0,70.0,0.0,2,3,20.0,100.0,0.0,0.0,0.0,0.0,132.0,80.0,Welsh Fire,Bowl,15.0,86.0,64.0,Sophia Gardens,Balanced,1
+MI London,London Spirit,80.0,30.0,0.0,3,1,90.0,20.0,152.0,133.4,6.8,7.4,144.0,54.54545454545454,Mi London,Bat,20.3,72.0,5.0,Kennington Oval,Balanced,1
+Southern Brave,Birmingham Phoenix,50.0,40.0,66.66666666666666,2,2,60.0,0.0,125.0,119.6,6.6,8.8,148.0,63.63636363636363,Birmingham Phoenix,Bat,19.9,72.0,1.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,Trent Rockets,70.0,30.0,0.0,3,2,70.0,33.33333333333333,98.4518794053569,100.11540168448333,4.619617454825068,4.696676924738149,145.0,40.0,Trent Rockets,Bowl,15.6,82.0,3.0,Trent Bridge,Balanced,0
+London Spirit,Sunrisers Leeds,30.0,70.0,50.0,1,3,50.0,66.66666666666666,146.4,159.0,7.4,6.6,132.0,50.0,Sunrisers Leeds,Bowl,20.3,82.0,86.0,Lords,Balanced,0
+Trent Rockets,Birmingham Phoenix,70.0,40.0,20.0,2,2,70.0,40.0,157.6,128.4,6.2,8.4,148.0,45.45454545454545,Birmingham Phoenix,Bowl,22.9,60.0,40.0,Trent Bridge,Balanced,0
+Southern Brave,MI London,50.0,80.0,50.0,3,3,60.0,66.66666666666666,125.2,163.4,6.0,6.2,146.0,58.333333333333336,Mi London,Bat,18.0,84.0,1.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants,Sunrisers Leeds,30.0,70.0,0.0,3,2,30.0,50.0,140.0,161.4,6.8,6.4,126.0,40.0,Manchesters Super Giants,Bat,22.5,57.0,84.0,Emirates Old Trafford,Balanced,0
+Welsh Fire,London Spirit,20.0,30.0,50.0,1,2,20.0,33.33333333333333,126.8,150.6,6.6,7.4,134.0,81.81818181818183,Welsh Fire,Bat,18.3,80.0,85.0,Sophia Gardens,Balanced,0
+MI London,Trent Rockets,80.0,70.0,0.0,4,2,90.0,0.0,163.6,163.4,6.2,5.8,148.0,50.0,Trent Rockets,Bat,20.9,66.0,4.0,Kennington Oval,Balanced,0
+Sunrisers Leeds,Welsh Fire,70.0,20.0,0.0,1,2,60.0,66.66666666666666,137.8,119.8,7.8,6.0,155.0,70.0,Sunrisers Leeds,Bat,16.8,76.0,80.0,Headingley,Balanced,0
+Manchesters Super Giants,Southern Brave,30.0,50.0,0.0,4,3,30.0,100.0,155.8,126.0,7.2,5.4,130.0,36.36363636363637,Manchesters Super Giants,Bowl,19.0,82.0,86.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix,London Spirit,40.0,30.0,100.0,1,2,70.0,0.0,123.6,156.4,8.4,7.2,156.0,60.0,London Spirit,Bowl,16.0,76.0,80.0,Edgbaston,Balanced,0
+Manchesters Super Giants,Southern Brave,30.0,50.0,0.0,3,3,25.0,40.0,149.8,123.4,7.2,4.6,148.0,46.15384615384615,Manchesters Super Giants,Bowl,15.5,82.0,87.0,Kennington Oval,Balanced,0
+MI London,Manchesters Super Giants,80.0,30.0,0.0,4,4,100.0,25.0,0.0,0.0,0.0,0.0,135.0,44.44444444444444,Manchesters Super Giants,Bowl,16.9,63.0,40.0,Lords,Balanced,0
+Southern Brave,Welsh Fire,50.0,20.0,50.0,5,1,60.0,0.0,137.66666666666666,129.0,3.6666666666666665,8.0,139.0,100.0,Southern Brave,Bowl,17.2,10.0,2.0,The Rose Bowl,Balanced,0
+MI London,London Spirit,80.0,30.0,0.0,3,1,90.0,20.0,140.6,136.8,5.6,6.8,126.0,60.0,Mi London,Bowl,21.5,38.0,5.0,Kennington Oval,Balanced,1
+Manchesters Super Giants,Sunrisers Leeds,30.0,70.0,0.0,2,3,30.0,50.0,128.8,150.8,6.8,5.2,81.0,25.0,Sunrisers Leeds,Bowl,14.3,59.0,25.0,Emirates Old Trafford,Balanced,1
+Trent Rockets,Birmingham Phoenix,70.0,40.0,0.0,2,4,70.0,40.0,135.5,167.75,6.0,4.25,139.0,75.0,Trent Rockets,Bowl,21.2,33.0,9.0,Trent Bridge,Balanced,0
+Welsh Fire,MI London,20.0,80.0,0.0,1,2,20.0,100.0,129.2,149.2,7.4,6.2,154.0,75.0,Welsh Fire,Bowl,22.9,48.0,2.0,Sophia Gardens,Balanced,1
+London Spirit,Manchesters Super Giants,30.0,30.0,100.0,2,1,50.0,25.0,142.8,143.2,6.6,6.8,141.22429906542055,55.40358715134128,Manchesters Super Giants,Bat,24.9,41.0,3.0,Lords,Balanced,0
+Sunrisers Leeds,Trent Rockets,70.0,70.0,0.0,3,2,60.0,100.0,0.0,0.0,0.0,0.0,160.0,50.0,Trent Rockets,Bowl,22.0,42.0,2.0,Headingley,Balanced,1
+Birmingham Phoenix,Southern Brave,40.0,50.0,0.0,3,5,70.0,50.0,0.0,0.0,0.0,0.0,161.0,75.0,Southern Brave,Bowl,25.8,23.0,1.0,Edgbaston,Balanced,0
+MI London,Sunrisers Leeds,80.0,70.0,0.0,3,2,90.0,50.0,146.4,157.0,6.6,6.2,134.0,66.66666666666666,Mi London,Bowl,30.8,27.0,0.0,Kennington Oval,Balanced,0
+Southern Brave,London Spirit,50.0,30.0,100.0,4,3,60.0,33.33333333333333,0.0,0.0,0.0,0.0,132.0,80.0,London Spirit,Bat,24.3,53.0,0.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants,Trent Rockets,30.0,70.0,0.0,0,3,30.0,100.0,134.0,143.0,8.25,6.0,97.0,40.0,Trent Rockets,Bowl,31.6,27.0,3.0,Emirates Old Trafford,Balanced,0
+Welsh Fire,Birmingham Phoenix,20.0,40.0,0.0,1,3,20.0,100.0,0.0,0.0,0.0,0.0,155.0,80.0,Welsh Fire,Bowl,29.8,29.0,1.0,Sophia Gardens,Balanced,1
+Sunrisers Leeds,London Spirit,70.0,30.0,0.0,2,3,60.0,50.0,162.8,157.4,6.4,6.0,159.0,60.0,Sunrisers Leeds,Bat,30.8,22.0,3.0,Headingley,Balanced,1
+MI London,Southern Brave,80.0,50.0,0.0,3,3,90.0,40.0,0.0,103.44740481119986,0.0,4.755196523053665,137.0,57.14285714285714,Mi London,Bowl,27.9,33.0,2.0,Kennington Oval,Balanced,0
+Birmingham Phoenix,Trent Rockets,40.0,70.0,66.66666666666666,3,4,70.0,20.0,147.0,136.0,2.0,3.0,164.0,60.0,Birmingham Phoenix,Bowl,21.1,71.0,80.0,Edgbaston,Balanced,0
+Manchesters Super Giants,Welsh Fire,30.0,20.0,0.0,0,1,30.0,50.0,144.8,132.2,7.0,6.0,112.0,50.0,Welsh Fire,Bowl,16.8,79.0,88.0,Emirates Old Trafford,Balanced,0
+Trent Rockets,MI London,70.0,80.0,0.0,3,3,70.0,0.0,101.14650586910291,0.0,4.716117415726676,0.0,140.0,60.0,Mi London,Bowl,16.7,62.0,55.0,Trent Bridge,Balanced,0
+Manchesters Super Giants,Southern Brave,50.0,30.0,0.0,2,1,60.0,66.66666666666666,101.14650586910291,0.0,4.716117415726676,0.0,135.0,83.33333333333334,Manchesters Super Giants,Bowl,18.4,86.0,9.0,The Rose Bowl,Balanced,0
+Birmingham Phoenix,Sunrisers Leeds,40.0,70.0,100.0,3,1,70.0,50.0,101.14650586910292,0.0,4.716117415726676,0.0,160.0,50.0,Birmingham Phoenix,Bowl,16.1,60.0,3.0,Edgbaston,Balanced,1
+Trent Rockets,London Spirit,70.0,30.0,100.0,4,4,70.0,0.0,164.2,157.6,3.8,5.2,147.0,50.0,Trent Rockets,Bowl,20.0,49.0,25.0,Trent Bridge,Balanced,0
+Sunrisers Leeds,Manchesters Super Giants,70.0,30.0,0.0,2,2,60.0,60.0,156.6,159.0,6.0,5.8,156.0,66.66666666666666,Sunrisers Leeds,Bowl,16.2,64.0,25.0,Headingley,Balanced,1
+Welsh Fire,Southern Brave,20.0,50.0,33.33333333333333,1,1,20.0,80.0,123.8,125.4,7.0,6.8,150.0,83.33333333333334,Southern Brave,Bowl,19.3,80.0,55.0,Sophia Gardens,Balanced,1
+MI London,Birmingham Phoenix,80.0,40.0,0.0,3,3,90.0,33.33333333333333,156.4,147.0,5.4,6.0,137.0,50.0,Birmingham Phoenix,Bowl,21.6,79.0,11.0,Kennington Oval,Balanced,1
+London Spirit,Welsh Fire,30.0,20.0,0.0,4,0,50.0,0.0,149.4,116.6,6.2,7.2,160.0,0.0,Welsh Fire,Bowl,25.0,56.0,40.0,Lords,Balanced,0
+Southern Brave,Trent Rockets,50.0,70.0,50.0,1,4,60.0,0.0,130.0,160.2,6.8,3.8,142.0,85.71428571428571,Southern Brave,Bowl,19.0,96.0,80.0,The Rose Bowl,Balanced,0
+Sunrisers Leeds,Welsh Fire,20.0,70.0,0.0,0,1,20.0,100.0,144.4,165.8,7.0,6.2,147.0,85.71428571428571,Welsh Fire,Bat,16.5,79.0,15.0,Sophia Gardens,Balanced,0
+London Spirit,MI London,30.0,80.0,50.0,4,3,50.0,100.0,146.4,154.0,6.2,5.6,158.0,0.0,London Spirit,Bat,16.9,74.0,6.0,Lords,Balanced,1
+Birmingham Phoenix,Manchesters Super Giants,40.0,30.0,0.0,4,3,70.0,50.0,151.6,168.4,5.8,6.0,162.0,57.14285714285714,Manchesters Super Giants,Bat,18.3,54.0,6.0,Edgbaston,Balanced,1
+Trent Rockets,Welsh Fire,70.0,20.0,100.0,3,0,70.0,50.0,156.8,122.0,4.4,7.2,143.0,42.857142857142854,Welsh Fire,Bowl,15.6,58.0,40.0,Trent Bridge,Balanced,0
+London Spirit,Birmingham Phoenix,30.0,40.0,0.0,3,3,50.0,66.66666666666666,138.8,131.4,6.4,7.0,146.0,33.33333333333333,Birmingham Phoenix,Bowl,21.1,50.0,16.0,Lords,Balanced,1
+Sunrisers Leeds,Southern Brave,70.0,50.0,0.0,2,2,60.0,0.0,154.0,133.8,5.8,5.6,163.0,71.42857142857143,Sunrisers Leeds,Bowl,19.1,42.0,5.0,Headingley,Balanced,0
+Manchesters Super Giants,MI London,30.0,80.0,0.0,4,3,30.0,50.0,177.6,147.2,5.2,5.4,118.0,42.857142857142854,Mi London,Bat,16.2,57.0,3.0,Emirates Old Trafford,Balanced,0
+Manchesters Super Giants,London Spirit,30.0,30.0,0.0,5,2,66.66666666666666,33.33333333333333,168.6,137.2,5.4,6.4,142.0,75.0,Manchesters Super Giants,Bat,20.3,68.0,25.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,Trent Rockets,70.0,30.0,0.0,3,5,40.0,25.0,151.6,154.6,6.0,6.6,144.0,50.0,Manchesters Super Giants,Bat,19.5,65.0,46.0,Lords,Balanced,0
+MI London,Manchesters Super Giants,80.0,30.0,0.0,0,0,90.0,25.0,106.6832883100107,106.23749233896457,4.838604465462704,4.78972644613401,146.0,56.52173913043478,Manchesters Super Giants,Bowl,19.583823529411767,61.0,30.830882352941178,Kennington Oval,Balanced,0
+Birmingham Phoenix,London Spirit,40.0,30.0,0.0,0,0,70.0,0.0,106.6832883100107,106.23749233896456,4.838604465462704,4.78972644613401,153.0,38.095238095238095,Birmingham Phoenix,Bowl,19.583823529411767,73.0,30.83088235294117,Edgbaston,Balanced,0
+Trent Rockets,Southern Brave,70.0,50.0,0.0,0,0,70.0,0.0,106.6832883100107,106.23749233896457,4.838604465462704,4.789726446134009,162.0,41.935483870967744,Southern Brave,Bat,19.583823529411767,81.0,55.0,Trent Bridge,Balanced,0
+Sunrisers Leeds,Welsh Fire,70.0,20.0,0.0,0,0,60.0,66.66666666666666,106.6832883100107,106.23749233896457,4.838604465462704,4.78972644613401,183.0,23.076923076923077,Sunrisers Leeds,Bowl,19.583823529411767,66.06474820143885,31.00476089716462,Headingley,Balanced,0
+London Spirit,MI London,30.0,80.0,0.0,0,1,50.0,100.0,106.6832883100107,106.23749233896457,4.838604465462704,4.78972644613401,167.0,28.57142857142857,London Spirit,Bowl,19.583823529411767,82.0,31.00476089716462,Lords,Balanced,0
+Manchesters Super Giants,Birmingham Phoenix,30.0,40.0,0.0,0,1,30.0,33.33333333333333,106.6832883100107,106.23749233896459,4.838604465462704,4.78972644613401,156.0,57.14285714285714,Birmingham Phoenix,Bat,19.583823529411767,82.0,25.0,Emirates Old Trafford,Balanced,0
+Trent Rockets,Sunrisers Leeds,70.0,70.0,0.0,1,0,70.0,33.33333333333333,106.6832883100107,106.23749233896459,4.838604465462704,4.789726446134009,162.0,41.935483870967744,Sunrisers Leeds,Bat,19.583823529411767,66.28918836761576,30.962473848593035,Trent Bridge,Balanced,0
+Welsh Fire,Southern Brave,20.0,50.0,0.0,1,0,20.0,80.0,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,149.0,40.0,Southern Brave,Bowl,19.583823529411767,77.0,60.0,Sophia Gardens,Balanced,0
+Manchesters Super Giants,Sunrisers Leeds,30.0,70.0,0.0,1,0,30.0,50.0,106.68328831001071,106.23749233896456,4.838604465462705,4.78972644613401,156.0,57.14285714285714,Manchesters Super Giants,,19.583823529411763,87.0,69.0,Emirates Old Trafford,Balanced,0
+London Spirit,Trent Rockets,30.0,70.0,0.0,0,2,50.0,40.0,106.6832883100107,106.23749233896456,4.838604465462705,4.78972644613401,167.0,28.57142857142857,London Spirit,Bowl,19.583823529411767,87.0,31.42506041619865,Lords,Balanced,1
+Southern Brave,Birmingham Phoenix,50.0,40.0,0.0,0,1,60.0,0.0,106.6832883100107,106.23749233896457,4.838604465462705,4.789726446134009,167.0,36.36363636363637,Southern Brave,Bowl,19.583823529411763,77.0,69.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,Welsh Fire,20.0,30.0,0.0,2,1,20.0,33.33333333333333,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,149.0,40.0,Welsh Fire,Bat,19.583823529411767,38.0,31.680672250102063,Sophia Gardens,Balanced,0
+Sunrisers Leeds,MI London,70.0,80.0,0.0,0,1,60.0,33.33333333333333,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,183.0,23.076923076923077,Mi London,Bat,19.583823529411767,90.0,61.0,Headingley,Balanced,0
+Birmingham Phoenix,Trent Rockets,40.0,70.0,0.0,1,3,70.0,20.0,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,153.0,38.095238095238095,Birmingham Phoenix,Bowl,19.58382352941177,75.0,65.0,Edgbaston,Balanced,0
+London Spirit,Southern Brave,30.0,50.0,0.0,0,1,50.0,50.0,106.6832883100107,106.23749233896459,4.838604465462705,4.789726446134009,167.0,28.57142857142857,London Spirit,Bowl,19.583823529411767,79.0,69.0,Lords,Balanced,1
+MI London,Welsh Fire,80.0,20.0,0.0,1,2,90.0,0.0,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,146.0,56.52173913043478,Mi London,Bowl,19.58382352941177,76.0,72.0,Kennington Oval,Balanced,0
+London Spirit,Sunrisers Leeds,30.0,70.0,0.0,0,1,50.0,66.66666666666666,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,167.0,28.57142857142857,Sunrisers Leeds,Bat,19.583823529411767,81.0,51.0,Lords,Balanced,1
+Birmingham Phoenix,MI London,40.0,80.0,0.0,2,2,70.0,0.0,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,153.0,38.095238095238095,Birmingham Phoenix,Bowl,19.583823529411763,60.0,42.0,Edgbaston,Balanced,0
+Manchesters Super Giants,Southern Brave,30.0,50.0,0.0,2,2,30.0,100.0,106.68328831001068,106.23749233896457,4.838604465462705,4.78972644613401,156.0,57.14285714285714,Manchesters Super Giants,Bowl,19.583823529411767,87.0,34.0,Emirates Old Trafford,Balanced,0
+Welsh Fire,Trent Rockets,20.0,70.0,0.0,2,3,20.0,100.0,106.68328831001071,106.23749233896459,4.838604465462705,4.78972644613401,149.0,40.0,Trent Rockets,Bowl,19.583823529411763,54.0,40.0,Sophia Gardens,Balanced,1
+Southern Brave,Sunrisers Leeds,50.0,70.0,0.0,2,2,60.0,66.66666666666666,106.68328831001068,106.23749233896459,4.838604465462705,4.78972644613401,167.0,36.36363636363637,Sunrisers Leeds,Bat,19.583823529411767,82.0,55.0,The Rose Bowl,Balanced,0
+MI London,Trent Rockets,80.0,70.0,0.0,2,4,90.0,0.0,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,146.0,56.52173913043478,Trent Rockets,Bowl,19.583823529411763,67.06594864056723,25.0,Kennington Oval,Balanced,0
+Birmingham Phoenix,Welsh Fire,40.0,20.0,0.0,3,2,70.0,66.66666666666666,106.68328831001068,106.2374923389646,4.838604465462705,4.78972644613401,145.0,83.33333333333334,Welsh Fire,Bowl,19.583823529411767,79.0,67.0,Edgbaston,Balanced,0
+Manchesters Super Giants,London Spirit,30.0,30.0,0.0,2,0,30.0,50.0,106.6832883100107,106.2374923389646,4.838604465462705,4.78972644613401,156.0,57.14285714285714,Manchesters Super Giants,Bat,19.583823529411767,76.0,60.0,Emirates Old Trafford,Balanced,1
+Southern Brave,Welsh Fire,50.0,20.0,0.0,3,1,60.0,0.0,106.6832883100107,106.23749233896456,4.838604465462705,4.78972644613401,167.0,36.36363636363637,Southern Brave,Bowl,19.583823529411767,83.0,25.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants,Sunrisers Leeds,70.0,30.0,0.0,2,2,60.0,60.0,106.6832883100107,106.23749233896456,4.838604465462705,4.78972644613401,183.0,23.076923076923077,Manchesters Super Giants,Bowl,19.583823529411767,77.0,42.0,Headingley,Balanced,1
+Trent Rockets,Birmingham Phoenix,70.0,40.0,0.0,3,3,70.0,40.0,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,162.0,41.935483870967744,Trent Rockets,Bowl,19.58382352941177,59.0,33.313206747006824,Trent Bridge,Balanced,1
+MI London,London Spirit,80.0,30.0,0.0,3,1,90.0,20.0,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,146.0,56.52173913043478,London Spirit,Bat,19.583823529411767,92.0,33.313206747006824,Kennington Oval,Balanced,1
+Manchesters Super Giants,Trent Rockets,70.0,30.0,0.0,2,2,70.0,33.33333333333333,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,139.0,50.0,Manchesters Super Giants,Bat,19.58382352941177,84.0,47.0,Trent Bridge,Balanced,0
+Southern Brave,MI London,50.0,80.0,0.0,4,3,60.0,66.66666666666666,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,134.0,83.33333333333334,Southern Brave,Bowl,19.583823529411767,31.0,33.39615700914618,The Rose Bowl,Balanced,0
+Sunrisers Leeds,Birmingham Phoenix,70.0,40.0,0.0,3,4,60.0,50.0,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,144.0,42.857142857142854,Birmingham Phoenix,Bowl,19.58382352941177,78.0,25.0,Headingley,Balanced,1
+Welsh Fire,London Spirit,20.0,30.0,0.0,0,1,20.0,33.33333333333333,106.6832883100107,106.23749233896459,4.838604465462705,4.78972644613401,131.0,83.33333333333334,Welsh Fire,Bowl,19.583823529411767,35.0,33.345880619869845,Sophia Gardens,Balanced,0
+Southern Brave,Trent Rockets,50.0,70.0,0.0,5,2,40.0,0.0,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,131.0,50.0,Southern Brave,Bowl,19.583823529411767,74.0,69.0,Kennington Oval,Balanced,0
+Birmingham Phoenix,Southern Brave,40.0,50.0,0.0,5,5,66.66666666666666,50.0,106.6832883100107,106.23749233896457,4.838604465462705,4.78972644613401,116.0,37.5,Birmingham Phoenix,Bowl,19.583823529411767,77.0,25.0,Lords,Balanced,1
