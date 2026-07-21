@@ -246,7 +246,7 @@ def recent_form(script):
 
 
 
-def link(word, script, flag=0):
+def link(word, script flag=0):
     index = script.find(word) + 4
     if word == "t1f":
         last_index = script.find("t2f:")
@@ -444,8 +444,8 @@ def wicket_lost(team_names, script, df):
 
     except ValueError:
 
-        links1, match_hashcodes1 = link("t1f:",script,"front")
-        links2, match_hashcodes2  = link("t2f:",script,"front")
+        links1, match_hashcodes1 = link("t1f:", script, "front")
+        links2, match_hashcodes2  = link("t2f:", script,"front")
 
         print(links1)
         print(links2)
