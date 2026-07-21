@@ -13,6 +13,9 @@ from sklearn.model_selection import train_test_split
 app = Flask(__name__)
 
 
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
 
 
 df_LPL = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
@@ -324,7 +327,7 @@ def link(word, script, flag=0):
     links = []
     new_match_codes = []
     for n,c in zip(match_nos,match_codes):
-        l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
+        l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details", headers=headers, timeout=20)
         l_soup = BeautifulSoup(l_r.text, 'html.parser')
         l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
         if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
@@ -332,7 +335,7 @@ def link(word, script, flag=0):
             print(c)
             new_match_codes.append(c)
         else:
-            l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details")
+            l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details", headers=headers, timeout=20)
             l_soup = BeautifulSoup(l_r.text, 'html.parser')
             l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
             if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
@@ -861,8 +864,8 @@ def cricket_predictor():
         script = str(soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "").replace("&s;", "")
 
 
-        with open("hello.json", "w", encoding="utf-8") as f:
-            f.write(str(script)) 
+        # with open("hello.json", "w", encoding="utf-8") as f:
+        #     f.write(str(script)) 
 
 
         toss_win, toss_decision = toss(script, soup)
