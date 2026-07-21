@@ -50,37 +50,37 @@ model_LPL.fit(
 
 
 
-df_ML = pd.read_csv("static/data/Major league.csv").dropna()
+# df_ML = pd.read_csv("static/data/Major league.csv").dropna()
 
-X_ML = df_ML.drop(columns="win")
-y_ML = df_ML["win"]
+# X_ML = df_ML.drop(columns="win")
+# y_ML = df_ML["win"]
 
-X_ML_train, X_ML_test, y_ML_train, y_ML_test = train_test_split(
-    X_ML, y_ML, test_size=0.2, random_state=42
-)
+# X_ML_train, X_ML_test, y_ML_train, y_ML_test = train_test_split(
+#     X_ML, y_ML, test_size=0.2, random_state=42
+# )
 
-model_ML = CatBoostClassifier(
-    iterations=1000,
-    learning_rate=0.01,
-    depth=3,
-    loss_function="MultiClass",
-    cat_features=[
-        "team1",
-        "team2",
-        "toss_winner",
-        "toss_decision",
-        "venue",
-        "pitch_type"
-    ],
-    eval_metric="Accuracy",
-    use_best_model=True
-)
+# model_ML = CatBoostClassifier(
+#     iterations=1000,
+#     learning_rate=0.01,
+#     depth=3,
+#     loss_function="MultiClass",
+#     cat_features=[
+#         "team1",
+#         "team2",
+#         "toss_winner",
+#         "toss_decision",
+#         "venue",
+#         "pitch_type"
+#     ],
+#     eval_metric="Accuracy",
+#     use_best_model=True
+# )
 
-model_ML.fit(
-    X_ML_train,
-    y_ML_train,
-    eval_set=(X_ML_test, y_ML_test)
-)
+# model_ML.fit(
+#     X_ML_train,
+#     y_ML_train,
+#     eval_set=(X_ML_test, y_ML_test)
+# )
 
 df_HL = pd.read_csv("static/data/Hundred League.csv").dropna()
 
@@ -1107,10 +1107,10 @@ def cricket_predictor():
 
 
         if league != "add":
-            if league == "Major league":
-                prediction = model_ML.predict(input_data)
-                confidence = round(prediction[0][0] * 100, 2)
-            elif league == "Lanka Premier League":
+            # if league == "Major league":
+            #     prediction = model_ML.predict(input_data)
+            #     confidence = round(prediction[0][0] * 100, 2)
+            if league == "Lanka Premier League":
                 prediction = model_LPL.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
             elif league == "Hundred League":
