@@ -13,9 +13,6 @@ from sklearn.model_selection import train_test_split
 app = Flask(__name__)
 
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
-}
 
 
 df_LPL = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
@@ -23,63 +20,67 @@ df_LPL = pd.read_csv("static/data/Lanka Premier League.csv").dropna()
 X_LPL = df_LPL.drop(columns="win")
 y_LPL = df_LPL["win"]
 
-X_LPL_train, X_LPL_test, y_LPL_train, y_LPL_test = train_test_split(X_LPL, y_LPL, test_size=0.2, random_state=42)
+X_LPL_train, X_LPL_test, y_LPL_train, y_LPL_test = train_test_split(
+    X_LPL, y_LPL, test_size=0.2, random_state=42
+)
 
 model_LPL = CatBoostClassifier(
     iterations=1000,
     learning_rate=0.01,
     depth=3,
     loss_function="MultiClass",
-    cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"],
+    cat_features=[
+        "team1",
+        "team2",
+        "toss_winner",
+        "toss_decision",
+        "venue",
+        "pitch_type"
+    ],
     eval_metric="Accuracy",
     use_best_model=True
-    )
+)
 
-model_LPL.fit(X_LPL_train, y_LPL_train, eval_set=(X_LPL_test, y_LPL_test))
-
-
-
-
-
-# df_ML = pd.read_csv("static/data/Major league.csv").dropna()
-
-# X_ML = df_ML.drop(columns="win")
-# y_ML = df_ML["win"]
-
-# X_ML_train, X_ML_test, y_ML_train, y_ML_test = train_test_split(X_ML, y_ML, test_size=0.2, random_state=42)
-
-# model_ML = CatBoostClassifier(
-#     iterations=1000,
-#     learning_rate=0.01,
-#     depth=3,
-#     loss_function="MultiClass",
-#     cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"],
-#     eval_metric="Accuracy",
-#     use_best_model=True
-#     )
-
-# model_ML.fit(X_ML_train, y_ML_train, eval_set=(X_ML_test, y_ML_test))
+model_LPL.fit(
+    X_LPL_train,
+    y_LPL_train,
+    eval_set=(X_LPL_test, y_LPL_test)
+)
 
 
 
-df_HL = pd.read_csv("static/data/Hundred League.csv").dropna()
 
-X_HL = df_HL.drop(columns="win")
-y_HL = df_HL["win"]
+df_ML = pd.read_csv("static/data/Major league.csv").dropna()
 
-X_HL_train, X_HL_test, y_HL_train, y_HL_test = train_test_split(X_HL, y_HL, test_size=0.2, random_state=42)
+X_ML = df_ML.drop(columns="win")
+y_ML = df_ML["win"]
 
-model_HL = CatBoostClassifier(
+X_ML_train, X_ML_test, y_ML_train, y_ML_test = train_test_split(
+    X_ML, y_ML, test_size=0.2, random_state=42
+)
+
+model_ML = CatBoostClassifier(
     iterations=1000,
     learning_rate=0.01,
     depth=3,
     loss_function="MultiClass",
-    cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"],
+    cat_features=[
+        "team1",
+        "team2",
+        "toss_winner",
+        "toss_decision",
+        "venue",
+        "pitch_type"
+    ],
     eval_metric="Accuracy",
     use_best_model=True
-    )
+)
 
-model_HL.fit(X_HL_train, y_HL_train, eval_set=(X_HL_test, y_HL_test))
+model_ML.fit(
+    X_ML_train,
+    y_ML_train,
+    eval_set=(X_ML_test, y_ML_test)
+)
 
 
 
@@ -275,8 +276,6 @@ def link(word, script, flag=0):
     for mc in match_hash_codes:
         if "Semi Final " in mc:
             new_match_hash_codes.append(mc.replace("Semi Final ", ""))
-        elif "Eliminator" in mc:
-            new_match_hash_codes.append(mc.replace("Eliminator", ""))
         else:
             new_match_hash_codes.append(mc)
 
@@ -308,46 +307,20 @@ def link(word, script, flag=0):
             break
 
 
-    # if flag == "back":
-    #     new_match_codes = []
-    #     for code in match_codes:
-    #         if len(code) == 4:
-    #             new_match_codes.append(code[:-1])
-    #         else:
-    #             new_match_codes.append(code)
-    # elif flag == "front":
-    #     new_match_codes = []
-    #     for code in match_codes:
-    #         if len(code) == 4:
-    #             new_match_codes.append(code[1:])
-    #         else:
-    #             new_match_codes.append(code)
-    #     match_codes = new_match_codes
-
-    links = []
-    new_match_codes = []
-    for n,c in zip(match_nos,match_codes):
-        l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details", headers=headers, timeout=20)
-        l_soup = BeautifulSoup(l_r.text, 'html.parser')
-        l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
-        if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
-            links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
-            print(c)
-            new_match_codes.append(c)
-        else:
-            l_r = requests.get(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details", headers=headers, timeout=20)
-            l_soup = BeautifulSoup(l_r.text, 'html.parser')
-            l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
-            if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
-                links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details")
-                print(c[1:])
-                new_match_codes.append(c[1:])
+    if flag != 0:
+        new_match_codes = []
+        for code in match_codes:
+            if len(code) == 4:
+                new_match_codes.append(code[:-1])
             else:
-                links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[:-1]}/match-details")
-                print(c[:-1])
-                new_match_codes.append(c[:-1])
+                new_match_codes.append(code)
+        match_codes = new_match_codes
 
-    return links, new_match_codes
+    print(match_codes)
+    links = []
+    for n,c in zip(match_nos,match_codes):
+        links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
+    return links, match_codes
 
 
 
@@ -447,13 +420,10 @@ def wicket_lost(team_names, script, df):
 
     except ValueError:
 
-        links1, match_hashcodes1 = link("t1f:", script, "front")
-        links2, match_hashcodes2  = link("t2f:", script,"front")
+        links1, match_hashcodes1 = link("t1f:",script, 1)
+        links2, match_hashcodes2  = link("t2f:",script, 1)
 
-        print(links1)
-        print(links2)
         if len(match_hashcodes1) > len(match_hashcodes2):
-            print("hello")
             links1 = []
             links2 = []
             for match_hashcode in match_hashcodes2:
@@ -465,7 +435,6 @@ def wicket_lost(team_names, script, df):
                         links2.append(f"https://crex.com/cricket-live-score/lakr-vs-so-9th-match-major-league-cricket-2026-match-updates-{code}/match-details")
 
         elif len(match_hashcodes1) < len(match_hashcodes2):
-            print("hello")
             links2 = []
             links1 = []
             for match_hashcode in match_hashcodes1:
@@ -505,10 +474,6 @@ def wicket_lost(team_names, script, df):
                 coma_index_1 = modi_script1.find(",")
                 score1 = modi_script1[:coma_index_1]
                 score1_index = score1.find("-") + 1
-                with open("hello.json", "w",encoding="utf-8") as f:
-                    f.write(new_script1)
-                print(lk1)
-                print(score1[:score1_index - 1])
                 run = float(score1[:score1_index - 1])
                 wicket = float(score1[score1_index:])
                 team1_runs.append(run)
@@ -568,6 +533,7 @@ def wicket_lost(team_names, script, df):
         t2_avg_runs = df["team2_avg_runs_last_5"].mean()
 
     return t1_avg_wl, t2_avg_wl, t1_avg_runs, t2_avg_runs
+
 
 # team1_avg_wickets, team2_avg_wickets = wicket_lost()
 
@@ -653,35 +619,23 @@ def toss(script, soup):
 
 
 
-def temperature(script, df):
+def temperature(script):
     index = script.find("crT:")
     text = script[index + 4:]
     last_index = text.find("˚")
-    try:
-        temp = float(text[:last_index])
-    except ValueError:
-        temp = df["temperature"].mean()
-    return temp
+    return float(text[:last_index])
 
 
 
-def humidity(script, df):
+def humidity(script):
     index = script.find("hum:")
-    try:
-        hum = float(script[index + 4:index + 6])
-    except ValueError:
-        hum = df["humidity"].mean()
-    return hum
+    return float(script[index + 4:index + 6])
 
 
 
-def rain_prob(script, df):
+def rain_prob(script):
     index = script.find("rP:")
-    try:
-        rain_p = float(script[index + 3:index + 5])
-    except ValueError:
-        rain_p = df["rain_probability"].mean()
-    return rain_p
+    return float(script[index + 3:index + 5])
 
 
 
@@ -693,26 +647,8 @@ def venue(script):
 
     if "Cricket" in venue_name:
         venue_name = venue_name.replace("Cricket", "").replace("  ", " ")
-    if "Hambantota" in venue_name:
+    elif "Hambantota" in venue_name:
         venue_name = venue_name.replace(" Hambantota","")
-    if " Lords Ground" in venue_name:
-        venue_name = venue_name.replace(" Lords Ground","Lords Ground")
-    if "Lords" == venue_name:
-        venue_name = "Lords Ground"
-    if "Manchester" in venue_name:
-        venue_name = venue_name.replace("Manchester","").replace("  ", "")[:-1]
-    if "Ground" in venue_name:
-        venue_name = venue_name.replace("Ground","").replace(" ", "")
-    if "London" in venue_name:
-        venue_name = venue_name.replace("London","")[:-1]
-    if "Cardiff" in venue_name:
-        venue_name = venue_name.replace("Cardiff","")[:-2]
-    if "Southampton" in venue_name:
-        venue_name = venue_name.replace("Southampton","")[:-1]
-    if "Sophia Garden" == venue_name:
-        venue_name = "Sophia Gardens"
-
-    print(venue_name)
 
     return venue_name
 
@@ -781,11 +717,6 @@ def win(script, team_names):
     last_index = modi_script.find(" won ")
     winner = modi_script[:last_index]
 
-    if winner == "Oval Invincibles":
-        winner = "MI London"
-    elif winner == "Northern Superchargers":
-        winner = "Sunrisers Leeds"
-
 
     team1 = team_names[0].upper()
     team2 = team_names[2].upper()
@@ -802,6 +733,7 @@ def win(script, team_names):
         winner = team1
     else:
         winner = team2
+        
 
     if winner == team1:
         return 0
@@ -859,13 +791,9 @@ def cricket_predictor():
 
         url = f"https://crex.com/cricket-live-score/miny-vs-tsk-7th-match-major-league-cricket-2026-match-updates-{code}/match-details"
 
-        r = requests.get(url, headers=headers, timeout=20)
+        r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
-        script = str(soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "").replace("&s;", "")
-
-
-        # with open("hello.json", "w", encoding="utf-8") as f:
-        #     f.write(str(script)) 
+        script = str(soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
 
 
         toss_win, toss_decision = toss(script, soup)
@@ -906,10 +834,7 @@ def cricket_predictor():
 
         venue_name = venue(script)
 
-        winner = win(script, team_names)
-        print(winner)
-
-        if league in ["Lanka Premier League", "Major league", "Hundred League"]:
+        if league in ["Lanka Premier League", "Major league"]:
             try:
                 match_data = {
                     "team1": team_names[0],
@@ -929,9 +854,9 @@ def cricket_predictor():
                     "chasing_success_rate": chase_rate,
                     "toss_winner": toss_win,
                     "toss_decision": toss_decision,
-                    "temperature": temperature(script, df),
-                    "humidity": humidity(script, df),
-                    "rain_probability": rain_prob(script, df),
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
                     "venue": venue_name,
                     "pitch_type": pitch_type(script)
                 }
@@ -954,9 +879,9 @@ def cricket_predictor():
                     "chasing_success_rate": chase_rate,
                     "toss_winner": toss_win,
                     "toss_decision": toss_decision,
-                    "temperature": temperature(script, df),
-                    "humidity": humidity(script, df),
-                    "rain_probability": rain_prob(script, df),
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
                     "venue": venue_name,
                     "pitch_type": pitch_type(script)
                 }
@@ -997,9 +922,9 @@ def cricket_predictor():
                     "chasing_success_rate": chase_rate,
                     "toss_winner": toss_win,
                     "toss_decision": toss_decision,
-                    "temperature": temperature(script, df),
-                    "humidity": humidity(script, df),
-                    "rain_probability": rain_prob(script, df),
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
                     "venue": venue_name,
                     "pitch_type": pitch_type(script),
                     "win": win(script, team_names)
@@ -1023,9 +948,9 @@ def cricket_predictor():
                     "chasing_success_rate": chase_rate,
                     "toss_winner": toss_win,
                     "toss_decision": toss_decision,
-                    "temperature": temperature(script, df),
-                    "humidity": humidity(script, df),
-                    "rain_probability": rain_prob(script, df),
+                    "temperature": temperature(script),
+                    "humidity": humidity(script),
+                    "rain_probability": rain_prob(script),
                     "venue": venue_name,
                     "pitch_type": pitch_type(script),
                     "win": win(script, team_names)
@@ -1080,15 +1005,11 @@ def cricket_predictor():
 
 
         if league != "add":
-            # if league == "Major league":
-            #     prediction = model_ML.predict(input_data)
-            #     confidence = round(prediction[0][0] * 100, 2)
-            if league == "Lanka Premier League":
-                prediction = model_LPL.predict(input_data)
+            if league == "Major league":
+                prediction = model_ML.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
-            elif league == "Hundred League":
-                input_data.to_csv("input_data.csv", index=False)
-                prediction = model_HL.predict(input_data)
+            elif league == "Lanka Premier League":
+                prediction = model_LPL.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
 
 
