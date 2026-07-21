@@ -82,7 +82,7 @@ model_ML.fit(
     eval_set=(X_ML_test, y_ML_test)
 )
 
-df_HL = pd.read_csv("static/data/Hundred league.csv").dropna()
+df_HL = pd.read_csv("static/data/Hundred League.csv").dropna()
 
 X_HL = df_HL.drop(columns="win")
 y_HL = df_HL["win"]
