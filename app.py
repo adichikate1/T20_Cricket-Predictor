@@ -328,7 +328,7 @@ def link(word, script, flag=0):
         l_soup = BeautifulSoup(l_r.text, 'html.parser')
         l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
         print(l_script)
-        if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.32.5,cookies:system-theme=,embedId:}}<script>':
+        if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
             links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c}/match-details")
             print(c)
             new_match_codes.append(c)
@@ -337,7 +337,7 @@ def link(word, script, flag=0):
             l_soup = BeautifulSoup(l_r.text, 'html.parser')
             l_script = str(l_soup.find("script",{"id": "app-root-state"})).replace("&q;", "").replace("&a;", "").replace("/", "")
             print(l_script)
-            if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.32.5,cookies:system-theme=,embedId:}}<script>':
+            if l_script != '<script id="app-root-state" type="applicationjson">{ssr-bootstrap-v1:{theme:light,isMobile:false,baseHref:,platform:web,userAgent:python-requests2.34.2,cookies:system-theme=,embedId:}}<script>':
                 links.append(f"https://crex.com/cricket-live-score/lakr-vs-so-{n}th-match-major-league-cricket-2026-match-updates-{c[1:]}/match-details")
                 print(c[1:])
                 new_match_codes.append(c[1:])
