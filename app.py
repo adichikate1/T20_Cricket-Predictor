@@ -246,7 +246,7 @@ def recent_form(script):
 
 
 
-def link(word, script flag=0):
+def link(word, script, flag=0):
     index = script.find(word) + 4
     if word == "t1f":
         last_index = script.find("t2f:")
