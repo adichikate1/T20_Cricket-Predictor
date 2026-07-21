@@ -538,8 +538,8 @@ def wicket_lost(team_names, script, df):
                 coma_index_1 = modi_script1.find(",")
                 score1 = modi_script1[:coma_index_1]
                 score1_index = score1.find("-") + 1
-                with open("hello.json", "w",encoding="utf-8") as f:
-                    f.write(new_script1)
+                # with open("hello.json", "w",encoding="utf-8") as f:
+                #     f.write(new_script1)
                 print(lk1)
                 print(score1[:score1_index - 1])
                 run = float(score1[:score1_index - 1])
