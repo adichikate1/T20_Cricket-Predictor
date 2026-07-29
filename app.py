@@ -91,6 +91,8 @@ def find_team_name(script,flag=0):
 
 
     script_index = script.find("https:api.goscorer.comapiv3getSV3")
+    if script_index == -1:
+        script_index = script.find("apiphpgetSV3")
     modi_script = script[script_index:]
     start_index = modi_script.find("team1:")
     last_index = modi_script.find("team2short:") + 15
