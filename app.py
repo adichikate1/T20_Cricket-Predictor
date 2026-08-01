@@ -391,8 +391,8 @@ def link(word, script, flag=0):
 
 
 def wicket_lost(team_names, script, df):
-    links1, match_hashcodes1 = link("t1f:")
-    links2, match_hashcodes2  = link("t2f:")
+    links1, match_hashcodes1 = link("t1f:", script)
+    links2, match_hashcodes2  = link("t2f:", script)
 
 
     if len(match_hashcodes1) > len(match_hashcodes2):
@@ -486,8 +486,8 @@ def wicket_lost(team_names, script, df):
 
     except ValueError:
 
-        links1, match_hashcodes1 = link("t1f:","front")
-        links2, match_hashcodes2  = link("t2f:","front")
+        links1, match_hashcodes1 = link("t1f:", script,"front")
+        links2, match_hashcodes2  = link("t2f:", script, "front")
 
         print(links1)
         print(links2)
