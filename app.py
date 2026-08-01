@@ -84,24 +84,24 @@ model_ML.fit(
 
 
 
-df_DPL = pd.read_csv("static/data/Delhi Premier League.csv").dropna()
+# df_DPL = pd.read_csv("static/data/Delhi Premier League.csv").dropna()
 
-X_DPL = df_DPL.drop(columns="win")
-y_DPL = df_DPL["win"]
+# X_DPL = df_DPL.drop(columns="win")
+# y_DPL = df_DPL["win"]
 
-X_DPL_train, X_DPL_test, y_DPL_train, y_DPL_test = train_test_split(X_DPL, y_DPL, test_size=0.2, random_state=42)
+# X_DPL_train, X_DPL_test, y_DPL_train, y_DPL_test = train_test_split(X_DPL, y_DPL, test_size=0.2, random_state=42)
 
-model_DPL = CatBoostClassifier(
-    iterations=1000,
-    learning_rate=0.01,
-    depth=3,
-    loss_function="MultiClass",
-    cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"],
-    eval_metric="Accuracy",
-    use_best_model=True
-    )
+# model_DPL = CatBoostClassifier(
+#     iterations=1000,
+#     learning_rate=0.01,
+#     depth=3,
+#     loss_function="MultiClass",
+#     cat_features=["team1","team2", "toss_winner", "toss_decision", "venue", "pitch_type"],
+#     eval_metric="Accuracy",
+#     use_best_model=True
+#     )
 
-model_DPL.fit(X_DPL_train, y_DPL_train, eval_set=(X_DPL_test, y_DPL_test))
+# model_DPL.fit(X_DPL_train, y_DPL_train, eval_set=(X_DPL_test, y_DPL_test))
 
 
 
@@ -1109,10 +1109,10 @@ def cricket_predictor():
             elif league == "Lanka Premier League":
                 prediction = model_LPL.predict(input_data)
                 confidence = round(prediction[0][0] * 100, 2)
-            elif league == "Delhi Premier League":
-                # input_data.to_csv("input_data.csv", index=False)
-                prediction = model_DPL.predict(input_data)
-                confidence = round(prediction[0][0] * 100, 2)
+            # elif league == "Delhi Premier League":
+            #     # input_data.to_csv("input_data.csv", index=False)
+            #     prediction = model_DPL.predict(input_data)
+            #     confidence = round(prediction[0][0] * 100, 2)
 
 
             if prediction[0][0] > 0.5:
