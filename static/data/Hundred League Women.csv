@@ -1,0 +1,177 @@
+team1,team2,team1_win_rate,team2_win_rate,head_to_head_win_rate,team1_recent_form,team2_recent_form,team1_venue_win_rate,team2_venue_win_rate,team1_avg_runs_last_5,team2_avg_runs_last_5,team1_avg_wicket_last_5,team2_avg_wicket_last_5,avg_first_innings_score,chasing_success_rate,toss_winner,toss_decision,temperature,humidity,rain_probability,venue,pitch_type,win
+MI London Women,Sunrisers Leeds Women,20.0,70.0,0.0,1,5,20.0,75.0,112.8,129.8,7.2,3.0,127.0,53.333333333333336,Sunrisers Leeds Women,Bowl,23.6,52.0,7.0,Kennington Oval,Batting,1
+Southern Brave Women,Welsh Fire Women,90.0,20.0,60.0,4,1,70.0,40.0,124.0,114.2,5.8,7.4,128.0,45.45454545454545,Welsh Fire Women,Bowl,20.4,68.0,12.0,The Rose Bowl,Batting,0
+London Spirit Women,Manchesters Super Giants Women,40.0,60.0,75.0,2,3,40.0,50.0,132.6,99.0,6.6,5.6,128.0,64.28571428571429,Manchesters Super Giants Women,Bowl,25.5,45.0,8.0,Lords,Batting,1
+Birmingham Phoenix Women,Trent Rockets Women,20.0,60.0,40.0,1,3,20.0,50.0,108.0,120.2,6.8,6.8,129.0,58.333333333333336,Trent Rockets Women,Bowl,25.4,39.0,2.0,Edgbaston,Batting,1
+Sunrisers Leeds Women,Southern Brave Women,70.0,90.0,0.0,5,4,50.0,33.33333333333333,133.0,117.0,3.2,6.0,122.0,60.0,Sunrisers Leeds Women,Bowl,18.9,68.0,23.0,Headingley,Batting,1
+Welsh Fire Women,MI London Women,20.0,20.0,50.0,1,0,30.0,50.0,115.6,104.2,7.0,7.8,126.0,50.0,Welsh Fire Women,Bowl,21.3,60.0,11.0,Sophia Gardens,Batting,0
+,,60.0,20.0,0.0,3,1,30.0,66.66666666666666,102.6,122.4,7.0,5.6,118.0,58.333333333333336,Null,,16.0,99.0,87.0,Emirates Old Trafford,Balanced,0
+Trent Rockets Women,London Spirit Women,60.0,40.0,100.0,4,1,30.0,33.33333333333333,112.6,115.8,5.0,7.4,123.0,72.72727272727273,London Spirit Women,Bowl,20.2,62.0,4.0,Trent Bridge,Batting,1
+Southern Brave Women,MI London Women,90.0,20.0,80.0,4,0,70.0,0.0,118.0,113.2,5.6,7.8,128.0,41.66666666666667,Mi London Women,Bowl,20.4,64.0,4.0,The Rose Bowl,Batting,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,4,3,50.0,33.33333333333333,129.2,102.0,7.8,5.8,121.0,63.63636363636363,Manchesters Super Giants Women,Bowl,24.0,64.0,17.0,Headingley,Batting,0
+Welsh Fire Women,Trent Rockets Women,20.0,60.0,40.0,2,4,30.0,75.0,128.8,118.8,6.6,5.0,130.0,45.45454545454545,Trent Rockets Women,Bowl,26.0,57.0,4.0,Sophia Gardens,Batting,1
+MI London Women,London Spirit Women,20.0,40.0,0.0,0,2,20.0,50.0,116.4,127.0,7.0,6.8,126.0,56.25,London Spirit Women,Bowl,32.4,27.0,2.0,Kennington Oval,Batting,1
+Southern Brave Women,Birmingham Phoenix Women,90.0,20.0,75.0,4,1,70.0,0.0,118.0,97.6,6.6,7.6,128.0,38.46153846153847,Birmingham Phoenix Women,Bowl,20.4,77.0,2.0,The Rose Bowl,Batting,0
+London Spirit Women,MI London Women,40.0,20.0,40.0,4,3,40.0,66.66666666666666,114.8,106.4,4.2,4.6,126.0,66.66666666666666,London Spirit Women,Bowl,19.5,51.0,1.0,Lords,Balanced,0
+Manchesters Super Giants Women,Southern Brave Women,60.0,90.0,0.0,2,1,30.0,66.66666666666666,124.0,104.8,5.6,7.8,121.0,62.5,Manchesters Super Giants Women,Bowl,15.5,77.0,10.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds Women,Welsh Fire Women,70.0,20.0,0.0,3,3,50.0,0.0,126.4,110.4,5.6,4.8,124.0,50.0,Sunrisers Leeds Women,Bat,18.0,72.0,25.0,Headingley,Balanced,0
+Birmingham Phoenix Women,Trent Rockets Women,20.0,60.0,40.0,3,3,20.0,50.0,112.6,129.6,6.6,6.4,114.0,87.5,Birmingham Phoenix Women,Bat,17.0,62.0,5.0,Edgbaston,Balanced,0
+MI London Women,Manchesters Super Giants Women,20.0,60.0,0.0,2,1,20.0,33.33333333333333,112.8,115.0,4.8,6.4,119.0,60.0,Mi London Women,Bowl,21.44117647058824,61.41176470588236,13.176470588235292,Kennington Oval,Balanced,1
+Welsh Fire Women,London Spirit Women,20.0,40.0,40.0,2,4,30.0,66.66666666666666,103.0,127.0,6.0,4.8,134.0,50.0,Welsh Fire Women,Bat,21.44117647058824,61.41176470588236,13.176470588235295,Sophia Gardens,Balanced,1
+Southern Brave Women,Birmingham Phoenix Women,90.0,20.0,66.66666666666666,2,3,70.0,0.0,99.8,114.4,6.6,7.0,129.0,57.14285714285714,Birmingham Phoenix Women,Bowl,21.44117647058824,61.41176470588236,13.176470588235295,The Rose Bowl,Balanced,0
+Trent Rockets Women,Sunrisers Leeds Women,60.0,70.0,33.33333333333333,3,3,30.0,100.0,131.0,125.4,6.6,5.6,127.0,57.14285714285714,Trent Rockets Women,Bat,21.44117647058824,61.41176470588236,13.176470588235295,Trent Bridge,Balanced,1
+Manchesters Super Giants Women,London Spirit Women,60.0,40.0,0.0,2,5,30.0,66.66666666666666,124.4,127.8,5.6,5.2,118.0,66.66666666666666,Manchesters Super Giants Women,Bowl,24.9,54.0,25.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix Women,MI London Women,20.0,20.0,0.0,2,2,20.0,100.0,111.8,124.4,7.6,4.6,117.0,77.77777777777779,Birmingham Phoenix Women,Bat,29.9,35.0,7.0,Edgbaston,Balanced,1
+Southern Brave Women,Sunrisers Leeds Women,90.0,70.0,40.0,3,3,70.0,0.0,110.8,123.6,6.0,5.2,130.0,50.0,Sunrisers Leeds Women,Bat,21.0,99.0,2.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Welsh Fire Women,20.0,60.0,0.0,1,2,30.0,50.0,120.8,123.8,7.8,6.0,133.0,42.85714285714285,Manchesters Super Giants Women,Bowl,22.5,69.0,4.0,Sophia Gardens,Balanced,0
+London Spirit Women,Trent Rockets Women,40.0,60.0,0.0,5,2,40.0,100.0,131.6,125.0,6.0,7.2,131.0,60.0,London Spirit Women,Bowl,26.9,45.0,2.0,Lords,Balanced,1
+Sunrisers Leeds Women,Birmingham Phoenix Women,70.0,20.0,0.0,2,2,50.0,33.33333333333333,121.0,131.4,6.2,6.8,126.0,42.85714285714285,Birmingham Phoenix Women,Bat,23.6,55.0,4.0,Headingley,Balanced,0
+Trent Rockets Women,Southern Brave Women,60.0,90.0,20.0,2,3,30.0,100.0,123.8,114.4,7.0,5.8,127.0,62.5,Southern Brave Women,Bowl,18.5,74.0,2.0,Trent Bridge,Balanced,1
+MI London Women,Welsh Fire Women,20.0,20.0,0.0,2,1,20.0,66.66666666666666,135.0,102.0,5.2,6.6,121.0,54.54545454545454,Mi London Women,Bat,21.5,58.0,1.0,Kennington Oval,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,60.0,70.0,0.0,3,3,30.0,0.0,116.6,117.6,5.2,5.0,119.0,70.0,Sunrisers Leeds Women,Bowl,23.0,55.0,5.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix Women,London Spirit Women,20.0,40.0,0.0,1,4,20.0,100.0,130.4,131.6,6.6,7.6,123.0,70.0,London Spirit Women,Bat,24.9,50.0,3.0,Edgbaston,Balanced,1
+Southern Brave Women,MI London Women,90.0,20.0,60.0,4,2,70.0,0.0,110.0,146.6,5.4,5.2,127.0,55.55555555555556,Mi London Women,Bowl,20.3,64.0,2.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Trent Rockets Women,60.0,60.0,0.0,1,3,30.0,66.66666666666666,124.4,109.2,7.4,6.8,125.0,66.66666666666666,Manchesters Super Giants Women,Bowl,17.1,80.0,25.0,Trent Bridge,Balanced,0
+Welsh Fire Women,Southern Brave Women,20.0,90.0,60.0,0,5,30.0,80.0,103.0,121.6,8.4,4.6,125.0,50.0,Welsh Fire Women,Bowl,18.5,72.0,7.0,Sophia Gardens,Balanced,1
+London Spirit Women,Sunrisers Leeds Women,40.0,70.0,50.0,4,3,40.0,60.0,140.8,120.2,7.6,5.0,133.0,54.54545454545454,Sunrisers Leeds Women,Bat,20.9,52.0,6.0,Lords,Balanced,1
+MI London Women,Trent Rockets Women,20.0,60.0,0.0,2,1,20.0,50.0,138.4,126.2,5.4,7.4,123.0,50.0,Trent Rockets Women,Bowl,21.9,39.0,25.0,Kennington Oval,Balanced,1
+Birmingham Phoenix Women,Welsh Fire Women,20.0,20.0,50.0,1,0,20.0,66.66666666666666,123.2,102.2,7.4,8.0,127.0,63.63636363636363,Welsh Fire Women,Bat,20.4,58.0,14.0,Edgbaston,Balanced,1
+Sunrisers Leeds Women,MI London Women,70.0,20.0,0.0,3,2,50.0,0.0,110.6,128.4,4.6,6.0,125.0,50.0,Mi London Women,Bat,19.5,70.0,25.0,Headingley,Balanced,0
+London Spirit Women,Southern Brave Women,40.0,90.0,25.0,3,5,40.0,57.14285714285714,123.6,124.8,8.2,5.2,129.0,58.333333333333336,Southern Brave Women,Bowl,20.9,55.0,25.0,Lords,Balanced,1
+Welsh Fire Women,Trent Rockets Women,20.0,60.0,50.0,1,2,30.0,75.0,113.4,121.4,6.6,7.0,123.0,55.55555555555556,Welsh Fire Women,Bowl,24.0,50.0,5.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants Women,Birmingham Phoenix Women,60.0,20.0,0.0,4,0,30.0,66.66666666666666,113.4,116.4,4.0,8.2,119.0,63.63636363636363,Birmingham Phoenix Women,Bat,25.3,43.0,21.0,Emirates Old Trafford,Balanced,1
+MI London Women,London Spirit Women,20.0,40.0,0.0,2,2,20.0,50.0,126.0,123.8,6.6,7.8,122.0,53.84615384615385,London Spirit Women,Bowl,26.5,30.0,2.0,Kennington Oval,Balanced,1
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,3,3,50.0,33.33333333333333,110.0,105.8,7.0,6.4,125.0,55.55555555555556,Sunrisers Leeds Women,Bowl,22.4,56.0,58.0,Headingley,Balanced,0
+Trent Rockets Women,Birmingham Phoenix Women,60.0,20.0,40.0,0,0,30.0,50.0,107.80179958227518,106.85765859273486,4.832453893166835,4.835435190036726,123.0,70.0,Birmingham Phoenix Women,Bat,20.0,67.0,66.0,Trent Bridge,Balanced,0
+Southern Brave Women,Welsh Fire Women,90.0,20.0,40.0,5,1,70.0,40.0,122.8,114.2,5.4,7.4,128.0,45.45454545454545,Welsh Fire Women,Bowl,19.0,66.0,25.0,The Rose Bowl,Balanced,0
+Sunrisers Leeds Women,London Spirit Women,70.0,40.0,0.0,4,2,75.0,50.0,109.0,121.4,3.2,6.8,121.0,57.14285714285714,Sunrisers Leeds Women,Bowl,18.7,78.0,72.0,Kennington Oval,Balanced,0
+Southern Brave Women,Sunrisers Leeds Women,90.0,70.0,60.0,5,4,57.14285714285714,60.0,122.8,128.4,5.4,3.8,129.0,61.53846153846154,Sunrisers Leeds Women,Bowl,20.4,65.0,87.0,Lords,Balanced,1
+MI London Women,Birmingham Phoenix Women,20.0,20.0,0.0,2,0,20.0,0.0,130.6,125.0,6.4,6.4,117.0,60.0,Birmingham Phoenix Women,Bowl,23.5,53.0,80.0,Kennington Oval,Balanced,1
+Southern Brave Women,London Spirit Women,90.0,40.0,100.0,5,2,70.0,50.0,133.8,137.4,4.6,6.4,120.0,0.0,London Spirit Women,Bowl,19.6,76.0,25.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants Women,Welsh Fire Women,60.0,20.0,0.0,1,3,30.0,50.0,112.8,150.2,6.4,5.4,104.0,33.33333333333333,Manchesters Super Giants Women,Bat,18.5,73.0,84.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds Women,Trent Rockets Women,70.0,60.0,0.0,3,3,50.0,100.0,125.0,132.6,6.6,5.0,143.0,0.0,Trent Rockets Women,Bat,18.4,58.0,80.0,Headingley,Balanced,1
+London Spirit Women,Birmingham Phoenix Women,40.0,20.0,100.0,3,0,40.0,0.0,143.2,119.2,6.4,7.6,125.0,75.0,Birmingham Phoenix Women,Bowl,23.4,47.0,6.0,Lords,Balanced,0
+Welsh Fire Women,MI London Women,20.0,20.0,100.0,3,3,30.0,50.0,146.2,134.8,4.6,6.4,162.0,33.33333333333333,Welsh Fire Women,Bat,24.0,52.0,1.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants Women,Trent Rockets Women,60.0,60.0,0.0,1,3,30.0,50.0,110.8,131.8,6.0,5.0,106.0,50.0,Trent Rockets Women,Bowl,26.5,40.0,40.0,Emirates Old Trafford,Balanced,0
+Sunrisers Leeds Women,Southern Brave Women,70.0,90.0,0.0,2,4,50.0,33.33333333333333,119.0,135.0,7.6,4.2,136.0,33.33333333333333,Sunrisers Leeds Women,Bat,22.4,61.0,2.0,Headingley,Balanced,0
+Trent Rockets Women,Birmingham Phoenix Women,60.0,20.0,40.0,3,0,30.0,50.0,131.8,118.2,5.0,7.4,125.0,33.33333333333333,Birmingham Phoenix Women,Bat,25.9,50.0,24.0,Trent Bridge,Balanced,1
+London Spirit Women,Welsh Fire Women,40.0,20.0,66.66666666666666,3,3,40.0,33.33333333333333,149.0,140.6,6.4,4.6,129.0,60.0,Welsh Fire Women,Bowl,26.5,57.0,10.0,Lords,Balanced,1
+Manchesters Super Giants Women,Southern Brave Women,90.0,60.0,0.0,3,1,70.0,50.0,127.6,116.2,6.0,5.4,128.0,25.0,Manchesters Super Giants Women,Bowl,24.1,73.0,56.0,The Rose Bowl,Balanced,0
+MI London Women,Sunrisers Leeds Women,20.0,70.0,0.0,3,1,20.0,75.0,130.0,111.8,6.2,7.8,122.0,50.0,Mi London Women,Bowl,27.5,47.0,25.0,Kennington Oval,Balanced,1
+Birmingham Phoenix Women,Southern Brave Women,20.0,90.0,0.0,1,2,20.0,0.0,120.2,129.4,6.4,5.4,112.0,100.0,Southern Brave Women,Bowl,19.5,53.0,25.0,Edgbaston,Balanced,0
+Trent Rockets Women,Welsh Fire Women,60.0,20.0,66.66666666666666,3,3,30.0,50.0,131.0,134.6,5.4,4.8,128.0,50.0,Trent Rockets Women,Bat,19.5,48.0,11.0,Trent Bridge,Balanced,0
+London Spirit Women,MI London Women,40.0,20.0,25.0,3,3,40.0,66.66666666666666,152.0,123.4,6.0,6.2,133.0,66.66666666666666,London Spirit Women,Bowl,21.6,50.0,40.0,Lords,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,2,2,50.0,33.33333333333333,130.4,116.2,5.4,5.8,127.0,50.0,Manchesters Super Giants Women,Bowl,19.5,66.0,85.0,Headingley,Balanced,0
+Welsh Fire Women,Southern Brave Women,20.0,90.0,20.0,3,1,30.0,80.0,128.6,129.4,4.8,7.0,150.0,50.0,Welsh Fire Women,Bowl,22.3,76.0,80.0,Sophia Gardens,Balanced,0
+Manchesters Super Giants Women,MI London Women,60.0,20.0,0.0,2,3,30.0,100.0,114.2,120.0,6.4,6.6,116.0,66.66666666666666,Manchesters Super Giants Women,Bat,19.5,59.0,25.0,Emirates Old Trafford,Balanced,1
+Birmingham Phoenix Women,Sunrisers Leeds Women,20.0,70.0,33.33333333333333,2,2,20.0,50.0,121.4,118.4,7.0,7.0,117.0,80.0,Sunrisers Leeds Women,Bat,21.4,51.0,3.0,Edgbaston,Balanced,1
+Trent Rockets Women,London Spirit Women,60.0,40.0,100.0,2,3,30.0,33.33333333333333,135.0,147.0,6.2,6.4,128.0,60.0,London Spirit Women,Bowl,19.0,61.0,40.0,Trent Bridge,Balanced,0
+,,20.0,70.0,0.0,4,3,30.0,0.0,118.6,124.4,6.4,5.2,137.0,40.0,Null,,19.0,86.0,88.0,Sophia Gardens,Balanced,0
+MI London Women,Southern Brave Women,20.0,90.0,0.0,3,0,20.0,100.0,114.4,118.4,6.0,7.8,125.0,57.14285714285714,Southern Brave Women,Bowl,18.4,86.0,87.0,Kennington Oval,Balanced,1
+London Spirit Women,Manchesters Super Giants Women,40.0,60.0,50.0,2,1,40.0,50.0,138.0,117.6,6.8,5.8,130.0,71.42857142857143,Manchesters Super Giants Women,Bowl,24.4,44.0,2.0,Lords,Balanced,1
+Southern Brave Women,Trent Rockets Women,90.0,60.0,100.0,1,2,70.0,33.33333333333333,105.2,139.8,7.2,6.0,129.0,40.0,Southern Brave Women,Bowl,18.9,80.0,13.0,The Rose Bowl,Balanced,1
+Welsh Fire Women,Birmingham Phoenix Women,20.0,20.0,33.33333333333333,4,2,30.0,100.0,120.6,112.4,3.8,7.0,137.0,40.0,Welsh Fire Women,Bowl,22.4,74.0,55.0,Sophia Gardens,Balanced,1
+MI London Women,London Spirit Women,20.0,40.0,0.0,2,2,20.0,50.0,100.2,130.4,5.8,6.4,120.0,62.5,Mi London Women,Bowl,26.3,55.0,13.0,Kennington Oval,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,60.0,70.0,0.0,1,3,30.0,0.0,116.4,120.4,6.4,6.0,117.0,71.42857142857143,Manchesters Super Giants Women,Bat,26.1,45.0,4.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix Women,Trent Rockets Women,20.0,60.0,40.0,3,3,20.0,50.0,115.6,140.4,6.4,5.8,117.0,83.33333333333334,Birmingham Phoenix Women,Bat,24.8,62.0,45.0,Edgbaston,Balanced,1
+Sunrisers Leeds Women,London Spirit Women,70.0,40.0,0.0,3,1,50.0,50.0,126.6,125.0,5.6,6.2,129.0,40.0,Sunrisers Leeds Women,Bat,20.3,66.0,60.0,Headingley,Balanced,1
+Southern Brave Women,Welsh Fire Women,90.0,20.0,60.0,1,3,70.0,40.0,111.4,119.6,6.8,4.8,134.0,50.0,Welsh Fire Women,Bowl,20.5,80.0,14.0,The Rose Bowl,Balanced,1
+Trent Rockets Women,MI London Women,60.0,20.0,0.0,3,2,30.0,100.0,138.6,100.8,6.2,5.4,133.0,50.0,Mi London Women,Bowl,20.4,63.0,40.0,Trent Bridge,Balanced,1
+Birmingham Phoenix Women,Manchesters Super Giants Women,20.0,60.0,0.0,3,2,20.0,100.0,112.6,124.0,6.6,5.6,116.0,85.71428571428571,Birmingham Phoenix Women,Bat,19.6,82.0,87.0,Edgbaston,Balanced,1
+MI London Women,London Spirit Women,20.0,40.0,0.0,3,2,20.0,50.0,106.4,116.0,4.4,5.8,120.0,55.55555555555556,London Spirit Women,Bowl,23.0,35.0,1.0,Kennington Oval,Balanced,1
+Welsh Fire Women,London Spirit Women,20.0,40.0,50.0,4,3,33.33333333333333,40.0,117.6,116.6,4.0,4.4,128.0,62.5,Welsh Fire Women,Bowl,23.0,43.0,1.0,Lords,Balanced,1
+Trent Rockets Women,Southern Brave Women,70.0,90.0,0.0,2,3,30.0,100.0,135.8,135.4,6.4,6.8,126.0,42.85714285714285,Trent Rockets Women,Bowl,18.0,74.0,57.0,Trent Bridge,Balanced,1
+Manchesters Super Giants Women,Welsh Fire Women,20.0,60.0,0.0,1,2,30.0,50.0,124.0,145.2,6.6,3.8,119.0,85.71428571428571,Manchesters Super Giants Women,,16.3,89.0,75.0,Sophia Gardens,Balanced,0
+London Spirit Women,MI London Women,40.0,20.0,0.0,2,5,40.0,66.66666666666666,105.0,114.4,6.8,3.0,95.0,25.0,London Spirit Women,,17.2,90.0,10.0,Lords,Balanced,0
+Sunrisers Leeds Women,Birmingham Phoenix Women,70.0,20.0,0.0,3,2,50.0,33.33333333333333,136.4,112.4,6.0,6.6,134.0,28.57142857142857,Sunrisers Leeds Women,Bowl,20.5,62.0,80.0,Headingley,Balanced,0
+Southern Brave Women,Welsh Fire Women,90.0,20.0,100.0,3,1,70.0,40.0,142.4,119.0,6.4,7.2,126.0,25.0,Southern Brave Women,Bowl,19.0,74.0,96.0,The Rose Bowl,Balanced,1
+Manchesters Super Giants Women,London Spirit Women,60.0,40.0,0.0,2,2,20.0,66.66666666666666,139.2,105.0,5.0,6.8,125.31395348837208,54.66247415375321,Manchesters Super Giants Women,,14.0,84.0,10.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix Women,Trent Rockets Women,20.0,70.0,33.33333333333333,1,2,20.0,50.0,111.0,139.4,7.8,6.2,125.31395348837208,54.662474153753216,Birmingham Phoenix Women,,11.5,92.0,94.0,Edgbaston,Balanced,1
+Southern Brave Women,Sunrisers Leeds Women,90.0,70.0,0.0,2,3,70.0,0.0,154.0,135.6,8.2,4.6,125.31395348837208,54.66247415375323,Sunrisers Leeds Women,Bowl,14.8,85.0,98.0,The Rose Bowl,Balanced,0
+MI London Women,Welsh Fire Women,20.0,20.0,0.0,5,2,20.0,66.66666666666666,114.4,120.4,3.0,8.4,125.31395348837208,54.66247415375323,Welsh Fire Women,Bowl,14.2,84.0,10.0,Kennington Oval,Balanced,1
+Manchesters Super Giants Women,Birmingham Phoenix Women,60.0,20.0,0.0,2,1,20.0,66.66666666666666,139.2,111.0,5.0,7.8,125.31395348837208,54.66247415375323,Manchesters Super Giants Women,Bowl,17.0,56.0,49.0,Emirates Old Trafford,Balanced,0
+London Spirit Women,Southern Brave Women,40.0,90.0,0.0,2,3,40.0,57.14285714285714,105.0,149.4,6.8,7.4,125.31395348837208,54.66247415375324,Southern Brave Women,Bowl,17.1,90.0,87.0,Lords,Balanced,1
+Trent Rockets Women,Sunrisers Leeds Women,70.0,70.0,0.0,2,3,30.0,100.0,139.4,126.0,6.2,5.2,125.31395348837208,54.66247415375324,Sunrisers Leeds Women,Bat,21.6,58.0,17.0,Trent Bridge,Balanced,1
+MI London Women,Manchesters Super Giants Women,20.0,60.0,0.0,4,2,20.0,33.33333333333333,107.4,126.2,4.0,5.6,80.0,100.0,Manchesters Super Giants Women,Bowl,24.5,47.0,15.0,Kennington Oval,Balanced,0
+Birmingham Phoenix Women,Welsh Fire Women,20.0,20.0,50.0,0,3,20.0,66.66666666666666,97.8,115.0,9.0,7.8,124.8318901533894,100.0,Birmingham Phoenix Women,Bowl,25.8,65.0,25.0,Edgbaston,Balanced,1
+Sunrisers Leeds Women,MI London Women,70.0,20.0,0.0,3,4,50.0,0.0,120.6,111.6,5.4,5.0,124.8318901533894,55.61694838209527,Sunrisers Leeds Women,Bat,23.4,53.0,1.0,Headingley,Balanced,0
+London Spirit Women,Trent Rockets Women,40.0,70.0,0.0,2,1,40.0,100.0,102.6,136.0,5.8,6.8,104.0,100.0,Trent Rockets Women,Bowl,19.5,71.0,87.0,Lords,Balanced,1
+Welsh Fire Women,Southern Brave Women,20.0,90.0,25.0,4,3,30.0,80.0,118.6,124.0,7.4,6.4,124.61712839923077,56.07450561526954,Welsh Fire Women,Bowl,18.5,85.0,75.0,Sophia Gardens,Balanced,1
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,4,2,50.0,33.33333333333333,126.4,132.2,6.0,5.6,143.0,0.0,Sunrisers Leeds Women,Bat,16.9,82.0,85.0,Headingley,Balanced,0
+Birmingham Phoenix Women,MI London Women,20.0,20.0,0.0,0,3,20.0,100.0,103.4,121.0,8.4,5.8,68.0,100.0,Birmingham Phoenix Women,Bowl,19.0,69.0,80.0,Edgbaston,Balanced,1
+Welsh Fire Women,Trent Rockets Women,20.0,70.0,0.0,3,2,30.0,75.0,122.8,143.8,7.2,6.2,144.0,100.0,Welsh Fire Women,Bat,19.0,77.0,64.0,Sophia Gardens,Balanced,0
+MI London Women,London Spirit Women,20.0,40.0,0.0,3,2,20.0,50.0,116.8,102.6,6.4,5.4,104.0,50.0,Mi London Women,Bowl,23.8,48.0,5.0,Kennington Oval,Balanced,1
+Southern Brave Women,Birmingham Phoenix Women,90.0,20.0,100.0,4,0,70.0,0.0,132.8,109.0,6.6,7.6,100.0,0.0,Southern Brave Women,Bat,22.9,60.0,1.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Trent Rockets Women,70.0,60.0,0.0,1,2,30.0,66.66666666666666,166.2,126.6,5.4,6.0,134.0,100.0,Manchesters Super Giants Women,Bat,20.3,66.0,3.0,Trent Bridge,Balanced,0
+London Spirit Women,Sunrisers Leeds Women,40.0,70.0,50.0,2,4,40.0,60.0,101.8,124.4,6.8,4.8,114.0,100.0,Sunrisers Leeds Women,Bowl,21.9,74.0,86.0,Lords,Balanced,1
+Trent Rockets Women,Birmingham Phoenix Women,70.0,20.0,25.0,2,0,30.0,50.0,126.4,118.4,5.0,7.2,120.0,50.0,Trent Rockets Women,Bat,21.5,66.0,49.0,Trent Bridge,Balanced,0
+Southern Brave Women,MI London Women,90.0,20.0,50.0,4,2,70.0,0.0,127.8,115.2,6.2,7.4,116.0,0.0,Mi London Women,Bat,19.9,76.0,1.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,60.0,70.0,0.0,1,4,20.0,0.0,112.0,129.2,6.4,5.4,87.0,0.0,Sunrisers Leeds Women,Bat,21.3,59.0,55.0,Emirates Old Trafford,Balanced,0
+Welsh Fire Women,London Spirit Women,20.0,40.0,0.0,4,2,30.0,66.66666666666666,139.0,112.8,6.2,6.2,162.0,50.0,Welsh Fire Women,Bowl,20.9,74.0,84.0,Sophia Gardens,Balanced,0
+MI London Women,Trent Rockets Women,20.0,70.0,0.0,2,3,20.0,50.0,125.2,127.2,6.6,4.8,108.0,66.66666666666666,Mi London Women,Bat,23.8,53.0,4.0,Kennington Oval,Balanced,0
+Sunrisers Leeds Women,Welsh Fire Women,70.0,20.0,0.0,4,4,50.0,0.0,130.6,140.8,5.4,5.2,143.0,0.0,Sunrisers Leeds Women,Bat,20.8,65.0,80.0,Headingley,Balanced,0
+Manchesters Super Giants Women,Southern Brave Women,60.0,90.0,0.0,2,5,20.0,66.66666666666666,107.4,123.8,6.6,5.0,97.0,0.0,Manchesters Super Giants Women,Bowl,19.5,74.0,81.0,Emirates Old Trafford,Balanced,0
+Birmingham Phoenix Women,London Spirit Women,20.0,40.0,0.0,0,1,20.0,100.0,122.6,123.8,6.4,6.4,93.0,100.0,Birmingham Phoenix Women,Bowl,20.0,72.0,80.0,Edgbaston,Balanced,1
+Sunrisers Leeds Women,Welsh Fire Women,70.0,20.0,0.0,4,3,75.0,66.66666666666666,132.6,150.2,5.4,5.4,120.0,50.0,Welsh Fire Women,Bat,16.5,66.0,85.0,Kennington Oval,Balanced,0
+Southern Brave Women,Sunrisers Leeds Women,90.0,70.0,33.33333333333333,5,4,57.14285714285714,60.0,127.6,132.6,4.4,5.4,121.0,100.0,Sunrisers Leeds Women,Bowl,19.5,58.0,40.0,Lords,Balanced,0
+MI London Women,Sunrisers Leeds Women,20.0,70.0,0.0,4,1,20.0,75.0,209.8,114.0,4.4,5.4,120.0,33.33333333333333,Mi London Women,Bowl,27.2,33.0,0.0,Kennington Oval,Balanced,0
+Southern Brave Women,London Spirit Women,90.0,40.0,100.0,3,3,70.0,50.0,138.6,110.4,3.8,6.0,124.0,50.0,London Spirit Women,Bat,30.8,36.0,0.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Trent Rockets Women,60.0,70.0,0.0,3,3,20.0,66.66666666666666,119.0,129.2,3.0,5.6,90.0,50.0,Manchesters Super Giants Women,Bowl,27.7,37.0,3.0,Emirates Old Trafford,Balanced,0
+Welsh Fire Women,Birmingham Phoenix Women,20.0,20.0,0.0,1,3,30.0,100.0,112.6,212.0,7.6,5.0,106.0,100.0,Welsh Fire Women,Bowl,33.5,19.0,1.0,Sophia Gardens,Balanced,1
+Sunrisers Leeds Women,London Spirit Women,70.0,40.0,0.0,0,3,50.0,50.0,120.8,122.8,4.8,4.8,128.0,50.0,Sunrisers Leeds Women,Bowl,26.8,30.0,3.0,Headingley,Balanced,0
+MI London Women,Southern Brave Women,20.0,90.0,0.0,4,4,20.0,100.0,212.4,145.8,4.2,3.2,126.0,25.0,Mi London Women,Bowl,33.0,20.0,2.0,Kennington Oval,Balanced,1
+Birmingham Phoenix Women,Trent Rockets Women,20.0,70.0,0.0,4,3,20.0,50.0,218.4,122.8,4.2,5.8,132.0,75.0,Birmingham Phoenix Women,Bowl,24.5,53.0,80.0,Edgbaston,Balanced,0
+Manchesters Super Giants Women,Welsh Fire Women,60.0,20.0,0.0,3,0,20.0,50.0,110.2,118.6,3.8,7.4,96.0,60.0,Welsh Fire Women,Bowl,21.5,60.0,88.0,Emirates Old Trafford,Balanced,0
+Trent Rockets Women,MI London Women,70.0,20.0,0.0,2,3,30.0,100.0,117.0,219.2,6.6,5.2,132.0,50.0,Mi London Women,Bowl,18.3,58.0,55.0,Trent Bridge,Balanced,1
+Manchesters Super Giants Women,Southern Brave Women,90.0,60.0,0.0,4,3,70.0,50.0,157.8,130.0,4.2,4.6,130.0,40.0,Manchesters Super Giants Women,Bowl,20.2,90.0,9.0,The Rose Bowl,Balanced,0
+Birmingham Phoenix Women,Sunrisers Leeds Women,20.0,70.0,0.0,4,1,20.0,50.0,215.6,118.8,4.6,5.8,129.0,60.0,Sunrisers Leeds Women,Bowl,20.5,39.0,3.0,Edgbaston,Balanced,0
+Trent Rockets Women,London Spirit Women,70.0,40.0,100.0,1,2,30.0,33.33333333333333,118.8,120.2,7.0,6.2,128.0,60.0,London Spirit Women,Bowl,23.5,38.0,25.0,Trent Bridge,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,1,3,50.0,33.33333333333333,137.2,131.8,5.0,4.6,127.0,40.0,Manchesters Super Giants Women,Bat,19.5,43.0,25.0,Headingley,Balanced,0
+Welsh Fire Women,Southern Brave Women,20.0,90.0,0.0,0,4,30.0,80.0,127.2,152.6,6.0,4.6,117.0,100.0,Welsh Fire Women,Bowl,21.5,76.0,55.0,Sophia Gardens,Balanced,1
+MI London Women,Birmingham Phoenix Women,20.0,20.0,0.0,4,4,20.0,0.0,225.2,220.4,4.2,4.0,131.0,40.0,Birmingham Phoenix Women,Bowl,25.5,64.0,11.0,Kennington Oval,Balanced,1
+London Spirit Women,Welsh Fire Women,40.0,20.0,100.0,1,0,40.0,33.33333333333333,118.8,123.4,6.4,6.2,123.09598910095858,55.34847346381857,Welsh Fire Women,Bat,28.6,45.0,40.0,Lords,Balanced,0
+Southern Brave Women,Trent Rockets Women,90.0,70.0,100.0,4,2,70.0,33.33333333333333,154.0,122.2,5.6,6.4,131.0,33.33333333333333,Southern Brave Women,Bowl,21.0,85.0,80.0,The Rose Bowl,Balanced,0
+Sunrisers Leeds Women,Welsh Fire Women,20.0,70.0,0.0,0,2,30.0,0.0,130.6,143.8,6.6,5.2,118.0,100.0,Welsh Fire Women,Bat,16.5,79.0,15.0,Sophia Gardens,Balanced,0
+London Spirit Women,MI London Women,40.0,20.0,0.0,2,4,40.0,66.66666666666666,122.6,141.8,5.0,3.6,119.0,0.0,London Spirit Women,Bowl,16.9,74.0,6.0,Lords,Balanced,1
+Birmingham Phoenix Women,Manchesters Super Giants Women,20.0,60.0,0.0,3,2,20.0,100.0,212.2,128.6,4.6,4.8,133.0,50.0,Birmingham Phoenix Women,Bowl,21.8,41.0,6.0,Edgbaston,Balanced,1
+Trent Rockets Women,Welsh Fire Women,70.0,20.0,100.0,2,1,30.0,50.0,115.4,127.4,6.8,6.6,130.0,50.0,Welsh Fire Women,Bat,18.7,51.0,40.0,Trent Bridge,Balanced,0
+London Spirit Women,Birmingham Phoenix Women,40.0,20.0,100.0,1,3,40.0,0.0,119.4,128.2,6.4,5.6,99.0,50.0,London Spirit Women,Bowl,23.7,42.0,16.0,Lords,Balanced,0
+Sunrisers Leeds Women,Southern Brave Women,70.0,90.0,0.0,2,5,50.0,33.33333333333333,136.0,132.8,5.8,5.0,133.0,33.33333333333333,Sunrisers Leeds Women,Bowl,19.9,44.0,5.0,Headingley,Balanced,0
+Manchesters Super Giants Women,MI London Women,60.0,20.0,0.0,2,4,20.0,100.0,128.2,118.2,5.8,3.2,106.0,50.0,Mi London Women,Bat,20.3,43.0,3.0,Emirates Old Trafford,Balanced,1
+Southern Brave Women,Trent Rockets Women,90.0,70.0,100.0,4,2,70.0,33.33333333333333,126.0,112.0,6.0,6.2,125.0,28.57142857142857,Trent Rockets Women,Bowl,20.0,74.0,25.0,The Rose Bowl,Balanced,0
+MI London Women,Southern Brave Women,20.0,90.0,0.0,4,4,66.66666666666666,57.14285714285714,121.6,142.4,3.4,6.4,93.0,33.33333333333333,Southern Brave Women,Bat,22.6,50.0,46.0,Lords,Balanced,0
+MI London Women,Manchesters Super Giants Women,20.0,60.0,0.0,0,0,20.0,33.33333333333333,126.7787361672502,125.38480608931017,5.943492580802602,5.9293293275889125,146.0,56.52173913043478,Manchesters Super Giants Women,Bat,21.53804755944931,77.0,40.0,Kennington Oval,Balanced,0
+Birmingham Phoenix Women,London Spirit Women,20.0,40.0,0.0,0,0,20.0,100.0,126.77873616725019,125.38480608931017,5.943492580802602,5.9293293275889125,153.0,38.095238095238095,London Spirit Women,Bowl,21.53804755944931,73.0,31.6880695940348,Edgbaston,Balanced,1
+Trent Rockets Women,Southern Brave Women,70.0,90.0,0.0,0,0,30.0,100.0,126.7787361672502,125.38480608931017,5.943492580802602,5.9293293275889125,162.0,41.935483870967744,Trent Rockets Women,Bowl,21.53804755944931,81.0,55.0,Trent Bridge,Balanced,1
+Sunrisers Leeds Women,Welsh Fire Women,70.0,20.0,0.0,0,0,50.0,0.0,126.7787361672502,125.38480608931017,5.943492580802602,5.929329327588913,183.0,23.076923076923077,Sunrisers Leeds Women,Bowl,21.53804755944931,66.0,31.849957999631776,Headingley,Balanced,0
+London Spirit Women,MI London Women,40.0,20.0,0.0,1,1,40.0,66.66666666666666,126.77873616725019,125.38480608931016,5.9434925808026025,5.929329327588913,167.0,28.57142857142857,London Spirit Women,Bowl,21.53804755944931,94.0,31.84995799963178,Lords,Balanced,1
+Manchesters Super Giants Women,Birmingham Phoenix Women,60.0,20.0,0.0,0,0,20.0,66.66666666666666,126.7787361672502,125.38480608931019,5.943492580802602,5.929329327588913,156.0,57.14285714285714,Birmingham Phoenix Women,Bat,21.53804755944931,82.0,25.0,Emirates Old Trafford,Balanced,1
+Trent Rockets Women,Sunrisers Leeds Women,70.0,70.0,0.0,0,1,30.0,100.0,126.7787361672502,125.38480608931019,5.9434925808026025,5.929329327588913,162.0,41.935483870967744,Sunrisers Leeds Women,Bat,8.8,78.0,80.0,Trent Bridge,Balanced,1
+Welsh Fire Women,Southern Brave Women,20.0,90.0,0.0,0,1,30.0,80.0,126.77873616725019,125.38480608931019,5.943492580802602,5.929329327588913,149.0,40.0,Welsh Fire Women,Bowl,21.45197967053411,61.848966613672495,32.129012621258376,Sophia Gardens,Balanced,1
+Manchesters Super Giants Women,Sunrisers Leeds Women,60.0,70.0,0.0,0,2,20.0,0.0,126.7787361672502,125.38480608931017,5.9434925808026025,5.929329327588913,156.0,57.14285714285714,Manchesters Super Giants Women,,21.451979670534115,87.0,69.0,Emirates Old Trafford,Balanced,0
+London Spirit Women,Trent Rockets Women,40.0,70.0,0.0,1,0,40.0,100.0,126.77873616725022,125.3848060893102,5.9434925808026025,5.929329327588913,167.0,28.57142857142857,Trent Rockets Women,Bat,21.451979670534115,87.0,32.374819203783325,Lords,Balanced,1
+Southern Brave Women,Birmingham Phoenix Women,90.0,20.0,0.0,2,1,70.0,0.0,126.77873616725022,125.38480608931017,5.943492580802603,5.929329327588913,167.0,36.36363636363637,Southern Brave Women,Bowl,21.45197967053411,77.0,69.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Welsh Fire Women,20.0,60.0,0.0,0,0,30.0,50.0,126.77873616725019,125.38480608931016,5.943492580802602,5.929329327588913,149.0,40.0,Welsh Fire Women,Bowl,21.451979670534115,66.0,59.0,Sophia Gardens,Balanced,0
+Sunrisers Leeds Women,MI London Women,70.0,20.0,0.0,2,2,50.0,0.0,126.77873616725019,125.38480608931016,5.943492580802602,5.929329327588913,183.0,23.076923076923077,Mi London Women,Bowl,21.451979670534115,86.0,32.78822025994302,Headingley,Balanced,0
+Birmingham Phoenix Women,Trent Rockets Women,20.0,70.0,0.0,1,1,20.0,50.0,126.77873616725019,125.38480608931016,5.9434925808026025,5.929329327588913,153.0,38.095238095238095,Trent Rockets Women,Bat,21.451979670534115,75.0,65.0,Edgbaston,Balanced,1
+London Spirit Women,Southern Brave Women,40.0,90.0,0.0,1,3,40.0,57.14285714285714,126.7787361672502,125.38480608931019,5.9434925808026025,5.929329327588913,167.0,28.57142857142857,Southern Brave Women,Bowl,21.45197967053411,79.0,69.0,Lords,Balanced,1
+MI London Women,Welsh Fire Women,20.0,20.0,0.0,2,1,20.0,66.66666666666666,126.7787361672502,125.38480608931016,5.9434925808026025,5.9293293275889125,146.0,56.52173913043478,Mi London Women,Bowl,21.45197967053411,76.0,72.0,Kennington Oval,Balanced,1
+London Spirit Women,Sunrisers Leeds Women,40.0,70.0,0.0,1,3,40.0,60.0,126.7787361672502,125.38480608931016,5.9434925808026025,5.9293293275889125,167.0,28.57142857142857,Sunrisers Leeds Women,Bat,21.45197967053411,81.0,51.0,Lords,Balanced,0
+Birmingham Phoenix Women,MI London Women,20.0,20.0,0.0,1,2,20.0,100.0,126.7787361672502,125.38480608931017,5.9434925808026025,5.9293293275889125,153.0,38.095238095238095,Birmingham Phoenix Women,Bat,21.45197967053411,60.0,42.0,Edgbaston,Balanced,1
+Manchesters Super Giants Women,Southern Brave Women,60.0,90.0,0.0,0,4,20.0,66.66666666666666,126.77873616725022,125.3848060893102,5.9434925808026025,5.9293293275889125,156.0,57.14285714285714,Manchesters Super Giants Women,Bowl,21.45197967053411,87.0,34.0,Emirates Old Trafford,Balanced,0
+Welsh Fire Women,Trent Rockets Women,20.0,70.0,0.0,2,2,30.0,75.0,126.77873616725017,125.38480608931017,5.943492580802602,5.9293293275889125,149.0,40.0,Trent Rockets Women,Bowl,21.451979670534115,54.0,40.0,Sophia Gardens,Balanced,1
+Southern Brave Women,Sunrisers Leeds Women,90.0,70.0,0.0,4,3,70.0,0.0,126.77873616725017,125.38480608931017,5.943492580802602,5.9293293275889125,167.0,36.36363636363637,Sunrisers Leeds Women,Bowl,21.451979670534115,78.0,63.0,The Rose Bowl,Balanced,0
+MI London Women,Trent Rockets Women,20.0,70.0,0.0,3,3,100.0,0.0,126.77873616725017,125.38480608931017,5.943492580802602,5.9293293275889125,174.0,40.0,Trent Rockets Women,Bat,21.451979670534115,90.0,33.86040691377299,Adelaide Oval,Balanced,1
+Birmingham Phoenix Women,Welsh Fire Women,20.0,20.0,0.0,1,2,20.0,66.66666666666666,126.77873616725019,125.38480608931016,5.9434925808026025,5.9293293275889125,145.0,83.33333333333334,Birmingham Phoenix Women,Bowl,21.45197967053411,79.0,67.0,Edgbaston,Balanced,0
+Manchesters Super Giants Women,London Spirit Women,60.0,40.0,0.0,1,2,20.0,66.66666666666666,126.77873616725019,125.38480608931019,5.9434925808026025,5.9293293275889125,156.0,57.14285714285714,Manchesters Super Giants Women,Bat,21.45197967053411,76.0,60.0,Emirates Old Trafford,Balanced,0
+Southern Brave Women,Welsh Fire Women,90.0,20.0,100.0,4,2,70.0,40.0,126.77873616725017,125.38480608931017,5.9434925808026025,5.9293293275889125,167.0,36.36363636363637,Welsh Fire Women,Bowl,21.45197967053411,83.0,25.0,The Rose Bowl,Balanced,0
+Manchesters Super Giants Women,Sunrisers Leeds Women,70.0,60.0,0.0,3,1,50.0,33.33333333333333,126.77873616725017,125.38480608931017,5.9434925808026025,5.9293293275889125,183.0,23.076923076923077,Manchesters Super Giants Women,Bowl,21.45197967053411,77.0,42.0,Headingley,Balanced,0
+Trent Rockets Women,Birmingham Phoenix Women,70.0,20.0,100.0,3,2,30.0,50.0,126.7787361672502,125.38480608931017,5.9434925808026025,5.9293293275889125,162.0,41.935483870967744,Birmingham Phoenix Women,Bowl,21.45197967053411,59.0,34.211055849970045,Trent Bridge,Balanced,1
+MI London Women,London Spirit Women,20.0,40.0,0.0,3,2,100.0,0.0,126.77873616725017,125.38480608931016,5.9434925808026025,5.9293293275889125,174.0,40.0,Mi London Women,Bowl,21.451979670534115,92.0,34.211055849970045,Adelaide Oval,Balanced,0
+Manchesters Super Giants Women,Trent Rockets Women,70.0,60.0,0.0,3,2,30.0,66.66666666666666,126.77873616725019,125.38480608931017,5.943492580802602,5.9293293275889125,139.0,50.0,Manchesters Super Giants Women,Bowl,21.451979670534115,84.0,47.0,Trent Bridge,Balanced,0
+Southern Brave Women,MI London Women,90.0,20.0,0.0,4,3,70.0,0.0,126.77873616725019,125.38480608931016,5.943492580802602,5.9293293275889125,134.0,83.33333333333334,Mi London Women,Bowl,21.451979670534115,31.0,34.286284933205515,The Rose Bowl,Balanced,0
+Sunrisers Leeds Women,Birmingham Phoenix Women,70.0,20.0,0.0,2,2,50.0,33.33333333333333,126.77873616725019,125.38480608931016,5.943492580802602,5.929329327588912,144.0,50.0,Sunrisers Leeds Women,Bowl,26.2,30.0,9.0,Headingley,Balanced,1
+Welsh Fire Women,London Spirit Women,20.0,40.0,0.0,2,2,30.0,66.66666666666666,126.77873616725019,125.38480608931016,5.943492580802602,5.929329327588912,131.0,83.33333333333334,Welsh Fire Women,Bowl,21.479584439891475,77.0,25.0,Sophia Gardens,Balanced,1
+MI London Women,Birmingham Phoenix Women,20.0,20.0,0.0,2,3,20.0,0.0,126.7787361672502,125.38480608931019,5.9434925808026025,5.929329327588912,131.0,50.0,Birmingham Phoenix Women,Bowl,21.479584439891475,74.0,69.0,Kennington Oval,Balanced,1
+Southern Brave Women,MI London Women,90.0,20.0,100.0,4,3,57.14285714285714,66.66666666666666,126.7787361672502,125.38480608931017,5.943492580802602,5.929329327588912,116.0,37.5,Southern Brave Women,Bowl,21.47958443989147,77.0,25.0,Lords,Balanced,1
+Manchesters Super Giants Women,Trent Rockets Women,60.0,70.0,0.0,3,4,20.0,66.66666666666666,107.0,122.6,5.8,4.6,118.0,58.333333333333336,Manchesters Super Giants Women,Bowl,20.9,44.0,25.0,Emirates Old Trafford,Batting,0
